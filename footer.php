@@ -4,7 +4,6 @@
     <a href="">Døre</a>
     <a href="">Vinduer</a>
     <a href="">Galleri</a>
-    <a href="">Levering</a>
     <a href="">Kontakt</a>
   </div>
   <div class="info">
