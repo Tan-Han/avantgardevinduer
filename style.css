@@ -53,18 +53,13 @@ p {
 h1 {
   padding: 1rem 0;
   color: #f5f5f5;
-  font-size: 100px;
-  font-family: "komet", sans-serif;
-  font-weight: 700;
+  font-size: 75px;
 }
 
 h3 {
   color: #f5f5f5;
   padding: 1rem 0;
-  font-size: 75px;
-  font-style: italic;
-  font-family: "century-gothic", sans-serif;
-  font-weight: 400;
+  font-size: 60px;
 }
 
 hr {
