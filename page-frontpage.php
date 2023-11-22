@@ -10,7 +10,7 @@
   <p>Vinduer i plast, plast-alu, træ, træ-alu & alu</p>
 </div>
 
-<div class="content">
+<div class="frontpage-content">
   <div class="text-box">
     <h2 class="company-name">Avantgardevinduer & Døre</h2>
     <p class="company-description">Firma beskrivelse</p>

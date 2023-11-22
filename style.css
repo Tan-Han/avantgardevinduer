@@ -85,3 +85,21 @@ hr {
   font-size: 25px;
   font-weight: 700;
 }
+
+.frontpage-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frontpage-content .text-box {
+  width: 50%;
+}
+
+.frontpage-content .image-box {
+  width: 50%;
+}
+
+.frontpage-content .image-box img {
+  width: 100%;
+}
