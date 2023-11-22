@@ -121,6 +121,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  background-color: #333333;
 }
 
 footer .links {
@@ -146,7 +147,9 @@ footer .info .fa-facebook-square {
 }
 
 footer .logo-box {
-
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
 footer .logo-box .logo {
