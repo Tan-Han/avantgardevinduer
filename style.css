@@ -216,6 +216,7 @@ hr {
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    padding: 1rem 0;
   }
 
   .nav>.nav-links>a {
