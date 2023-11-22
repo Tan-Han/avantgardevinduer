@@ -10,6 +10,30 @@ Author: TRS Hansen, L. N. Nielsen
   margin: 0;
 }
 
+h1 {
+  font-family: "komet", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "komet", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "komet", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+p {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* FRONTPAGE */
 
 .hero {
@@ -30,6 +54,8 @@ h1 {
   padding: 1rem 0;
   color: #f5f5f5;
   font-size: 100px;
+  font-family: "komet", sans-serif;
+  font-weight: 700;
 }
 
 h3 {
@@ -37,6 +63,8 @@ h3 {
   padding: 1rem 0;
   font-size: 75px;
   font-style: italic;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 400;
 }
 
 hr {
