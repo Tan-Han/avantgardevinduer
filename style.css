@@ -127,6 +127,7 @@ hr {
   display: flex;
   align-items: center;
   height: 100%;
+  width: 30%;
 }
 
 .nav>.nav-header>.nav-title {
@@ -148,6 +149,7 @@ hr {
   justify-content: right;
   align-items: center;
   font-size: 18px;
+  width: 70%;
 }
 
 .nav>.nav-links>a {
