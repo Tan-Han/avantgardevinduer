@@ -146,6 +146,7 @@ hr {
 .nav>.nav-links {
   display: flex;
   justify-content: right;
+  align-items: center;
   font-size: 18px;
 }
 
