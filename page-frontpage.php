@@ -1,7 +1,6 @@
 <?php get_header() ?>
 
 <div class="hero">
-  <img src="https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg" alt="">
   <div class="hero-text">
     <h1> Avantgardevinduer </h1>
 
