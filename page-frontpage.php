@@ -1,13 +1,9 @@
 <?php get_header() ?>
 
 <div class="hero">
-  <div class="hero-text">
-    <h1> Avantgardevinduer </h1>
-
-    <hr>
-
-    <h3>Lavenergi til konkurrencedygtige priser</h3>
-  </div>
+  <h1> Avantgardevinduer </h1>
+  <hr>
+  <h3>Lavenergi til konkurrencedygtige priser</h3>
 </div>
 
 <div class="frontpage-mini-nav">
