@@ -171,6 +171,10 @@ hr {
 }
 
 @media (max-width:600px) {
+  .nav>.nav-header {
+    width: 100%;
+  }
+
   .nav>.nav-btn {
     display: flex;
     align-items: center;
