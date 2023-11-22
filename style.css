@@ -6,9 +6,8 @@ Author: TRS Hansen, L. N. Nielsen
 /* FRONTPAGE */
 
 .hero {
-  width: 100%;
-  height: 685px;
-  background: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
-  background-size: contain;
+  background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
+  
 }
