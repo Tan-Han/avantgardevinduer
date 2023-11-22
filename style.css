@@ -94,7 +94,7 @@ hr {
 
 .frontpage-content .text-box {
   width: 50%;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .frontpage-content .image-box {
@@ -102,5 +102,5 @@ hr {
 }
 
 .frontpage-content .image-box img {
-  width: 100%;
+  width: 50%;
 }
