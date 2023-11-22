@@ -111,5 +111,5 @@ hr {
 }
 
 .frontpage-content .image-box img {
- 
+ max-width: 100%;
 }
