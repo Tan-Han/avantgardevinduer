@@ -7,7 +7,7 @@
     <a href="">Kontakt</a>
   </div>
   <div class="info">
-    <b>Avantgardevinduer</b>
+    <p class="bold">Avantgardevinduer</p>
     <p>Fasanvej 15, 6760 Ribe</p>
     <p>+45 20 87 23 32</p>
     <p>bsh@avantgardevinduer.dk</p>
