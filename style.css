@@ -124,7 +124,6 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 50px;
 }
 
 .nav>.nav-header {
@@ -132,6 +131,7 @@ hr {
   align-items: center;
   height: 100%;
   width: 30%;
+  padding: 0 50px;
 }
 
 .nav>.nav-header>.nav-title {
@@ -154,6 +154,7 @@ hr {
   align-items: center;
   font-size: 18px;
   width: 70%;
+  padding: 0 50px;
 }
 
 .nav>.nav-links>a {
