@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <div class="hero">
-  <img src="img\Placeholder.JPG" alt="">
+  <img src="img\placeholder.jpg" alt="">
   <div class="hero-text">
     <h1> Avantgardevinduer </h1>
 
@@ -21,8 +21,9 @@
     <p class="company-description">Firma beskrivelse</p>
   </div>
   <div class="image-box">
-    <img src="img\Placeholder.JPG" alt="">
+    <img src="img\placeholder.jpg" alt="">
   </div>
 </div>
+
 
 <?php get_footer() ?>
