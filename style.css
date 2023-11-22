@@ -172,7 +172,9 @@ hr {
 
 @media (max-width:600px) {
   .nav>.nav-btn {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     right: 0px;
     top: 0px;
