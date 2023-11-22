@@ -90,11 +90,11 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5rem;
 }
 
 .frontpage-content .text-box {
   width: 50%;
-  padding: 5rem;
 }
 
 .frontpage-content .image-box {
@@ -105,5 +105,5 @@ hr {
 }
 
 .frontpage-content .image-box img {
-  width: 50%;
+  width: 75%;
 }
