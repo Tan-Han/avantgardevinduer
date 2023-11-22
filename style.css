@@ -36,6 +36,13 @@ p {
   font-style: normal;
 }
 
+a {
+  text-decoration: none;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* FRONTPAGE */
 
 .hero {
