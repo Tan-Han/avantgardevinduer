@@ -3,6 +3,13 @@ Theme Name: Avantgardevinduer
 Author: TRS Hansen, L. N. Nielsen
 */
 
+/* ALL PAGES */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /* FRONTPAGE */
 
 .hero {
@@ -10,5 +17,5 @@ Author: TRS Hansen, L. N. Nielsen
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 700px;
+  height: 600px;
 }
