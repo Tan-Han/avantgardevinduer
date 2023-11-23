@@ -68,7 +68,8 @@
   }
 
   .contact-info {
-    width: 50%;
+    width: 30%;
+    padding-right: 3rem;
   }
 
   .telephone,
@@ -102,7 +103,7 @@
   }
 
   .contact-form {
-    width: 50%;
+    width: 70%;
   }
 </style>
 
