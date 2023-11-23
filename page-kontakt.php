@@ -187,7 +187,7 @@
   @media screen and (max-width: 1300px) {
 
     h1 {
-      font-size: 60px;
+      font-size: 55px;
     }
 
     h2 {
