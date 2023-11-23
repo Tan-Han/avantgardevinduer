@@ -137,6 +137,11 @@
     width: 60%;
   }
 
+  .contact-form span {
+    display: flex;
+    flex-direction: column;
+  }
+
   .contact-form-info {
     display: flex;
     justify-content: left;
