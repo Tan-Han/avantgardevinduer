@@ -111,9 +111,11 @@
     justify-content: left;
   }
 
-  .contact-form-info p label {
+  .contact-form-info p {
     width: 33%;
+    padding: 0 1rem;
   }
+
 </style>
 
 <?php get_footer() ?>
