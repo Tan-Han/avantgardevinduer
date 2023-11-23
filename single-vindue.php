@@ -76,10 +76,17 @@
                 <?php foreach($farver as $post):
                     setup_postdata($post) ?>
                         <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
+                        <span><?php the_title() ?></span>
+                    
+                <?php endforeach ?>
+
+                <?php foreach($farver as $post):
+                    setup_postdata($post) ?>
                         <div style="width: 50px; height: 50px;"><img src="<?php the_field("img_color") ?>" alt=""></div>
                         <span><?php the_title() ?></span>
                     
                 <?php endforeach ?>
+
 
             <?php endforeach; ?>
 
