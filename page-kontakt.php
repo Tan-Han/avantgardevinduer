@@ -185,7 +185,7 @@
     color: #f5f5f5;
   }
 
-  .wpcf7 form.sent .wpcf7-response-output {
+ .wpcf7-response-output {
     border: none;
     text-align: right;
   }
