@@ -77,8 +77,11 @@
             <?php $farver = get_field("farver") ?>
             <?php foreach($farver as $post):
                 setup_postdata($post) ?>
-                <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                <span><?php the_title() ?></span>
+                <div class="flex">
+                    <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
+                    <span><?php the_title() ?></span>
+                </div>
+                
             <?php endforeach ?>
 
         <?php endforeach; ?>
