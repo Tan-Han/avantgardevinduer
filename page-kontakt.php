@@ -63,6 +63,7 @@
     justify-content: right;
     align-items: center;
     padding: .2rem 1rem;
+    text-align: right;
   }
 
   .icon {
