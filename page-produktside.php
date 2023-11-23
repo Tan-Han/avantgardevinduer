@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container">
+<div class="container ten-percent">
     <div class="row">
         <div class="col">
             <!-- titel -->
@@ -51,14 +51,14 @@
 </div>
 
 <!-- farver -->
-<div>
+<div class="ten-percent">
     <hr>
     <h3>Farver</h3>
     <p>GEALAN offers a wide range of options for bringing colour to PVC windows. One of them is the proven surface technology GEALAN-acrylcolor®. The coloured acrylic layer is scratch-resistant, weather resistant and easy-care. That means that window systems with GEALAN-acrylcolor® meet the highest technical and functional demands for innovative, coloured surfaces. There are also a wealth of options for creating coloured window and door profiles with GEALAN’s extensive range of decorative foils. The standard range offers a wide spectrum of colours. Additional tones and textures are available upon request on a property-related basis.</p>
 </div>
 
 <!-- loop med farver -->
-<div class="container">
+<div class="container ten-percent">
     <div class="row">
         <h4>Navn på farve</h4>
         <img src="" alt="">
@@ -72,7 +72,7 @@
         <h3>Benefits of the S 9000 window system</h3>
     </div>
 
-    <div class="container">
+    <div class="container ten-percent">
         <div class="row">
             <!-- billede -->
             <div class="col">
@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ten-percent">
         <div class="row">
             <!-- billede -->
             <div class="col">
@@ -113,7 +113,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ten-percent">
         <div class="row">
             <div class="col">
                 <hr>
@@ -125,7 +125,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ten-percent">
         <div class="row">
             <div class="col">
                 <h3>Visibly less frame</h3>
@@ -137,7 +137,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ten-percent">
         <div class="row">
             <div class="col">
                 <img src="" alt="">
@@ -149,7 +149,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container ten-percent">
         <div class="row">
             <div class="col">
                 <hr>
