@@ -78,6 +78,7 @@
     justify-content: right;
     align-items: center;
     padding: 1rem 0;
+    width: 100%;
   }
 
   .info {
