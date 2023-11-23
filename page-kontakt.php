@@ -72,7 +72,7 @@
 
   hr {
     color: #333333;
-    width: 60%;
+    width: 40%;
     border-top: 3px solid;
   }
 
