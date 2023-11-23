@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/tmr5ico.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Avantgardevinduer & Døre</title>
     <?php wp_head() ?>
 </head>
@@ -19,21 +18,12 @@
         </div>
         <ul class="nav-links">
             <li class="nav-link"><a href="#">Home</a></li>
-            <li class="nav-link"><a href="#">Produkter</a>
-                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-                <ul class="htmlCss-sub-menu sub-menu">
-                    <li><a href="#">Vinduer</a></li>
-                    <li><a href="#">Døre</a></li>
-                </ul>
-            </li>
+            <li class="nav-link"><a href="#">Vinduer</a></li>
+            <li class="nav-link"><a href="#">Døre</a></li>
             <li class="nav-link"><a href="#">Contact</a></li>
-            <li class="nav-link auth"><a href="#">Register</a></li>
-            <li class="nav-link auth"><a href="#">Login</a></li>
+            <li class="nav-link"><a href="#">Om os</a></li>
         </ul>
     </nav>
-
-
-
 
     <style>
         nav {
@@ -112,41 +102,13 @@ li.nav-link a {
   }
 }
 
-        .links li:hover .htmlcss-arrow,
-        .links li:hover .js-arrow {
-            transform: rotate(180deg);
-        }
-
-        nav .navbar .links li .arrow {
-            height: 100%;
-            width: 22px;
-            line-height: 70px;
-            text-align: center;
-            display: inline-block;
-            color: #fff;
-            transition: all 0.3s ease;
-        }
 
        
     </style>
 
     <script>
 
-        // sidebar submenu open close js code
-        let htmlcssArrow = document.querySelector(".htmlcss-arrow");
-        htmlcssArrow.onclick = function () {
-            navLinks.classList.toggle("show1");
-        }
-        let moreArrow = document.querySelector(".more-arrow");
-        moreArrow.onclick = function () {
-            navLinks.classList.toggle("show2");
-        }
-        let jsArrow = document.querySelector(".js-arrow");
-        jsArrow.onclick = function () {
-            navLinks.classList.toggle("show3");
-        }
-
-        const bars = document.querySelector(".bars");
+const bars = document.querySelector(".bars");
 const nav = document.querySelector("nav");
 
 bars.onclick = () => {
