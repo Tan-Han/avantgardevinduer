@@ -100,6 +100,12 @@
   .frontpage-content .image-box img {
     max-width: 100%;
   }
+
+  @media screen and (max-width: 1280px) {
+    .hero {
+      height: 540px;
+    }
+  }
 </style>
 
 
