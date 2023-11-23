@@ -17,11 +17,11 @@
             <i class="fa fa-bars"></i>
         </div>
         <ul class="nav-links">
-            <li class="nav-link"><a href="#">Forside</a></li>
+            <li class="nav-link"><a href="/">Forside</a></li>
             <li class="nav-link"><a href="#">Vinduer</a></li>
             <li class="nav-link"><a href="#">Døre</a></li>
-            <li class="nav-link"><a href="#">Kontakt</a></li>
-            <li class="nav-link"><a href="#">Om os</a></li>
+            <li class="nav-link"><a href="/kontakt">Kontakt</a></li>
+            <li class="nav-link"><a href="/om_os">Om os</a></li>
         </ul>
     </nav>
 
