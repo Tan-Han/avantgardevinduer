@@ -53,11 +53,15 @@
 
   .contact-headline-box {
     text-align: center;
-    padding: 0 20%;
+    padding: 3rem 20%;
   }
 
   h1 {
 
+  }
+
+  .content-contact {
+    padding: 3rem 10%;
   }
 
 .material-symbols-outlined {
