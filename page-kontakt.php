@@ -95,6 +95,7 @@
     justify-content: right;
     align-items: center;
     padding: 1rem 0;
+    font-size: 22px;
   }
 
   .contact-info a {
@@ -125,7 +126,7 @@
       'FILL' 0,
       'wght' 200,
       'GRAD' 0,
-      'opsz' 24
+      'opsz' 32,
   }
 
   .contact-form {
