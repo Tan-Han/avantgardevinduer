@@ -129,6 +129,11 @@
     width: 100%;
   }
 
+  .submit-btn {
+    width: fit-content;
+    padding: 1rem;
+  }
+
 
 </style>
 
