@@ -129,7 +129,7 @@
     width: 100%;
   }
 
-  .submit-btn {
+  .submit-btn input {
     width: fit-content;
     padding: 1rem;
   }
