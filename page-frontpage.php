@@ -96,8 +96,8 @@
   }
 
   .frontpage-content .image-box img {
-    width: 450px;
-    height: 350px;
+    width: 100%;
+    height: 300px;
     object-fit: cover;
   }
 
