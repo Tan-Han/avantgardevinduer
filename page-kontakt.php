@@ -55,7 +55,10 @@
 <style>
   .contact-headline-box {
     text-align: center;
-    padding: 3rem 20%;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   h1 {
@@ -63,7 +66,7 @@
   }
 
   h3 {
-    
+
   }
 
   hr {
