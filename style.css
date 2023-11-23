@@ -97,7 +97,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.3rem 1rem;
   background-color: var(--primary-color);
   color: var(--white);
   position: relative;
