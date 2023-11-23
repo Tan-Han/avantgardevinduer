@@ -58,7 +58,11 @@
     padding: 3rem 20%;
   }
 
-  h1 {}
+  h1 {
+    color: #333333;
+    width: 60%;
+    border-top: 2px solid;
+  }
 
   .content-contact {
     padding: 3rem 10%;
@@ -97,7 +101,7 @@
   }
 
   .icon {
-    border-left: #333333 solid 3px;
+    border-left: #333333 solid 2px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -133,7 +137,7 @@
 
   .contact-form input, .contact-form textarea {
     width: 100%;
-    border: 3px solid #333333;
+    border: 2px solid #333333;
   border-radius: 0;
   }
 
@@ -152,6 +156,7 @@
   .submit-btn input {
     width: fit-content;
     padding: .2rem .5rem;
+
   }
 </style>
 
