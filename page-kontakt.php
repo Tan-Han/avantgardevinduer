@@ -142,6 +142,10 @@
     flex-direction: column;
   }
 
+  .contact-form span .wpcf7-not-valid-tip {
+    font-size: 14px;
+  }
+
   .contact-form-info {
     display: flex;
     justify-content: left;
