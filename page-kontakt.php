@@ -102,7 +102,7 @@
       'opsz' 24
   }
 
-  .mail {
+  .contact-form {
     width: 50%;
   }
 </style>
