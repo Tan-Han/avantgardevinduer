@@ -73,7 +73,7 @@
 <!-- benefits -->
 <div class="secondary-bg pb-5">
     <div>
-        <h3 class="text-center pt-5 pb-5">Benefits of the S 9000 window system</h3>
+        <h2 class="text-center pt-5 pb-5">Benefits of the S 9000 window system</h2>
     </div>
 
     <div class="container ten-percent">

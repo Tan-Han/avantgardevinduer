@@ -67,6 +67,16 @@ h3 {
   font-style: italic;
 }
 
+h4 {
+  font-family: "komet", sans-serif;
+  font-size: 22px;
+}
+
+h5 {
+  font-family: "komet", sans-serif;
+  font-size: 20px;
+}
+
 p {
   font-family: "century-gothic", sans-serif;
   font-weight: 400;
