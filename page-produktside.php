@@ -172,9 +172,10 @@
     }
 
     .hr-w-5 {
-        border: 0;
+        /* border: 0;
         height: 1px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
+        width: 15%;
     }
 </style>
 
