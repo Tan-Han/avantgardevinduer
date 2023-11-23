@@ -113,6 +113,9 @@
 
   .contact-form-info p {
     width: 33%;
+  }
+
+  .contact-form-info p span {
     padding: 0 1rem;
   }
 
