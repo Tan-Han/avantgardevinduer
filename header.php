@@ -18,7 +18,7 @@
             <div class="logo"><a href="#">Avantgardevinduer</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
-                    <span class="logo-name">Avantgardevinduer</span>
+                    <span class="logo-name">Hello</span>
                     <i class='bx bx-x'></i>
                 </div>
                 <ul class="links">
@@ -46,20 +46,18 @@
             width: 100%;
             height: 100%;
             height: 70px;
-            background: #3E8DA8;
+            background: #333333;
             box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
             z-index: 99;
         }
 
         nav .navbar {
             height: 100%;
-            max-width: 1250px;
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin: auto;
-            /* background: red; */
             padding: 0 50px;
         }
 
@@ -103,7 +101,6 @@
         }
 
         nav .navbar .links li .arrow {
-            /* background: red; */
             height: 100%;
             width: 22px;
             line-height: 70px;
