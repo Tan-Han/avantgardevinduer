@@ -116,6 +116,17 @@
     width: 33%;
   }
 
+  .contact-form-info p label span {
+    width: 100%;
+    display: flex;
+  }
+
+
+  .contact-form label {
+    width: 100%;
+  }
+
+
 </style>
 
 <?php get_footer() ?>
