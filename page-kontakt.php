@@ -98,6 +98,10 @@
     font-size: 22px;
   }
 
+  .contact-info-headline {
+    font-weight: 700;
+  }
+
   .contact-info a {
     text-decoration: none;
     color: #333333;
@@ -119,6 +123,7 @@
     justify-content: left;
     align-items: center;
     padding: 1rem 1rem;
+    font-size: 40px;
   }
 
   .material-symbols-outlined {
@@ -126,7 +131,7 @@
       'FILL' 0,
       'wght' 200,
       'GRAD' 0,
-      'opsz' 32,
+      'opsz' 24,
   }
 
   .contact-form {
