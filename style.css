@@ -206,6 +206,11 @@ footer .info p {
   font-size: 14px;
 }
 
+.fb-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
 .fb-link:hover {
   color: var(--tertiary-color);
 }
