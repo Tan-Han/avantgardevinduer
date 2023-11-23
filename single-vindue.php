@@ -90,7 +90,7 @@
     </div>
 </div>
 
-<!-- benefits -->
+<!-- fordele -->
 <div class="secondary-bg pb-5">
     <div>
         <h2 class="text-center pt-5 pb-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
@@ -129,8 +129,14 @@
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_2") ?></h3>
                 <div>
-                    <h4><?php the_field("fordel_subheadline_2") ?></h4>
-                    <p><?php the_field("fordel_beskrivelse_2") ?></p>
+                    <h4><?php the_field("fordel_2_subheadine_1") ?></h4>
+                    <p><?php the_field("fordel_2_beskrivelse_1") ?></p>
+
+                    <h4><?php the_field("fordel_2_subheadine_2") ?></h4>
+                    <p><?php the_field("fordel_2_beskrivelse_2") ?></p>
+
+                    <h4><?php the_field("fordel_2_subheadine_3") ?></h4>
+                    <p><?php the_field("fordel_2_beskrivelse_3") ?></p>
                 </div>
             </div>
         </div>
