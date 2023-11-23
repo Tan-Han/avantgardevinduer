@@ -21,11 +21,6 @@ Author: TRS Hansen, L. N. Nielsen
   margin: 0;
 }
 
-/* TEN PERCENT */
-.ten-percent {
-  padding: 0 10%;
-}
-
 /* COLORS */
 .primary-bg {
   color: var(--primary-color);
