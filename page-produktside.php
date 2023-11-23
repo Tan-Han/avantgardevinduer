@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col">
             <!-- titel -->
-            <div class="pt-5">
+            <div class="pt-5 pb-2">
                 <h2>Plastvindue</h2>
                 <p>Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur </p>
             </div>
@@ -51,7 +51,7 @@
 </div>
 
 <!-- farver -->
-<div class="container ten-percent pb-5">
+<div class="container ten-percent pb-2">
     <div class="row">
         <div class="col">
         <hr class="hr-small">
@@ -159,9 +159,8 @@
         <div class="row">
             <div class="col">
                 <hr class="hr-small">
-                <h3>GEALAN-LUMAXX®</h3>
-                <h4>Optimised geometries</h4>
-                <p>During development of GEALAN-LUMAXX®, the entire frame geometry was optimised while the profile widths were compressed to a minimum. The designers paid special attention to achieving a balanced relationship between insulating properties and statics, as well as a perfect interplay of components. The symmetrical effect of the narrow single mullion also adds to the flexibility of use in window construction.</p>
+                <h3>Optimised heat insulation</h3>
+                <p>Developing a system with the best heat insulation properties does not happen by accident, but rather as a result of focused development work. Our success proves us right. Numerous calculations have produced outstanding heat insulation values. Right from the beginning, the goal of development was to achieve a heat insulation value of Uf - 0.92 W/m²K for the standard combination with steel, making the system suitable for use in passive houses. This was accomplished through the sum of the innovative system design details.</p>
                 <img src="" alt="">
             </div>
         </div>
