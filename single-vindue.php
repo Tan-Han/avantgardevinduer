@@ -66,7 +66,6 @@
         <h5><?php the_field("farve_navn")?></h5> 
 
         <!-- loop med farver -->
-        <div class="col">
         <?php $farvegrupper = get_field("farvegrupper") ?>
          <?php foreach( $farvegrupper as $post ): 
 
@@ -78,6 +77,7 @@
             <?php foreach($farver as $post):
                 setup_postdata($post) ?>
                     <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
+                    <div style="width: 50px; height: 50px;"><img src="<?php the_field("img_color") ?>" alt=""></div>
                     <span><?php the_title() ?></span>
                 
             <?php endforeach ?>
@@ -88,7 +88,6 @@
 
         <!-- <img src="<?php the_field("billede_af_farve") ?>" alt="">
         <p><?php the_field("farve_navn") ?></p> -->
-        </div>
     </div>
 </div>
 
