@@ -10,14 +10,10 @@
     <p class="bold">Avantgardevinduer</p>
     <p>Fasanvej 15, 6760 Ribe</p>
     <a href="<?php the_field("telephone") ?>">
-      <p>
-        <?php the_field("telephone") ?>
-      </p>
+      <?php the_field("telephone") ?>
     </a>
     <a href="<?php the_field("mail") ?>">
-      <p>
-        <?php the_field("mail") ?>
-      </p>
+      <?php the_field("mail") ?>
     </a>
     <p>CVR - 33019572</p>
     <a class="fb-link" href="https://www.facebook.com/avantgardevinduer" target=”_blank”><i
