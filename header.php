@@ -12,15 +12,15 @@
 
 <body>
     <nav>
-        <h2 class="logo">ASMR2Dev</h2>
+        <h2 class="logo">Avantgardevinduer</h2>
         <div class="bars">
             <i class="fa fa-bars"></i>
         </div>
         <ul class="nav-links">
-            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">Forside</a></li>
             <li class="nav-link"><a href="#">Vinduer</a></li>
             <li class="nav-link"><a href="#">Døre</a></li>
-            <li class="nav-link"><a href="#">Contact</a></li>
+            <li class="nav-link"><a href="#">Kontakt</a></li>
             <li class="nav-link"><a href="#">Om os</a></li>
         </ul>
     </nav>
