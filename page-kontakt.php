@@ -95,7 +95,7 @@
     justify-content: right;
     align-items: center;
     padding: 1rem 0;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .contact-info-headline {
