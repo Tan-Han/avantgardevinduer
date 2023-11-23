@@ -81,7 +81,7 @@
   }
 
   .content-contact {
-    padding: 3rem 10%;
+    padding: 0 10%;
     display: flex;
     align-items: center;
     justify-content: center;
