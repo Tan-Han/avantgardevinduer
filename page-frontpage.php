@@ -96,8 +96,9 @@
   }
 
   .frontpage-content .image-box img {
-    max-width: 100%;
-    max-height: 100%;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
   }
 
   @media screen and (max-width: 1300px) {
