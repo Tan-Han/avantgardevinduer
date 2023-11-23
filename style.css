@@ -99,8 +99,8 @@ nav.active {
 }
 
 nav h2.logo {
-  font-weight: bold;
-  font-size: 35px;
+  font-weight: 600;
+  font-size: 25px;
 }
 
 nav .bars {
