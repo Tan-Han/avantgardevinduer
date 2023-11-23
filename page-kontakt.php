@@ -74,7 +74,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: .2rem 1rem;
+    padding: .5rem 1rem;
   }
 
   .material-symbols-outlined {
