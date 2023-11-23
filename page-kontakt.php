@@ -134,6 +134,7 @@
     display: flex;
     justify-content: right;
     flex-direction: row-reverse;
+    padding: 1rem 0;
   }
 
   .submit-btn input {
