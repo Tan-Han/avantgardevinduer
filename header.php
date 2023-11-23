@@ -145,4 +145,11 @@ li.nav-link a {
         jsArrow.onclick = function () {
             navLinks.classList.toggle("show3");
         }
+
+        const bars = document.querySelector(".bars");
+const nav = document.querySelector("nav");
+
+bars.onclick = () => {
+  nav.classList.toggle("active");
+};
     </script>
