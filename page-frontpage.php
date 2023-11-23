@@ -16,7 +16,9 @@
     <p class="company-description"><?php the_field("frontpage_description") ?></p>
   </div>
   <div class="image-box">
-    <img src="<?php the_field("frontpage_description_image") ?>" alt="">
+    <div class="image-inner">
+      <img src="<?php the_field("frontpage_description_image") ?>" alt="">
+    </div>
   </div>
 </div>
 
@@ -95,9 +97,12 @@
     padding: 3rem 10%;
   }
 
-  .frontpage-content .image-box img {
+  .image-inner {
     width: 200px;
     height: 300px;
+  }
+
+  .frontpage-content .image-box img {
     object-fit: cover;
   }
 
