@@ -212,7 +212,7 @@ footer .info p {
 }
 
 .fb-link:hover {
-  color: var(--tertiary-color);
+  color: var(--tertiary-color)!important;
 }
 
 footer .info .fa-facebook-square {
