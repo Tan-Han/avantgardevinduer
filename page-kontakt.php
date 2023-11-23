@@ -69,8 +69,9 @@
     font-weight: 700;
   }
 
-  h3 {
+  h2 {
     font-size: 30px;
+    font-style: italic;
   }
 
   hr {
@@ -183,7 +184,7 @@
     color: #f5f5f5;
   }
 
-  
+
 </style>
 
 <?php get_footer() ?>
