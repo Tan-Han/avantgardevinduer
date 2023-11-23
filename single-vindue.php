@@ -63,7 +63,7 @@
 
 <div class="container ten-percent pb-5">
     <div class="row">
-        <h5><?php the_field("farve_navn")?></h5>
+        <h5><?php the_field("farve_navn")?></h5> 
 
         <!-- loop med farver -->
 
@@ -178,7 +178,7 @@
             <div class="col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_5") ?></h3>
-                <p><?php the_field("fordel_beskrivelse_2") ?></p>
+                <p><?php the_field("fordel_beskrivelse_5") ?></p>
             </div>
         </div>
     </div>
