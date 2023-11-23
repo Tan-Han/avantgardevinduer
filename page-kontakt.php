@@ -79,6 +79,9 @@
     justify-content: right;
     align-items: center;
     padding: 1rem 0;
+  }
+
+  .contact-info a {
     text-decoration: none;
     color: #333333;
   }
