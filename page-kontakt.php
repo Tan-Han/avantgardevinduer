@@ -64,9 +64,14 @@
     flex-direction: column;
   }
 
-  h1 {}
+  h1 {
+    font-size: 70px;
+    font-weight: 700;
+  }
 
-  h3 {}
+  h3 {
+    font-size: 50px;
+  }
 
   hr {
     width: 40%;
