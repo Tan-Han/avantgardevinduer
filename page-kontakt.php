@@ -121,7 +121,7 @@
     display: flex;
   }
 
-  .contact-form input {
+  .contact-form input, .contact-form textarea {
     width: 100%;
   }
 
