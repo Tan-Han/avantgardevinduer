@@ -20,5 +20,11 @@
   </div>
 </div>
 
+<style>
+  h1 {
+    color: red;
+  }
+</style>
+
 
 <?php get_footer() ?>
