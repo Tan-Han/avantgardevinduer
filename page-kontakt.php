@@ -71,9 +71,8 @@
   }
 
   hr {
-    color: #333333;
     width: 40%;
-    border-top: 3px solid;
+    border-top: 3px solid #333333;
   }
 
   .content-contact {
