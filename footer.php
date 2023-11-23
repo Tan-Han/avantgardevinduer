@@ -9,7 +9,7 @@
   <div class="info">
     <p class="bold">Avantgardevinduer</p>
     <p>Fasanvej 15, 6760 Ribe</p>
-    <p>+45 20 87 23 32</p>
+    <a href="20872332"><p>+45 20 87 23 32</p></a>
     <p>bsh@avantgardevinduer.dk</p>
     <p>CVR - 33019572</p>
     <a class="fb-link" href="https://www.facebook.com/avantgardevinduer" target=”_blank”><i class="fa fa-facebook-square"></i></a>

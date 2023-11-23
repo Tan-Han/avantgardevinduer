@@ -13,8 +13,7 @@
       <div class="info">
         <p class="contact-info-headline">Telefon</p>
         <p>
-          <?php the_field("") ?>
-        </p>
+          <a href="<?php the_field("telephone") ?>"><?php the_field("telephone") ?></p></a>
       </div>
       <div class="icon">
         <span class="material-symbols-outlined">smartphone</span>
@@ -24,7 +23,7 @@
       <div class="info">
         <p class="contact-info-headline">Adresse</p>
         <p>
-          <?php the_field("") ?>
+          <?php the_field("address") ?>
         </p>
       </div>
       <div class="icon">
@@ -34,9 +33,7 @@
     <div class="mail">
       <div class="info">
         <p class="contact-info-headline">E-mail</p>
-        <p>
-          <?php the_field("") ?>
-        </p>
+       <a href="<?php the_field("mail") ?>"><p><?php the_field("mail") ?></p></a>
       </div>
       <div class="icon">
         <span class="material-symbols-outlined">mail</span>
