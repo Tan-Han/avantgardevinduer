@@ -73,6 +73,7 @@
   hr {
     width: 40%;
     border-top: 3px solid #333333;
+    opacity: 100%;
   }
 
   .content-contact {

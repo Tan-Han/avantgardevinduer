@@ -54,6 +54,7 @@
     color: #f5f5f5;
     width: 60%;
     border-top: 3px solid;
+    opacity: 100%;
   }
 
   .frontpage-mini-nav {
