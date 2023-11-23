@@ -13,7 +13,9 @@
       <div class="info">
         <p class="contact-info-headline">Telefon</p>
         <p>
-          <a href="<?php the_field("telephone") ?>"><?php the_field("telephone") ?></p></a>
+          <a href="<?php the_field("telephone") ?>">
+            <?php the_field("telephone") ?>
+        </p></a>
       </div>
       <div class="icon">
         <span class="material-symbols-outlined">smartphone</span>
@@ -33,7 +35,11 @@
     <div class="mail">
       <div class="info">
         <p class="contact-info-headline">E-mail</p>
-       <a href="<?php the_field("mail") ?>"><p><?php the_field("mail") ?></p></a>
+        <a href="<?php the_field("mail") ?>">
+          <p>
+            <?php the_field("mail") ?>
+          </p>
+        </a>
       </div>
       <div class="icon">
         <span class="material-symbols-outlined">mail</span>
@@ -42,7 +48,7 @@
   </div>
 
   <div class="contact-form">
-
+    <?php echo do_shortcode('[contact-form-7 id="feb7891" title="Kontaktformular"]'); ?>
   </div>
 </div>
 
@@ -58,7 +64,9 @@
     padding: 3rem 10%;
   }
 
-  .telephone, .address, .mail {
+  .telephone,
+  .address,
+  .mail {
     display: flex;
     justify-content: right;
     align-items: center;
