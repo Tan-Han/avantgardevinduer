@@ -169,7 +169,8 @@
   .submit-btn input {
     width: fit-content;
     padding: .2rem .5rem;
-
+    background-color: #003366;
+    color: #f5f5f5;
   }
 </style>
 
