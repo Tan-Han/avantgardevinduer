@@ -186,6 +186,14 @@
 
   @media screen and (max-width: 1300px) {
 
+    h1 {
+      font-size: 60px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
     .contact-info {
       padding-right: 5rem;
     }
