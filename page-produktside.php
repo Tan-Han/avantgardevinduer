@@ -1,11 +1,11 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container ten-percent">
+<div class="container ten-percent pb-5">
     <div class="row">
         <div class="col">
             <!-- titel -->
-            <div>
+            <div class="pt-5">
                 <h2>Plastvindue</h2>
                 <p>Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur </p>
             </div>
@@ -51,7 +51,7 @@
 </div>
 
 <!-- farver -->
-<div class="container ten-percent">
+<div class="container ten-percent pb-5">
     <div class="row">
         <div class="col">
         <hr class="hr-small">
@@ -62,7 +62,7 @@
 </div>
 
 <!-- loop med farver -->
-<div class="container ten-percent">
+<div class="container ten-percent pb-5">
     <div class="row">
         <h4>Navn på farve</h4>
         <img src="" alt="">
@@ -71,7 +71,7 @@
 </div>
 
 <!-- benefits -->
-<div class="secondary-bg">
+<div class="secondary-bg pb-5">
     <div>
         <h3 class="text-center pt-5 pb-5">Benefits of the S 9000 window system</h3>
     </div>
@@ -97,7 +97,7 @@
         </div>
     </div>
 
-    <div class="container ten-percent">
+    <div class="container ten-percent pb-5">
         <div class="row">
             <!-- billede -->
             <div class="col">
@@ -117,7 +117,7 @@
         </div>
     </div>
 
-    <div class="container ten-percent">
+    <div class="container ten-percent pb-5">
         <div class="row">
             <div class="col">
                 <hr class="hr-small">
@@ -129,7 +129,7 @@
         </div>
     </div>
 
-    <div class="container ten-percent">
+    <div class="container ten-percent pb-5">
         <div class="row">
             <div class="col">
                 <hr class="hr-small">
@@ -142,7 +142,7 @@
         </div>
     </div>
 
-    <div class="container ten-percent">
+    <div class="container ten-percent pb-5">
         <div class="row">
             <div class="col">
                 <img src="" alt="">
@@ -155,7 +155,7 @@
         </div>
     </div>
 
-    <div class="container ten-percent">
+    <div class="container ten-percent pb-5">
         <div class="row">
             <div class="col">
                 <hr class="hr-small">
@@ -174,7 +174,7 @@
     }
 
     .hr-small {
-        width: 15%;
+        width: 100px;
     }
 </style>
 
