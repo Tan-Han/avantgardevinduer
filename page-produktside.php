@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container ten-percent m-0">
+<div class="container ten-percent">
     <div class="row">
         <div class="col">
             <!-- titel -->
