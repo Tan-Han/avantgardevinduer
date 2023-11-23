@@ -69,7 +69,7 @@
 <!-- benefits -->
 <div class="secondary-bg">
     <div>
-        <h3>Benefits of the S 9000 window system</h3>
+        <h3 class="text-center">Benefits of the S 9000 window system</h3>
     </div>
 
     <div class="container ten-percent">
@@ -150,8 +150,8 @@
     </div>
 
     <div class="container ten-percent">
-        <div class="row ten-percent">
-            <div class="col ten-percent">
+        <div class="row">
+            <div class="col">
                 <hr>
                 <h3>GEALAN-LUMAXX®</h3>
                 <h4>Optimised geometries</h4>
