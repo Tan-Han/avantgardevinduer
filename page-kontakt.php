@@ -59,9 +59,17 @@
   }
 
   h1 {
+
+  }
+
+  h3 {
+    
+  }
+
+  hr {
     color: #333333;
     width: 60%;
-    border-top: 2px solid;
+    border-top: 3px solid;
   }
 
   .content-contact {
