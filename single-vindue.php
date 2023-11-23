@@ -63,31 +63,31 @@
 
 <div class="container ten-percent pb-5">
     <div class="row">
-        <h5><?php the_field("farve_navn")?></h5> 
+        <div class="col">
+            <!-- loop med farver -->
+            <?php $farvegrupper = get_field("farvegrupper") ?>
+            <?php foreach( $farvegrupper as $post ): 
 
-        <!-- loop med farver -->
-        <?php $farvegrupper = get_field("farvegrupper") ?>
-         <?php foreach( $farvegrupper as $post ): 
+                // Setup this post for WP functions (variable must be named $post).
+                setup_postdata($post); ?>
+                <h2><?php the_title() ?></h2>
 
-            // Setup this post for WP functions (variable must be named $post).
-            setup_postdata($post); ?>
-            <h2><?php the_title() ?></h2>
+                <?php $farver = get_field("farver") ?>
+                <?php foreach($farver as $post):
+                    setup_postdata($post) ?>
+                        <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
+                        <div style="width: 50px; height: 50px;"><img src="<?php the_field("img_color") ?>" alt=""></div>
+                        <span><?php the_title() ?></span>
+                    
+                <?php endforeach ?>
 
-            <?php $farver = get_field("farver") ?>
-            <?php foreach($farver as $post):
-                setup_postdata($post) ?>
-                    <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                    <div style="width: 50px; height: 50px;"><img src="<?php the_field("img_color") ?>" alt=""></div>
-                    <span><?php the_title() ?></span>
-                
-            <?php endforeach ?>
+            <?php endforeach; ?>
 
-        <?php endforeach; ?>
+            <?php wp_reset_postdata(); ?>
 
-        <?php wp_reset_postdata(); ?>
-
-        <!-- <img src="<?php the_field("billede_af_farve") ?>" alt="">
-        <p><?php the_field("farve_navn") ?></p> -->
+            <!-- <img src="<?php the_field("billede_af_farve") ?>" alt="">
+            <p><?php the_field("farve_navn") ?></p> -->
+        </div>
     </div>
 </div>
 
