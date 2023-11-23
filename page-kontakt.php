@@ -152,6 +152,7 @@
     width: 100%;
     border: 2px solid #333333;
   border-radius: 0;
+  padding: 0.2rem;
   }
 
   .contact-form label {
