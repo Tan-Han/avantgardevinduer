@@ -60,12 +60,17 @@
 
   .telephone, .address, .mail {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    padding: .2rem 1rem;
   }
 
   .icon {
     border-left: #333333 solid 1px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: .2rem 1rem;
   }
 
   .material-symbols-outlined {
