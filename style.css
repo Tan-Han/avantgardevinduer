@@ -206,6 +206,10 @@ footer .info p {
   font-size: 14px;
 }
 
+.fb-link:hover {
+  color: var(--tertiary-color);
+}
+
 footer .info .fa-facebook-square {
   font-size: 20px;
   padding: 0.2rem 0;

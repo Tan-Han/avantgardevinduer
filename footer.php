@@ -12,7 +12,7 @@
     <p>+45 20 87 23 32</p>
     <p>bsh@avantgardevinduer.dk</p>
     <p>CVR - 33019572</p>
-    <i class="fa fa-facebook-square"></i>
+    <a class="fb-link" href="https://www.facebook.com/avantgardevinduer" target=”_blank”><i class="fa fa-facebook-square"></i></a>
   </div>
   <div class="logo-box">
   <img class="logo" src="https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg" alt="">
