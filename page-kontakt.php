@@ -185,6 +185,11 @@
     color: #f5f5f5;
   }
 
+  .wpcf7 form .wpcf7-response-output {
+    margin: 0;
+    padding: 0;
+  }
+
   .wpcf7 form.sent .wpcf7-response-output, .wpcf7 form.invalid .wpcf7-response-output {
     border: none;
     text-align: right;
