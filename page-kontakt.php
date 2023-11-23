@@ -65,7 +65,7 @@
   }
 
   .info {
-    padding: .2rem 1rem;
+    padding: .8rem 1rem;
     text-align: right;
   }
 
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: .5rem 1rem;
+    padding: .8rem 1rem;
   }
 
   .material-symbols-outlined {
