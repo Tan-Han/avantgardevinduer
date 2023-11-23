@@ -109,11 +109,11 @@
   .contact-form-info {
     display: flex;
     justify-content: left;
-    gap: 1rem;
   }
 
   .contact-form-info p {
     width: 33%;
+    padding-right: 1rem;
   }
 
   .contact-form-info p label span {
