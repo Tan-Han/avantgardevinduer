@@ -53,7 +53,7 @@
 
   .contact-headline-box {
     text-align: center;
-    padding: 0 10%;
+    padding: 0 40%;
   }
 
   h1 {
