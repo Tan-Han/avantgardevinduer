@@ -68,8 +68,8 @@
   }
 
   .contact-info {
-    width: 30%;
-    padding-right: 3rem;
+    width: 40%;
+    padding-right: 5rem;
   }
 
   .telephone,
@@ -103,7 +103,7 @@
   }
 
   .contact-form {
-    width: 70%;
+    width: 60%;
   }
 </style>
 
