@@ -25,7 +25,9 @@
       <div class="info">
         <p class="contact-info-headline">Adresse</p>
         <p>
-          <a href="<?php the_field("address-link") ?>"><?php the_field("address") ?></a>
+          <a href="<?php the_field("address-link") ?>">
+            <?php the_field("address") ?>
+          </a>
         </p>
       </div>
       <div class="icon">
@@ -62,13 +64,9 @@
     flex-direction: column;
   }
 
-  h1 {
+  h1 {}
 
-  }
-
-  h3 {
-
-  }
+  h3 {}
 
   hr {
     width: 40%;
@@ -85,7 +83,7 @@
 
   .contact-info {
     width: 40%;
-    padding-right: 5rem;
+    padding-right: 12rem;
   }
 
   .telephone,
@@ -95,7 +93,7 @@
     justify-content: right;
     align-items: center;
     padding: 1rem 0;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .contact-info-headline {
@@ -148,11 +146,12 @@
     display: flex;
   }
 
-  .contact-form input, .contact-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
     border: 2px solid #333333;
-  border-radius: 0;
-  padding: .2rem .5rem;
+    border-radius: 0;
+    padding: .2rem .5rem;
   }
 
   .contact-form label {
