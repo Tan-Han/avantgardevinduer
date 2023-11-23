@@ -114,6 +114,10 @@ ul.nav-links {
   display: flex;
 }
 
+nav ul {
+  margin: 0;
+}
+
 /* responsive */
 nav.active ul.nav-links {
   display: flex;
