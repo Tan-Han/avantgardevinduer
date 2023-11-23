@@ -110,6 +110,10 @@
     display: flex;
     justify-content: left;
   }
+
+  .contact-form-info p label {
+    width: 33%;
+  }
 </style>
 
 <?php get_footer() ?>
