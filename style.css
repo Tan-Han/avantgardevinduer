@@ -3,12 +3,54 @@ Theme Name: Avantgardevinduer
 Author: TRS Hansen, L. N. Nielsen
 */
 
+:root {
+  --primary-color: #333333;
+  --secondary-color: #cccccc;
+  --tertiary-color: #708090;
+  --quaternary-color: #003366;
+
+  /* font farver */
+  --white: #f5f5f5;
+  --black: #333333;
+}
+
 /* ALL PAGES */
 
 * {
   padding: 0;
   margin: 0;
 }
+
+/* TEN PERCENT */
+.ten-percent {
+  padding: 0 10%;
+}
+
+/* COLORS */
+.primary-bg {
+  color: var(--primary-color);
+}
+
+.secondary-bg {
+  color: var(--secondary-color);
+}
+
+.tertiary-bg {
+  color: var(--tertiary-color);
+}
+
+.quaternary-bg {
+  color: var(--quaternary-color);
+}
+
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
 
 /* FONTS */
 
@@ -52,7 +94,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding: 1.5rem 140px;
-  background-color: #333333;
+  background-color: var(--primary-color);
 }
 
 footer .links {

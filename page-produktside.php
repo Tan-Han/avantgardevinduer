@@ -67,7 +67,7 @@
 </div>
 
 <!-- benefits -->
-<div>
+<div class="secondary-bg">
     <div>
         <h3>Benefits of the S 9000 window system</h3>
     </div>
