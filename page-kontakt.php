@@ -121,7 +121,7 @@
     display: flex;
   }
 
-  .contact-form-info p label span input {
+  .contact-form input {
     width: 100%;
   }
 
