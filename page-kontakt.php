@@ -109,6 +109,7 @@
   .contact-form-info {
     display: flex;
     justify-content: left;
+    gap: 1rem;
   }
 
   .contact-form-info p {
