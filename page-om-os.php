@@ -50,27 +50,34 @@
 </div>
 
 <style>
-
   .contact-headline-box {
     text-align: center;
     padding: 3rem 20%;
   }
 
-  h1 {
-
-  }
+  h1 {}
 
   .content-contact {
     padding: 3rem 10%;
   }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 200,
-  'GRAD' 0,
-  'opsz' 24
-}
+  .telephone, .address, .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    border-left: #333333 solid 1px;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings:
+      'FILL' 0,
+      'wght' 200,
+      'GRAD' 0,
+      'opsz' 24
+  }
 </style>
 
 <?php get_footer() ?>
