@@ -67,6 +67,10 @@
     justify-content: center;
   }
 
+  .contact-info {
+    width: 50%;
+  }
+
   .telephone,
   .address,
   .mail {
@@ -95,6 +99,10 @@
       'wght' 200,
       'GRAD' 0,
       'opsz' 24
+  }
+
+  .mail {
+    width: 50%;
   }
 </style>
 
