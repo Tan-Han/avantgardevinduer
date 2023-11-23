@@ -172,6 +172,11 @@
     background-color: #003366;
     color: #f5f5f5;
   }
+
+  .submit-btn input:hover {
+    background-color: #708090;
+    color: #f5f5f5;
+  }
 </style>
 
 <?php get_footer() ?>
