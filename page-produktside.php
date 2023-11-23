@@ -6,8 +6,8 @@
         <div class="col">
             <!-- titel -->
             <div class="pt-5 pb-2">
-                <h2>Plastvindue</h2>
-                <p>Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur Lorem ipsum dolor sit amet, consetetur </p>
+                <h2><?php the_field("produkt_navn")?></h2>
+                <p><?php the_field("kort_beskrivelse")?></p>
             </div>
 
             <!-- specifikationer -->
@@ -15,26 +15,26 @@
                 <div class="col">
                     <div>
                         <hr class="hr-small">
-                        <h4>Overskrift</h4>
-                        <p>Text</p>
+                        <h4><?php the_field("parameter_titel_1")?></h4>
+                        <p><?php the_field("parameter_tekst_1")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h4>Overskrift</h4>
-                        <p>Text</p>
+                        <h4><?php the_field("parameter_titel_2")?></h4>
+                        <p><?php the_field("parameter_tekst_2")?></p>
                     </div>
                     
                 </div>
                 <div class="col">
                     <div>
                         <hr class="hr-small">
-                        <h4>Overskrift</h4>
-                        <p>Text</p>
+                        <h4><?php the_field("parameter_titel_3")?></h4>
+                        <p><?php the_field("parameter_tekst_3")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h4>Overskrift</h4>
-                        <p>Text</p>
+                        <h4><?php the_field("parameter_titel_4")?></h4>
+                        <p><?php the_field("parameter_tekst_4")?></p>
                     </div>
                 </div>
             </div>
@@ -44,7 +44,7 @@
         <!-- img -->
         <div class="col">
             <div>
-                <img src="" alt="">
+                <img src="<?php the_field("produkt_billede")?>" alt="">
             </div>
         </div>
     </div>
@@ -55,8 +55,8 @@
     <div class="row">
         <div class="col">
         <hr class="hr-small">
-        <h3>Farver</h3>
-        <p>GEALAN offers a wide range of options for bringing colour to PVC windows. One of them is the proven surface technology GEALAN-acrylcolor®. The coloured acrylic layer is scratch-resistant, weather resistant and easy-care. That means that window systems with GEALAN-acrylcolor® meet the highest technical and functional demands for innovative, coloured surfaces. There are also a wealth of options for creating coloured window and door profiles with GEALAN’s extensive range of decorative foils. The standard range offers a wide spectrum of colours. Additional tones and textures are available upon request on a property-related basis.</p>
+        <h3><?php the_field("farve_titel")?></h3>
+        <p><?php the_field("farve_beskrivelse")?></p>
         </div>
     </div>
 </div>
@@ -64,33 +64,33 @@
 <!-- loop med farver -->
 <div class="container ten-percent pb-5">
     <div class="row">
-        <h5>Navn på farve</h5>
-        <img src="" alt="">
-        <p>Farve nummer</p>
+        <h5><?php the_field("farve_navn")?></h5>
+        <img src="<?php the_field("billede_af_farve") ?>" alt="">
+        <p><?php the_field("farve_navn") ?></p>
     </div>
 </div>
 
 <!-- benefits -->
 <div class="secondary-bg pb-5">
     <div>
-        <h2 class="text-center pt-5 pb-5">Benefits of the S 9000 window system</h2>
+        <h2 class="text-center pt-5 pb-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
     </div>
 
     <div class="container ten-percent">
         <div class="row">
             <!-- billede -->
             <div class="col">
-                <img src="" alt="">
+                <img src="<?php the_field("fordel_billede") ?>" alt="">
             </div>
 
             <!-- information -->
             <div class="col">
                 <hr class="hr-small">
-                <h3>GEALAN-FUTURA®</h3>
+                <h3><?php the_field("fordel") ?></h3>
                 <!-- loop med teksten omkring fordelene -->
                 <div>
-                    <h4>The passive house-compatible window, now also in colour</h4>
-                    <p>GEALAN-FUTURA® is the single profile combination in the S 9000 system. It offers the option of building passive house-compatible window elements, including in colour, in accordance with the ift directive WA-15/2 using standard profiles and standard 2 mm steel stiffening elements. The certified Uf value of 0.89 W/(m²K) confirms the outstanding basic heat insulation properties. Maximum sash dimensions of up to 2.40 m are possible with GEALAN-FUTURA® when using STV® bonding technology.</p>
+                    <h4><?php the_field("fordel_subheadline") ?></h4>
+                    <p><?php the_field("fordel_beskrivelse") ?></p>
                 </div>
                 
             </div>
