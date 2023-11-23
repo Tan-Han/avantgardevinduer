@@ -79,6 +79,8 @@
     justify-content: right;
     align-items: center;
     padding: 1rem 0;
+    text-decoration: none;
+    color: #333333;
   }
 
   .info {
