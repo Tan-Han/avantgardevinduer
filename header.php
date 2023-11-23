@@ -11,27 +11,31 @@
 </head>
 
 <body>
-
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-            <div class="nav-title">
-                Avantgardevinduer
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Avantgardevinduer</a>
+        <a href="#news">Forside</a>
+        <div class="dropdown">
+            <button class="dropbtn">Produkter
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Vinduer</a>
+                <a href="#">Døre</a>
             </div>
         </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-        </div>
-
-        <div class="nav-links">
-            <a href="//github.io/jo_geek" target="_blank">Forside</a>
-            <a href="http://stackoverflow.com/users/4084003/" target="_blank">Vinduer</a>
-            <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Døre</a>
-            <a href="https://codepen.io/jo_Geek/" target="_blank">Galleri</a>
-            <a href="https://jsfiddle.net/user/jo_Geek/" target="_blank">Kontakt</a>
-        </div>
+        <a href="#contact">Kontakt</a>
+        <a href="#about">Om os</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
