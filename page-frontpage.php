@@ -16,7 +16,7 @@
     <p class="company-description"><?php the_field("frontpage_description") ?></p>
   </div>
   <div class="image-box">
-    <img src="https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg" alt="">
+    <img src="frontpage_description_image" alt="">
   </div>
 </div>
 
