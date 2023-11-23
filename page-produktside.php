@@ -64,7 +64,7 @@
 <!-- loop med farver -->
 <div class="container ten-percent pb-5">
     <div class="row">
-        <h4>Navn på farve</h4>
+        <h5>Navn på farve</h5>
         <img src="" alt="">
         <p>Farve nummer</p>
     </div>
