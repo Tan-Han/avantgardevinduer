@@ -43,6 +43,7 @@
     padding: 1rem 0;
     color: #f5f5f5;
     font-size: 85px;
+    text-shadow: #333 3px 3px 3px;
   }
 
   h3 {
@@ -50,6 +51,7 @@
     padding: 1rem 0;
     font-size: 60px;
     font-weight: 400;
+    text-shadow: #333 3px 3px 3px;
   }
 
   hr {
@@ -60,7 +62,6 @@
 
   .frontpage-mini-nav {
     width: 100%;
-    height: 60px;
     background-color: #708090;
     display: flex;
     align-items: center;
@@ -71,6 +72,7 @@
     color: #f5f5f5;
     font-size: 25px;
     font-weight: 700;
+    padding: .8rem 0;
   }
 
   .frontpage-content {
@@ -105,6 +107,22 @@
     .hero {
       height: 500px;
     }
+
+    h1 {
+      font-size: 85px;
+    }
+
+    h3 {
+      font-size: 60px;
+    }
+
+    .frontpage-mini-nav p {
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 700;
+    padding: .8rem 0;
+    }
+    
   }
 </style>
 
