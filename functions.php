@@ -7,5 +7,6 @@
     wp_enqueue_style("adobe", "https://use.typekit.net/tmr5ico.css");
     wp_enqueue_style("cloudfare", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
   }
+  
   add_action( "wp_enqueue_scripts", "mt_register_stylesheets" );
   
