@@ -184,7 +184,12 @@
     color: #f5f5f5;
   }
 
+  @media screen and (max-width: 1300px) {
 
+    .contact-info {
+      padding-right: 5rem;
+    }
+  }
 </style>
 
 <?php get_footer() ?>
