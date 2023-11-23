@@ -70,7 +70,7 @@
   }
 
   h3 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   hr {
@@ -182,6 +182,8 @@
     background-color: #708090;
     color: #f5f5f5;
   }
+
+  
 </style>
 
 <?php get_footer() ?>
