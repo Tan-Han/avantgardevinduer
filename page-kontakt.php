@@ -97,7 +97,7 @@
   }
 
   .icon {
-    border-left: #333333 solid 1px;
+    border-left: #333333 solid 3px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -133,6 +133,8 @@
 
   .contact-form input, .contact-form textarea {
     width: 100%;
+    border: 3px solid #333333;
+  border-radius: 0;
   }
 
   .contact-form label {
