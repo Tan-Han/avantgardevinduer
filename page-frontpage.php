@@ -124,6 +124,14 @@
     font-weight: 700;
     padding: .8rem 0;
     }
+
+    .frontpage-content .text-box h2 {
+    font-size: 30px;
+  }
+
+  .frontpage-content .text-box p {
+    font-size: 16px;
+  }
     
   }
 </style>
