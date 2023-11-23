@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/tmr5ico.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <title>Avantgardevinduer & Døre</title>
     <?php wp_head() ?>
 </head>
@@ -15,10 +15,10 @@
     <nav>
         <div class="navbar">
             <i class='bx bx-menu'></i>
-            <div class="logo"><a href="#">Wooo</a></div>
+            <div class="logo"><a href="#">Avantgardevinduer</a></div>
             <div class="nav-links">
                 <div class="sidebar-logo">
-                    <span class="logo-name">Hello</span>
+                    <span class="logo-name">Avantgardevinduer</span>
                     <i class='bx bx-x'></i>
                 </div>
                 <ul class="links">
