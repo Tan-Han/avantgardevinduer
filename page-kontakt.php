@@ -168,6 +168,7 @@
     width: 100%;
     display: flex;
     justify-content: right;
+    align-items: center;
     flex-direction: row-reverse;
     padding: 1rem 0;
   }
@@ -182,6 +183,11 @@
   .submit-btn input:hover {
     background-color: #708090;
     color: #f5f5f5;
+  }
+
+  .wpcf7 form.sent .wpcf7-response-output {
+    border: none;
+    text-align: right;
   }
 
   @media screen and (max-width: 1300px) {
