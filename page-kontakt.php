@@ -123,16 +123,11 @@
     justify-content: left;
     align-items: center;
     padding: 1rem 1rem;
-    font-size: 40px;
   }
 
-  /* .material-symbols-outlined {
-    font-variation-settings:
-      'FILL' 0,
-      'wght' 200,
-      'GRAD' 0,
-      'opsz' 24,
-  } */
+  .icon span {
+    font-size: 40px;
+  }
 
   .contact-form {
     width: 60%;
