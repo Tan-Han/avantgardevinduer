@@ -120,7 +120,7 @@
     <div class="container ten-percent">
         <div class="row">
             <div class="col">
-                <hr>
+                <hr class="hr-2">
                 <h3>GEALAN-LUMAXX®</h3>
                 <h4>Optimised geometries</h4>
                 <p>During development of GEALAN-LUMAXX®, the entire frame geometry was optimised while the profile widths were compressed to a minimum. The designers paid special attention to achieving a balanced relationship between insulating properties and statics, as well as a perfect interplay of components. The symmetrical effect of the narrow single mullion also adds to the flexibility of use in window construction.</p>
@@ -175,6 +175,13 @@
         /* border: 0;
         height: 1px;
         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
+        width: 15%;
+    }
+
+    .hr-2 {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
         width: 15%;
     }
 </style>
