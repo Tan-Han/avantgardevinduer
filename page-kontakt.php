@@ -202,6 +202,7 @@
   .wpcf7 form.sent .wpcf7-response-output, .wpcf7 form.invalid .wpcf7-response-output {
     border: none;
     text-align: right;
+    color: red;
   }
 
   @media screen and (max-width: 1300px) {
