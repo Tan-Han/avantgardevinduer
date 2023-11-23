@@ -88,6 +88,7 @@
 
   .contact-info a:hover {
     color: #003366;
+    text-decoration: underline;
   }
 
   .info {
