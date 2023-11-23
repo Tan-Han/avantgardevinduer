@@ -70,7 +70,8 @@
   }
 
   h3 {
-    font-size: 50px;
+    font-size: 40px;
+    font-style: italic;
   }
 
   hr {
