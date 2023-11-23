@@ -8,7 +8,7 @@
   </div>
   <div class="info">
     <p class="bold">Avantgardevinduer</p>
-    <p>Fasanvej 15, 6760 Ribe</p>
+    <a href="<?php the_field("address-link") ?>"><?php the_field("address") ?></a>
     <a href="<?php the_field("telephone") ?>">
       <?php the_field("telephone") ?>
     </a>
