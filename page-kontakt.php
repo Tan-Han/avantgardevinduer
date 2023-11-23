@@ -62,6 +62,9 @@
 
   .content-contact {
     padding: 3rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .telephone,
