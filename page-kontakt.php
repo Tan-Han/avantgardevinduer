@@ -105,6 +105,11 @@
   .contact-form {
     width: 60%;
   }
+
+  .contact-form-info {
+    display: flex;
+    justify-content: left;
+  }
 </style>
 
 <?php get_footer() ?>
