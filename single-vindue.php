@@ -15,12 +15,12 @@
                 <div class="col">
                     <div>
                         <hr class="hr-small">
-                        <h4><?php the_field("parameter_titel_1")?></h4>
+                        <h5><?php the_field("parameter_titel_1")?></h5>
                         <p><?php the_field("parameter_tekst_1")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h4><?php the_field("parameter_titel_2")?></h4>
+                        <h5><?php the_field("parameter_titel_2")?></h5>
                         <p><?php the_field("parameter_tekst_2")?></p>
                     </div>
                     
@@ -28,12 +28,12 @@
                 <div class="col">
                     <div>
                         <hr class="hr-small">
-                        <h4><?php the_field("parameter_titel_3")?></h4>
+                        <h5><?php the_field("parameter_titel_3")?></h5>
                         <p><?php the_field("parameter_tekst_3")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h4><?php the_field("parameter_titel_4")?></h4>
+                        <h5><?php the_field("parameter_titel_4")?></h5>
                         <p><?php the_field("parameter_tekst_4")?></p>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
             <?php $farver = get_field("farver") ?>
             <?php foreach($farver as $post):
                 setup_postdata($post) ?>
-                <div class="flex-row">
+                <div class="d-flex">
                     <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
                     <span><?php the_title() ?></span>
                 </div>
@@ -206,6 +206,10 @@
 
     .hr-small {
         width: 100px;
+    }
+
+    .flex {
+        display: flex;
     }
 </style>
 
