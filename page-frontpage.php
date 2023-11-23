@@ -109,11 +109,13 @@
     }
 
     h1 {
-      font-size: 85px;
+      font-size: 65px;
+      padding: .5rem 0;
     }
 
     h3 {
-      font-size: 60px;
+      font-size: 40px;
+      padding: .5rem 0;
     }
 
     .frontpage-mini-nav p {
