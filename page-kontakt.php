@@ -62,6 +62,9 @@
     display: flex;
     justify-content: right;
     align-items: center;
+  }
+
+  .info {
     padding: .2rem 1rem;
     text-align: right;
   }
