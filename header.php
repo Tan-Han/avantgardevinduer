@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.typekit.net/tmr5ico.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Avantgardevinduer & Døre</title>
     <?php wp_head() ?>
 </head>
 
 <body>
     <nav>
-        <h2 class="logo">ASMR2Dev</h2>
+        <h2 class="logo">Avantgardevinduer</h2>
         <div class="bars">
             <i class="fa fa-bars"></i>
         </div>
@@ -27,91 +25,88 @@
 
     <style>
         nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #333;
-  color: white;
-  position: relative;
-}
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: relative;
+        }
 
-/* responsive */
-nav.active {
-  flex-direction: column;
-  align-items: flex-start;
-}
+        /* responsive */
+        nav.active {
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
-nav h2.logo {
-  font-weight: bold;
-  font-size: xx-large;
-}
+        nav h2.logo {
+            font-weight: bold;
+            font-size: xx-large;
+        }
 
-nav .bars {
-  position: absolute;
-  right: 1rem;
-  font-size: xx-large;
-  display: none;
-}
+        nav .bars {
+            position: absolute;
+            right: 1rem;
+            font-size: xx-large;
+            display: none;
+        }
 
-ul.nav-links {
-  display: flex;
-}
+        ul.nav-links {
+            display: flex;
+        }
 
-/* responsive */
-nav.active ul.nav-links {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
+        /* responsive */
+        nav.active ul.nav-links {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
 
-li.nav-link {
-  list-style: none;
-  margin: 0.5rem 1rem;
-  padding: 0.4rem;
-  display: flex;
-  align-items: center;
-}
+        li.nav-link {
+            list-style: none;
+            margin: 0.5rem 1rem;
+            padding: 0.4rem;
+            display: flex;
+            align-items: center;
+        }
 
-li.nav-link:hover {
-  background-color: #ccc;
-  color: #333;
-}
+        li.nav-link:hover {
+            background-color: #ccc;
+            color: #333;
+        }
 
-li.nav-link.auth {
-  border: 2px solid white;
-  border-radius: 1rem;
-}
+        li.nav-link.auth {
+            border: 2px solid white;
+            border-radius: 1rem;
+        }
 
-li.nav-link a {
-  text-decoration: none;
-  color: inherit;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: large;
-  text-transform: uppercase;
-}
+        li.nav-link a {
+            text-decoration: none;
+            color: inherit;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            font-size: large;
+            text-transform: uppercase;
+        }
 
-@media screen and (max-width: 800px) {
-  nav .bars {
-    display: block;
-  }
+        @media screen and (max-width: 800px) {
+            nav .bars {
+                display: block;
+            }
 
-  nav .nav-links {
-    display: none;
-  }
-}
-
-
-       
+            nav .nav-links {
+                display: none;
+            }
+        }
     </style>
 
     <script>
 
-const bars = document.querySelector(".bars");
-const nav = document.querySelector("nav");
+        const bars = document.querySelector(".bars");
+        const nav = document.querySelector("nav");
 
-bars.onclick = () => {
-  nav.classList.toggle("active");
-};
+        bars.onclick = () => {
+            nav.classList.toggle("active");
+        };
     </script>
