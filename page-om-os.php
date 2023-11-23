@@ -51,6 +51,15 @@
 
 <style>
 
+  .contact-headline-box {
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  h1 {
+
+  }
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
