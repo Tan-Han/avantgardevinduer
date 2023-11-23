@@ -113,7 +113,6 @@
 
   .contact-form-info p {
     width: 33%;
-    padding-right: 1rem;
   }
 
   .contact-form-info p label span {
@@ -121,6 +120,9 @@
     display: flex;
   }
 
+  .contact-form-info p label span input {
+    width: 100%;
+  }
 
   .contact-form label {
     width: 100%;
