@@ -207,8 +207,8 @@ footer .info p {
 }
 
 .fb-link {
-  color: var(--white);
-  text-decoration: none;
+  color: var(--white)!important;
+  text-decoration: none!important;
 }
 
 .fb-link:hover {
