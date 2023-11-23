@@ -62,10 +62,11 @@
     display: flex;
     justify-content: right;
     align-items: center;
+    padding: 1rem 0;
   }
 
   .info {
-    padding: 1rem 1rem;
+    padding: 1rem;
     text-align: right;
   }
 
