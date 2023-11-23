@@ -196,6 +196,11 @@ footer a {
   font-style: normal;
 }
 
+footer a:hover {
+  color: #003366;
+  text-decoration: underline;
+}
+
 footer .info {
   display: flex;
   flex-direction: column;
