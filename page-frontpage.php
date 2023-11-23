@@ -81,7 +81,7 @@
 
   .frontpage-content .text-box {
     width: 50%;
-    padding: 1rem 10%;
+    padding: 2rem 10%;
   }
 
   .frontpage-content .text-box h2 {
@@ -94,7 +94,7 @@
 
   .frontpage-content .image-box {
     width: 50%;
-    padding: 1rem 10%;
+    padding: 2rem 10%;
   }
 
   .frontpage-content .image-box img {
