@@ -129,18 +129,17 @@
     width: 100%;
   }
 
-  .submit-btn {
+  .submit-btn p {
     width: 100%;
     display: flex;
     justify-content: right;
+    flex-direction: row-reverse;
   }
 
   .submit-btn input {
     width: fit-content;
     padding: .2rem .5rem;
   }
-
-
 </style>
 
 <?php get_footer() ?>
