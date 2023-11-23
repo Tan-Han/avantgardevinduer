@@ -77,7 +77,7 @@
             <?php $farver = get_field("farver") ?>
             <?php foreach($farver as $post):
                 setup_postdata($post) ?>
-                <div style="background-color: <?php the_field("hex_color") ?>px; width: 50px; height: 50px;"></div>
+                <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
             <?php endforeach ?>
 
         <?php endforeach; ?>
