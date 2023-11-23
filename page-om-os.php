@@ -17,7 +17,7 @@
         </p>
       </div>
       <div class="icon">
-      <i class="material-icons">smartphone</i>
+        <span class="material-symbols-outlined">smartphone</span>
       </div>
     </div>
     <div class="address">
