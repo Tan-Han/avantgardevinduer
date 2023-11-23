@@ -17,7 +17,7 @@
         </p>
       </div>
       <div class="icon">
-        <span class="material-symbols-outlined">e32c</span>
+      <i class="material-icons">smartphone</i>
       </div>
     </div>
     <div class="address">
