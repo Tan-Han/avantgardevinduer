@@ -86,6 +86,10 @@
     color: #333333;
   }
 
+  .contact-info a:hover {
+    color: #003366;
+  }
+
   .info {
     padding: 1rem;
     text-align: right;
