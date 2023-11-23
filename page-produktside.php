@@ -14,12 +14,12 @@
             <div class="row">
                 <div class="col">
                     <div>
-                        <hr>
+                        <hr class="hr-small">
                         <h4>Overskrift</h4>
                         <p>Text</p>
                     </div>
                     <div>
-                        <hr>
+                        <hr class="hr-small">
                         <h4>Overskrift</h4>
                         <p>Text</p>
                     </div>
@@ -27,12 +27,12 @@
                 </div>
                 <div class="col">
                     <div>
-                        <hr>
+                        <hr class="hr-small">
                         <h4>Overskrift</h4>
                         <p>Text</p>
                     </div>
                     <div>
-                        <hr>
+                        <hr class="hr-small">
                         <h4>Overskrift</h4>
                         <p>Text</p>
                     </div>
@@ -54,7 +54,7 @@
 <div class="container ten-percent">
     <div class="row">
         <div class="col">
-        <hr>
+        <hr class="hr-small">
         <h3>Farver</h3>
         <p>GEALAN offers a wide range of options for bringing colour to PVC windows. One of them is the proven surface technology GEALAN-acrylcolor®. The coloured acrylic layer is scratch-resistant, weather resistant and easy-care. That means that window systems with GEALAN-acrylcolor® meet the highest technical and functional demands for innovative, coloured surfaces. There are also a wealth of options for creating coloured window and door profiles with GEALAN’s extensive range of decorative foils. The standard range offers a wide spectrum of colours. Additional tones and textures are available upon request on a property-related basis.</p>
         </div>
@@ -85,7 +85,7 @@
 
             <!-- information -->
             <div class="col">
-                <hr>
+                <hr class="hr-small">
                 <h3>GEALAN-FUTURA®</h3>
                 <!-- loop med teksten omkring fordelene -->
                 <div>
@@ -101,7 +101,7 @@
         <div class="row">
             <!-- billede -->
             <div class="col">
-                <hr>
+                <hr class="hr-small">
                 <h3>S 9000 plus</h3>
                 <!-- loop med teksten omkring fordelene -->
                 <div>
@@ -120,7 +120,7 @@
     <div class="container ten-percent">
         <div class="row">
             <div class="col">
-                <hr class="hr-2">
+                <hr class="hr-small">
                 <h3>GEALAN-LUMAXX®</h3>
                 <h4>Optimised geometries</h4>
                 <p>During development of GEALAN-LUMAXX®, the entire frame geometry was optimised while the profile widths were compressed to a minimum. The designers paid special attention to achieving a balanced relationship between insulating properties and statics, as well as a perfect interplay of components. The symmetrical effect of the narrow single mullion also adds to the flexibility of use in window construction.</p>
@@ -132,6 +132,7 @@
     <div class="container ten-percent">
         <div class="row">
             <div class="col">
+                <hr class="hr-small">
                 <h3>Visibly less frame</h3>
                 <p>A direct comparison proves it: The new GEALAN-LUMAXX® is significantly narrower than previous frame combinations. In the past, mullion designs often required a width of up to 150 mm and above. Heavy, unattractive bars ruined the window outline and let far less light into the room. Slim sightlines can finally be achieved with the new system, without forgoing ease-of-use and security.</p>
             </div>  
@@ -147,6 +148,7 @@
                 <img src="" alt="">
             </div>
             <div class="col">
+                <hr class="hr-small">
                 <h3>No compromise</h3>
                 <p>Despite the focus on narrow sightlines, the new sash/mullion profile doesn’t compromise when it comes to statics. Both use a particular steel which, due to its static properties, allows for elements of up to 2.30 m in white and 2.20 m in colour. In combination with STV® bonding technology, element sizes up to 2.50 m in white and 2.40 m in colour are possible.</p>
             </div>
@@ -156,7 +158,7 @@
     <div class="container ten-percent">
         <div class="row">
             <div class="col">
-                <hr class="hr-w-5">
+                <hr class="hr-small">
                 <h3>GEALAN-LUMAXX®</h3>
                 <h4>Optimised geometries</h4>
                 <p>During development of GEALAN-LUMAXX®, the entire frame geometry was optimised while the profile widths were compressed to a minimum. The designers paid special attention to achieving a balanced relationship between insulating properties and statics, as well as a perfect interplay of components. The symmetrical effect of the narrow single mullion also adds to the flexibility of use in window construction.</p>
@@ -171,17 +173,7 @@
         padding: 0 10%;
     }
 
-    .hr-w-5 {
-        /* border: 0;
-        height: 1px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); */
-        width: 15%;
-    }
-
-    .hr-2 {
-        border: 0;
-        height: 1px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+    .hr-small {
         width: 15%;
     }
 </style>
