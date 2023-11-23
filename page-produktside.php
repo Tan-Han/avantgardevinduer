@@ -150,8 +150,8 @@
     </div>
 
     <div class="container ten-percent">
-        <div class="row">
-            <div class="col">
+        <div class="row ten-percent">
+            <div class="col ten-percent">
                 <hr>
                 <h3>GEALAN-LUMAXX®</h3>
                 <h4>Optimised geometries</h4>
