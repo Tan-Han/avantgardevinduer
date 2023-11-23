@@ -160,71 +160,7 @@
 
         .links li .sub-menu .more:hover .more-sub-menu {
             display: block;
-        }
-
-        .navbar .search-box {
-            position: relative;
-            height: 40px;
-            width: 40px;
-        }
-
-        .navbar .search-box i {
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            line-height: 40px;
-            text-align: center;
-            font-size: 22px;
-            color: #fff;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .navbar .search-box .input-box {
-            position: absolute;
-            right: calc(100% - 40px);
-            top: 80px;
-            height: 60px;
-            width: 300px;
-            background: #3E8DA8;
-            border-radius: 6px;
-            opacity: 0;
-            pointer-events: none;
-            transition: all 0.4s ease;
-        }
-
-        .navbar.showInput .search-box .input-box {
-            top: 65px;
-            opacity: 1;
-            pointer-events: auto;
-            background: #3E8DA8;
-        }
-
-        .search-box .input-box::before {
-            content: '';
-            position: absolute;
-            height: 20px;
-            width: 20px;
-            background: #3E8DA8;
-            right: 10px;
-            top: -6px;
-            transform: rotate(45deg);
-        }
-
-        .search-box .input-box input {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            border-radius: 4px;
-            transform: translate(-50%, -50%);
-            height: 35px;
-            width: 280px;
-            outline: none;
-            padding: 0 15px;
-            font-size: 16px;
-            border: none;
-        }
+        }   
 
         .navbar .nav-links .sidebar-logo {
             display: none;
@@ -380,8 +316,6 @@
     </style>
 
     <script>
-        // search-box open close js code
-        let navbar = document.querySelector(".navbar");
 
         // sidebar open close js code
         let navLinks = document.querySelector(".nav-links");
