@@ -129,6 +129,12 @@
     width: 100%;
   }
 
+  .submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+
   .submit-btn input {
     width: fit-content;
     padding: .2rem .5rem;
