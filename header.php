@@ -18,7 +18,15 @@
         </div>
         <ul class="nav-links">
             <li class="nav-link"><a href="#">Home</a></li>
-            <li class="nav-link"><a href="#">Vinduer</a></li>
+            <li class="nav-link">
+                <div class="dropdown">
+                    <button class="dropbtn">Produker</button>
+                    <div class="dropdown-content">
+                        <a href="#">Vinduer</a>
+                        <a href="#">Døre</a>
+                    </div>
+                </div>
+            </li>
             <li class="nav-link"><a href="#">Døre</a></li>
             <li class="nav-link"><a href="#">Contact</a></li>
             <li class="nav-link"><a href="#">Om os</a></li>
@@ -27,91 +35,130 @@
 
     <style>
         nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  background-color: #333;
-  color: white;
-  position: relative;
-}
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            position: relative;
+        }
 
-/* responsive */
-nav.active {
-  flex-direction: column;
-  align-items: flex-start;
-}
+        /* responsive */
+        nav.active {
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
-nav h2.logo {
-  font-weight: bold;
-  font-size: xx-large;
-}
+        nav h2.logo {
+            font-weight: bold;
+            font-size: xx-large;
+        }
 
-nav .bars {
-  position: absolute;
-  right: 1rem;
-  font-size: xx-large;
-  display: none;
-}
+        nav .bars {
+            position: absolute;
+            right: 1rem;
+            font-size: xx-large;
+            display: none;
+        }
 
-ul.nav-links {
-  display: flex;
-}
+        ul.nav-links {
+            display: flex;
+        }
 
-/* responsive */
-nav.active ul.nav-links {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-}
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
 
-li.nav-link {
-  list-style: none;
-  margin: 0.5rem 1rem;
-  padding: 0.4rem;
-  display: flex;
-  align-items: center;
-}
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
 
-li.nav-link:hover {
-  background-color: #ccc;
-  color: #333;
-}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
 
-li.nav-link.auth {
-  border: 2px solid white;
-  border-radius: 1rem;
-}
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
 
-li.nav-link a {
-  text-decoration: none;
-  color: inherit;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: large;
-  text-transform: uppercase;
-}
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
 
-@media screen and (max-width: 800px) {
-  nav .bars {
-    display: block;
-  }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
-  nav .nav-links {
-    display: none;
-  }
-}
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
 
+        /* responsive */
+        nav.active ul.nav-links {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
 
-       
+        li.nav-link {
+            list-style: none;
+            margin: 0.5rem 1rem;
+            padding: 0.4rem;
+            display: flex;
+            align-items: center;
+        }
+
+        li.nav-link:hover {
+            background-color: #ccc;
+            color: #333;
+        }
+
+        li.nav-link.auth {
+            border: 2px solid white;
+            border-radius: 1rem;
+        }
+
+        li.nav-link a {
+            text-decoration: none;
+            color: inherit;
+            font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+            font-size: large;
+            text-transform: uppercase;
+        }
+
+        @media screen and (max-width: 800px) {
+            nav .bars {
+                display: block;
+            }
+
+            nav .nav-links {
+                display: none;
+            }
+        }
     </style>
 
     <script>
 
-const bars = document.querySelector(".bars");
-const nav = document.querySelector("nav");
+        const bars = document.querySelector(".bars");
+        const nav = document.querySelector("nav");
 
-bars.onclick = () => {
-  nav.classList.toggle("active");
-};
+        bars.onclick = () => {
+            nav.classList.toggle("active");
+        };
     </script>
