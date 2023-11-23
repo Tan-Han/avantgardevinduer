@@ -71,7 +71,6 @@
 
   h3 {
     font-size: 40px;
-    font-style: italic;
   }
 
   hr {
