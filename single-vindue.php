@@ -73,6 +73,13 @@
             // Setup this post for WP functions (variable must be named $post).
             setup_postdata($post); ?>
             <h2><?php the_title() ?></h2>
+
+            <?php $farver = get_field("farver") ?>
+            <?php foreach($farve as $post):
+                setup_postdata($post) ?>
+                <div style="background-color: <?php the_field("hex_color") ?>px; width: 50px; height: 50px;"></div>
+            <?php endforeach ?>
+
         <?php endforeach; ?>
 
         <?php wp_reset_postdata(); ?>
