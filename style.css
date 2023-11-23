@@ -212,7 +212,7 @@ footer .info p {
 }
 
 footer .info .fa-facebook-square:hover {
-  color: var(--quaternary-color)!important;
+  color: var(--tertiary-color)!important;
 }
 
 footer .info .fa-facebook-square {
