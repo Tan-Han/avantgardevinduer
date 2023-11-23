@@ -16,7 +16,7 @@
     <p class="company-description"><?php the_field("frontpage_description") ?></p>
   </div>
   <div class="image-box">
-    <img src="frontpage_description_image" alt="">
+    <img src="<?php the_field("frontpage_description_image") ?>" alt="">
   </div>
 </div>
 
@@ -97,6 +97,7 @@
 
   .frontpage-content .image-box img {
     max-width: 100%;
+    max-height: 100%;
   }
 
   @media screen and (max-width: 1300px) {
