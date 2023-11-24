@@ -84,30 +84,30 @@
 
   @media screen and (max-width: 1300px) {
 
-.about-headline h1 {
-  font-size: 55px;
-}
+    .about-headline h1 {
+      font-size: 55px;
+    }
 
-.about-headline h2 {
-  font-size: 25px;
-}
+    .about-headline h2 {
+      font-size: 25px;
+    }
 
-.about-content-inner p {
-    font-size: 16px;
+    .about-content-inner p {
+      font-size: 16px;
+    }
+
+    .text-box {
+      padding-right: 3rem;
+    }
+
+    .image-box {
+      padding-left: 3rem;
+    }
+
+    .image-box img {
+      height: 300px;
+    }
   }
-
-  .text-box {
-    padding-right: 3rem;
-  }
-
-  .image-box {
-    padding-left: 3rem;
-  }
-
-  .image-box img {
-    height: 300px;
-  }
-}
 </style>
 
 <?php get_footer() ?>
