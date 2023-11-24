@@ -12,14 +12,14 @@
 
 <body>
     <nav>
-        <h2 class="logo">Avantgardevinduer</h2>
+        <a href="/"><h2 class="logo">Avantgardevinduer</h2></a>
         <div class="bars">
             <i class="fa fa-bars"></i>
         </div>
         <ul class="nav-links">
             <li class="nav-link"><a href="/">Forside</a></li>
-            <li class="nav-link"><a href="#">Vinduer</a></li>
-            <li class="nav-link"><a href="#">Døre</a></li>
+            <li class="nav-link"><a href="/vinduer">Vinduer</a></li>
+            <li class="nav-link"><a href="/dore">Døre</a></li>
             <li class="nav-link"><a href="/kontakt">Kontakt</a></li>
             <li class="nav-link"><a href="/om-os">Om os</a></li>
         </ul>
