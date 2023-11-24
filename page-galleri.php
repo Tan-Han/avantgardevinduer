@@ -1,6 +1,6 @@
 <?php get_header() ?>
 
-<h1>Galleri - Projekter</h1>
+<h1 class="pt-5 text-center">Galleri - Projekter</h1>
 <!-- galleri slider -->
 <div class="p-5">
     <?php echo do_shortcode('[sp_wpcarousel id="149"]'); ?>
