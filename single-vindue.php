@@ -1,11 +1,11 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container ten-percent pb-5">
-    <div class="row pt-5 pb-2">
+<div class="container ten-percent pt-5 pb-5">
+    <div class="row">
         <div class="col">
             <!-- titel -->
-            <div>
+            <div class="pt-5 pb-2">
                 <h2><?php the_field("produkt_navn")?></h2>
                 <p><?php the_field("kort_beskrivelse")?></p>
             </div>
