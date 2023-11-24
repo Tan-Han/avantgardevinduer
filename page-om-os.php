@@ -13,8 +13,18 @@
     <h3>Firmaets historie</h3>
     <p><?php the_field("company") ?></p>
     </div>
-    <div class="image-one">
+    <div class="image-box">
       <img src="<?php the_field("image_company") ?>" alt="">
+    </div>
+  </div>
+
+  <div class="about-part-two">
+    <div class="text-box">
+    <h3>Firmaets historie</h3>
+    <p><?php the_field("") ?></p>
+    </div>
+    <div class="image-box">
+      <img src="<?php the_field("") ?>" alt="">
     </div>
   </div>
 </div>
@@ -44,6 +54,21 @@
     border-top: 3px solid #333333;
     opacity: 100%;
   }
+
+  .about-part-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-box {
+    width: 50%;
+  }
+
+  .image-box {
+    width: 50%;
+  }
+
 </style>
 
 <?php get_footer() ?>
