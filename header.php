@@ -12,7 +12,7 @@
 
 <body>
     <nav>
-        <a href="/"><h2 class="logo">Avantgardevinduer</h2></a>
+        <a href="/" class="logo-link-navbar"><h2 class="logo">Avantgardevinduer</h2></a>
         <div class="bars">
             <i class="fa fa-bars"></i>
         </div>
