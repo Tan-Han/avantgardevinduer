@@ -72,7 +72,7 @@
     padding-left: 5rem;
   }
 
-  .image-company {
+  .image-box img {
     width: 100%;
     height: 400px;
     object-fit: cover;
