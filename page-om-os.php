@@ -103,6 +103,10 @@
   .image-box {
     padding-left: 3rem;
   }
+
+  .image-box img {
+    height: 300px;
+  }
 }
 </style>
 
