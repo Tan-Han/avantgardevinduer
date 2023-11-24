@@ -208,11 +208,11 @@
 
 
     /* responsive design */
-    @media screen (max-width: 950px) {
+    /* @media screen (max-width: 950px) {
         .fordel {
             flex-direction: row;
         }
-    }
+    } */
 
 
 </style>
