@@ -20,7 +20,7 @@
 
   <div class="about-part-two">
     <div class="text-box">
-    <h3>Firmaets historie</h3>
+    <h3></h3>
     <p><?php the_field("") ?></p>
     </div>
     <div class="image-box">
