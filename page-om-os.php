@@ -8,7 +8,7 @@
 </div>
 
 <div class="about-content">
-  <div class="about-part-one">
+  <div class="about-content-inner">
     <div class="text-box">
       <h3>Firmaets historie</h3>
       <p>
@@ -48,16 +48,16 @@
   }
 
   .about-content {
-    padding: 0 10%;
+    padding: 0 10% 3rem 10%;
   }
 
-  .about-part-one {
+  .about-content-inner {
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .about-part-one h3 {
+  .about-content-inner h3 {
     font-style: normal;
     font-weight: 700;
   }
