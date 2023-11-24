@@ -64,12 +64,12 @@
     flex-direction: column;
   }
 
-  h1 {
+  .contact-headline-box h1 {
     font-size: 70px;
     font-weight: 700;
   }
 
-  h2 {
+  .contact-headline-box h2 {
     font-size: 30px;
     font-style: italic;
   }
