@@ -62,6 +62,10 @@
     font-weight: 700;
   }
 
+  .about-content-inner p {
+    font-size: 20px;
+  }
+
   .text-box {
     width: 50%;
     padding-right: 5rem;
