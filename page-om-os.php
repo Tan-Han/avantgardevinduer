@@ -55,6 +55,10 @@
     opacity: 100%;
   }
 
+  .about-content {
+    padding: 0 10%;
+  }
+
   .about-part-one {
     display: flex;
     justify-content: center;
