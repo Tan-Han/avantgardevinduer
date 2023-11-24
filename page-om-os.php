@@ -10,21 +10,13 @@
 <div class="about-content">
   <div class="about-part-one">
     <div class="text-box">
-    <h3>Firmaets historie</h3>
-    <p><?php the_field("company") ?></p>
+      <h3>Firmaets historie</h3>
+      <p>
+        <?php the_field("company") ?>
+      </p>
     </div>
     <div class="image-box">
       <img src="<?php the_field("image_company") ?>" alt="">
-    </div>
-  </div>
-
-  <div class="about-part-two">
-    <div class="text-box">
-    <h3></h3>
-    <p><?php the_field("") ?></p>
-    </div>
-    <div class="image-box">
-      <img src="<?php the_field("") ?>" alt="">
     </div>
   </div>
 </div>
@@ -65,14 +57,26 @@
     align-items: center;
   }
 
+  .about-part-one h3 {
+    font-style: normal;
+    font-weight: 700;
+  }
+
   .text-box {
     width: 50%;
+    padding-right: 5rem;
   }
 
   .image-box {
     width: 50%;
+    padding-left: 5rem;
   }
 
+  .image-company {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
 </style>
 
 <?php get_footer() ?>
