@@ -8,12 +8,12 @@
   </div>
   <div class="info">
     <p class="bold">Avantgardevinduer</p>
-    <a href="<?php the_field("address-link") ?>"><?php the_field("address") ?></a>
-    <a href="<?php the_field("telephone") ?>">
-      <?php the_field("telephone") ?>
+    <a href="https://maps.app.goo.gl/sxr5qkanNizhn3P76">Fasanvej 15, 6760 Ribe</a>
+    <a href="20872332">
+      +45 20 87 23 32
     </a>
-    <a href="<?php the_field("mail") ?>">
-      <?php the_field("mail") ?>
+    <a href="bsh@avantgardevinduer.dk">
+      bsh@avantgardevinduer.dk
     </a>
     <p>CVR - 33019572</p>
     <a class="fb-link" href="https://www.facebook.com/avantgardevinduer" target=”_blank”><i
