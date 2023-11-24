@@ -42,7 +42,7 @@
   }
 
   hr {
-    width: 40%;
+    width: 50%;
     border-top: 3px solid #333333;
     opacity: 100%;
   }
