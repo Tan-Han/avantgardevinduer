@@ -81,6 +81,21 @@
     height: 400px;
     object-fit: cover;
   }
+
+  @media screen and (max-width: 1300px) {
+
+.about-headline h1 {
+  font-size: 55px;
+}
+
+.about-headline h2 {
+  font-size: 25px;
+}
+
+.about-content-inner p {
+    font-size: 16px;
+  }
+}
 </style>
 
 <?php get_footer() ?>
