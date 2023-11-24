@@ -76,7 +76,7 @@
                 <?php foreach($farver as $post):
                     setup_postdata($post) ?>
                         <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                        <div style="width: 50px; height: 50px;"><img src="<?php the_field("img_color") ?>" alt=""></div>
+                        <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
                         <span><?php the_title() ?></span>
                     
                 <?php endforeach ?>
