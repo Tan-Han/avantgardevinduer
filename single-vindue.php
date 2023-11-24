@@ -99,7 +99,7 @@
 
     <!-- fordel 1 -->
     <div class="container ten-percent">
-        <div class="row">
+        <div class="row fordel">
             <!-- billede -->
             <div class="col">
                 <hr class="hr-small">
@@ -119,7 +119,7 @@
 
     <!-- fordel 2 -->
     <div class="container ten-percent pb-5">
-        <div class="row">
+        <div class="row fordel">
             <!-- billede -->
             <div class="col">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="">
@@ -145,7 +145,7 @@
 
     <!-- fordel 3 -->
     <div class="container ten-percent pb-5">
-        <div class="row">
+        <div class="row fordel">
             <div class="col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_3") ?></h3>
@@ -158,7 +158,7 @@
 
     <!-- fordel 4 -->
     <div class="container ten-percent pb-5">
-        <div class="row">
+        <div class="row fordel">
             <div class="col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_4") ?></h3>
@@ -172,7 +172,7 @@
 
     <!-- fordel 5 -->
     <div class="container ten-percent pb-5">
-        <div class="row">
+        <div class="row fordel">
             <div class="col">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
             </div>
@@ -186,7 +186,7 @@
 
     <!-- fordel 6 -->
     <div class="container ten-percent pb-5">
-        <div class="row">
+        <div class="row fordel">
             <div class="col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_6") ?></h3>
@@ -208,7 +208,11 @@
 
 
     /* responsive design */
-
+    @media screen (max-width: 950px) {
+        .fordel {
+            flex-direction: row;
+        }
+    }
 
 
 </style>
