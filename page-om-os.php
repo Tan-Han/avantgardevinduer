@@ -95,6 +95,14 @@
 .about-content-inner p {
     font-size: 16px;
   }
+
+  .text-box {
+    padding-right: 3rem;
+  }
+
+  .image-box {
+    padding-left: 3rem;
+  }
 }
 </style>
 
