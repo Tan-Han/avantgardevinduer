@@ -44,7 +44,7 @@
         <!-- img -->
         <div class="col">
             <div>
-                <img src="<?php the_field("produkt_billede")?>" alt="" style="width: 100px; height: 100px;">
+                <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
             </div>
         </div>
     </div>
