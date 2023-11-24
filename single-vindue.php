@@ -94,7 +94,7 @@
 <!-- fordele -->
 <div class="secondary-bg pb-5">
     <div>
-        <h2 class="text-center pt-5 pb-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
+        <h2 class="text-center pt-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
     </div>
 
     <!-- fordel 1 -->
@@ -150,7 +150,7 @@
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_3") ?></h3>
                 <h4><?php the_field("fordel_subheadline_3") ?></h4>
-                <p><?php the_field("fordel_beskrivelse_3") ?></p>
+                <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
                 <img src="<?php the_field("fordel_billede_3") ?>" alt="">
             </div> 
         </div>
@@ -190,7 +190,7 @@
             <div class="col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_6") ?></h3>
-                <p><?php the_field("fordel_beskrivelse_6") ?></p>
+                <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
                 <img src="<?php the_field("fordel_billede_6") ?>" alt="">
             </div>
         </div>
