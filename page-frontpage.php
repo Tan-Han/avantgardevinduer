@@ -98,7 +98,7 @@
 
   .frontpage-content .image-box img {
     width: 100%;
-    height: 300px;
+    height: 400px;
     object-fit: cover;
   }
 
@@ -130,6 +130,10 @@
 
   .frontpage-content .text-box p {
     font-size: 16px;
+  }
+
+  .frontpage-content .image-box img {
+    height: 300px;
   }
     
   }
