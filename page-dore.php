@@ -8,7 +8,7 @@
 </div>
 
 <div class="content-productlist">
-    <?php $productLoop = new WP_Query(array("post_type" => "vindue", "posts_per_page" => -1)) ?>
+    <?php $productLoop = new WP_Query(array("post_type" => "dor", "posts_per_page" => -1)) ?>
     <?php while ($productLoop->have_posts()):
         $productLoop->the_post() ?>
 
