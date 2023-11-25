@@ -151,10 +151,10 @@ li.nav-link {
   align-items: center;
 }
 
-li.nav-link:hover {
+/* li.nav-link:hover {
   background-color: var(--tertiary-color);
   color: var(--black);
-}
+} */
 
 li.nav-link a {
   text-decoration: none;
@@ -162,6 +162,10 @@ li.nav-link a {
   font-weight: 400;
   font-size: 18px;
   text-transform: uppercase;
+}
+
+li.nav-link a:hover {
+  color: var(--tertiary-color);
 }
 
 @media screen and (max-width: 800px) {
