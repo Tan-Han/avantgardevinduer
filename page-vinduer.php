@@ -76,6 +76,10 @@
         object-fit: cover;
     }
 
+    .content-productlist .card .card-body {
+        padding: 1rem;
+    }
+
     .content-productlist .card .card-body a {
         text-decoration: none;
         color: var(--black);
