@@ -60,14 +60,23 @@
         padding: 0 10% 3rem 10%;
     }
 
-.content-productlist a {
-    text-decoration: none;
-    color: var(--black);
-}
+    .content-productlist .card {
+        border: none;
+        border-radius: 0;
+    }
 
-.content-productlist h3 {
-    font-style: normal;
-}
+    .content-productlist a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .content-productlist a:hover {
+        color: var(--tertiary-color);
+    }
+
+    .content-productlist h3 {
+        font-style: normal;
+    }
 
 </style>
 
