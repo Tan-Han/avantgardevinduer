@@ -1,8 +1,8 @@
 <?php get_header() ?>
 
 <div class="headline-productlist">
-    <h1>Vinduer</h1>
-    <h2>Her kan du læse mere om de vinduer vi tilbyder</h2>
+    <h1>Døre</h1>
+    <h2>Her kan du læse mere om de døre vi tilbyder</h2>
 
     <hr>
 </div>
