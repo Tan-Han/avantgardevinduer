@@ -15,16 +15,13 @@
         $productLoop->the_post() ?>
 
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="<?php the_field("produkt_billede") ?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <a href="<?php the_permalink() ?>"><h3><?php the_title() ?></h3></a>
                 <p class="card-text"><?php the_field("kort_beskrivelse") ?></p>
             </div>
         </div>
 
-        <a href="<?php the_permalink() ?>">
-            <?php the_title() ?>
-        </a>
     <?php endwhile ?>
 
 </div>
