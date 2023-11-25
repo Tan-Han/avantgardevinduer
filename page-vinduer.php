@@ -61,8 +61,9 @@
     }
 
     .content-productlist .card {
-        border: none;
         border-radius: 0;
+        box-shadow: 5px 5px 2px 0px #333333cf;
+        border: .5px solid #333333cf;
     }
 
     .content-productlist .card img {
@@ -82,7 +83,6 @@
         font-style: normal;
         text-align: center;
     }
-
 </style>
 
 <?php get_footer() ?>
