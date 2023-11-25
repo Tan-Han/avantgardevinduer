@@ -58,9 +58,8 @@
 
     .content-productlist {
         padding: 0 10% 3rem 10%;
-        margin: 0 auto;
         display: grid;
-        grid-gap: 1rem;
+        justify-items: center;
     }
 
     .content-productlist .card {
@@ -71,6 +70,9 @@
 
     .content-productlist .card img {
         border-radius: 0;
+        height: 210px;
+        width: 100%;
+        object-fit: cover;
     }
 
     .content-productlist .card .card-body a {
@@ -107,6 +109,12 @@
     @media (min-width: 900px) {
         .cards {
             grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (min-width: 1300px) {
+        .cards {
+            grid-template-columns: repeat(4, 1fr);
         }
     }
 </style>
