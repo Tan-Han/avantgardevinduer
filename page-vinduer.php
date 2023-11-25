@@ -80,6 +80,7 @@
 
     .content-productlist h3 {
         font-style: normal;
+        text-align: center;
     }
 
 </style>
