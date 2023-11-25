@@ -60,6 +60,7 @@
         padding: 0 10% 3rem 10%;
         display: grid;
         justify-items: center;
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .content-productlist .card {
@@ -97,26 +98,6 @@
         overflow: hidden;
     }
 
-
-    /* Screen larger than 600px? 2 column */
-    @media (min-width: 600px) {
-        .cards {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    /* Screen larger than 900px? 3 columns */
-    @media (min-width: 900px) {
-        .cards {
-            grid-template-columns: repeat(3, 1fr);
-        }
-    }
-
-    @media (min-width: 1300px) {
-        .cards {
-            grid-template-columns: repeat(4, 1fr);
-        }
-    }
 </style>
 
 <?php get_footer() ?>
