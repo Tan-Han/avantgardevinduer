@@ -43,7 +43,7 @@
 
   hr {
     width: 50%;
-    border-top: 3px solid #333333;
+    border-top: 3px solid var(--primary-color);
     opacity: 100%;
   }
 

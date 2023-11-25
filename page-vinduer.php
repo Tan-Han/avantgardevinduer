@@ -51,7 +51,7 @@
     }
 
     hr {
-        width: 50%;
+        width: 45%;
         border-top: 3px solid #333333;
         opacity: 100%;
     }
@@ -59,6 +59,16 @@
     .content-productlist {
         padding: 0 10% 3rem 10%;
     }
+
+.content-productlist a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.content-productlist h3 {
+    font-style: normal;
+}
+
 </style>
 
 <?php get_footer() ?>

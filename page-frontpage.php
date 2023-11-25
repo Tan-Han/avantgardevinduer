@@ -37,13 +37,13 @@
 
   h1 {
     padding: 1rem 0;
-    color: #f5f5f5;
+    color: var(--white);
     font-size: 85px;
     text-shadow: #333 3px 3px 3px;
   }
 
   h3 {
-    color: #f5f5f5;
+    color: var(--white);
     padding: 1rem 0;
     font-size: 60px;
     font-weight: 400;
@@ -51,7 +51,7 @@
   }
 
   hr {
-    color: #f5f5f5;
+    color: var(--white);
     width: 60%;
     border-top: 3px solid;
     opacity: 100%;
@@ -59,14 +59,14 @@
 
   .frontpage-mini-nav {
     width: 100%;
-    background-color: #708090;
+    background-color: var(--tertiary-color);
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .frontpage-mini-nav p {
-    color: #f5f5f5;
+    color: var(--white);
     font-size: 25px;
     font-weight: 700;
     padding: .8rem 0;
@@ -118,10 +118,7 @@
     }
 
     .frontpage-mini-nav p {
-    color: #f5f5f5;
     font-size: 20px;
-    font-weight: 700;
-    padding: .8rem 0;
     }
 
     .frontpage-content .text-box h2 {

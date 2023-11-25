@@ -108,11 +108,11 @@
 
   .contact-info a {
     text-decoration: none;
-    color: #333333;
+    color: var(--black);
   }
 
   .contact-info a:hover {
-    color: #708090;
+    color: var(--tertiary-color);
     text-decoration: underline;
   }
 
@@ -185,12 +185,12 @@
   .submit-btn input {
     width: fit-content;
     padding: .2rem .5rem;
-    background-color: #003366;
+    background-color: var(--quaternary-color);
     color: #f5f5f5;
   }
 
   .submit-btn input:hover {
-    background-color: #708090;
+    background-color: var(--tertiary-color);
     color: #f5f5f5;
   }
 
