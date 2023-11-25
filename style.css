@@ -163,9 +163,9 @@ li.nav-link a {
   text-transform: uppercase;
 }
 
-li.nav-link a:hover {
-  color: var(--black);
-}
+/* li.nav-link a:hover {
+  color: var(--tertiary-color);
+} */
 
 @media screen and (max-width: 800px) {
   nav .bars {
