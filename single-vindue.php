@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container ten-percent pb-5">
+<div class="container ten-percent pt-5 pb-5">
     <div class="row">
         <div class="col">
             <!-- titel -->
@@ -44,7 +44,7 @@
         <!-- img -->
         <div class="col">
             <div>
-                <img src="<?php the_field("produkt_billede")?>" alt="">
+                <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                 <?php foreach($farver as $post):
                     setup_postdata($post) ?>
                         <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                        <div style="width: 50px; height: 50px;"><img src="<?php the_field("img_color") ?>" alt=""></div>
+                        <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
                         <span><?php the_title() ?></span>
                     
                 <?php endforeach ?>
@@ -94,7 +94,7 @@
 <!-- fordele -->
 <div class="secondary-bg pb-5">
     <div>
-        <h2 class="text-center pt-5 pb-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
+        <h2 class="text-center pt-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
     </div>
 
     <!-- fordel 1 -->
@@ -150,7 +150,7 @@
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_3") ?></h3>
                 <h4><?php the_field("fordel_subheadline_3") ?></h4>
-                <p><?php the_field("fordel_beskrivelse_3") ?></p>
+                <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
                 <img src="<?php the_field("fordel_billede_3") ?>" alt="">
             </div> 
         </div>
@@ -190,7 +190,7 @@
             <div class="col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_6") ?></h3>
-                <p><?php the_field("fordel_beskrivelse_6") ?></p>
+                <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
                 <img src="<?php the_field("fordel_billede_6") ?>" alt="">
             </div>
         </div>
