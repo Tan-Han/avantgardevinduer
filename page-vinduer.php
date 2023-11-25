@@ -97,7 +97,7 @@
     .content-productlist .card .card-body .card-text {
         display: -webkit-box;
         max-width: 200px;
-        -webkit-line-clamp: 3;
+        -webkit-line-clamp: 5;
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
