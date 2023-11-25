@@ -1,12 +1,10 @@
 <?php get_header() ?>
 
 <div class="headline-productlist">
-    <div class="about-headline">
-        <h1>Vinduer</h1>
-        <h2>Her kan du læse mere om de vinduer vi tilbyder</h2>
+    <h1>Vinduer</h1>
+    <h2>Her kan du læse mere om de vinduer vi tilbyder</h2>
 
-        <hr>
-    </div>
+    <hr>
 </div>
 
 <div class="content-productlist">
