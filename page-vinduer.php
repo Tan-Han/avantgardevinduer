@@ -65,6 +65,10 @@
         border-radius: 0;
     }
 
+    .content-productlist .card img {
+        border-radius: 0;
+    }
+
     .content-productlist a {
         text-decoration: none;
         color: var(--black);
