@@ -70,7 +70,7 @@
   }
 
   .contact-headline-box h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
   }
 
