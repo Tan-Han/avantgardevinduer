@@ -207,6 +207,8 @@
     }
 
     .gap {
+        display: flex;
+        flex-direction: column;
         gap: 18px;
     }
 
