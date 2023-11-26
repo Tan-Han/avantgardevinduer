@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<div class="container ten-percent pb-5">
+<div class="container ten-percent">
     <div class="row">
         <div class="col">
             <!-- loop med farver -->
@@ -72,7 +72,7 @@
                 setup_postdata($post); ?>
                 <h2><?php the_title() ?></h2>
 
-                <div class="flex">
+                <div class="flex pb-5">
                     <?php $farver = get_field("farver") ?>
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
