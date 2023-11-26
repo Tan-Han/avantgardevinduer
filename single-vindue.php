@@ -12,7 +12,7 @@
 
             <!-- specifikationer -->
             <div class="row">
-                <div class="col">
+                <div class="col pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_1")?></h5>
