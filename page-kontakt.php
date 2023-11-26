@@ -292,10 +292,10 @@
     .contact-info {
       flex-direction: column;
       justify-content: center;
-      width: 100%;
       column-gap: 0;
-      padding-right: 0;
+      padding: 0 30% 2rem 30%;
     }
+
   }
   
 
