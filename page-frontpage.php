@@ -114,7 +114,7 @@
   @media screen and (max-width: 1600px) {
     h3 {
       font-size: 55px;
-       }
+    }
   }
 
   @media screen and (max-width: 1480px) {
@@ -129,11 +129,11 @@
 
     h3 {
       font-size: 40px;
-       }
+    }
 
-       hr {
-        width: 70;
-       }
+    hr {
+      width: 70%;
+    }
 
     .frontpage-content .text-box h2 {
       font-size: 35px;
@@ -154,7 +154,8 @@
       font-size: 20px;
     }
 
-    .frontpage-content .text-box h1 {
+    h1,
+    h3 {
       padding: .5rem 0;
     }
 
@@ -203,78 +204,78 @@
 
     .frontpage-mini-nav p {
       font-size: 18px;
-    } 
+    }
 
   }
 
   @media screen and (max-width: 900px) {
     .frontpage-content {
-    flex-direction: column;
-  }
+      flex-direction: column;
+    }
 
-  .frontpage-content .text-box {
-    width: 100%;
-    padding: 3rem 10%;
-  }
+    .frontpage-content .text-box {
+      width: 100%;
+      padding: 3rem 10%;
+    }
 
-  .frontpage-content .text-box h2 {
-    font-size: 35px;
-  }
+    .frontpage-content .text-box h2 {
+      font-size: 35px;
+    }
 
-  .frontpage-content .text-box p {
-    font-size: 16px;
-  }
+    .frontpage-content .text-box p {
+      font-size: 16px;
+    }
 
-  .frontpage-content .image-box {
-    width: 100%;
-    padding: 0rem 10% 3rem 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: fit-content;
-  }
+    .frontpage-content .image-box {
+      width: 100%;
+      padding: 0rem 10% 3rem 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: fit-content;
+    }
 
-  .frontpage-content .image-box img {
-    width: 80%;
-    height: 300px;
-  }
+    .frontpage-content .image-box img {
+      width: 80%;
+      height: 300px;
+    }
   }
 
   @media screen and (max-width: 860px) {
     h1 {
-        font-size: 45px;
-      }
-  
-      h3 {
-        font-size: 30px;
-      }
+      font-size: 45px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
   }
 
   @media screen and (max-width: 660px) {
 
-  .frontpage-content .text-box h2 {
-    font-size: 30px;
+    .frontpage-content .text-box h2 {
+      font-size: 30px;
+    }
+
+    .frontpage-content .text-box p {
+      font-size: 14px;
+    }
+
+    .frontpage-content .image-box img {
+      height: 250px;
+    }
   }
 
-  .frontpage-content .text-box p {
-    font-size: 14px;
-  }
-
-  .frontpage-content .image-box img {
-    height: 250px;
-  }
-}
-
-@media screen and (max-width: 650px) {
+  @media screen and (max-width: 650px) {
     h1 {
-        font-size: 45px;
-        padding: .25rem 0;
-      }
-  
-      h3 {
-        font-size: 30px;
-        padding: .25rem 0;
-      }
+      font-size: 45px;
+      padding: .25rem 0;
+    }
+
+    h3 {
+      font-size: 30px;
+      padding: .25rem 0;
+    }
   }
 </style>
 
