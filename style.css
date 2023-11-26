@@ -292,8 +292,11 @@ footer .logo-box .logo {
   footer .links {
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
     padding-bottom: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+
   }
 
   footer .info {
@@ -306,7 +309,7 @@ footer .logo-box .logo {
   }
 
   footer .logo-box .logo {
-    
+
     height: 125px;
   }
 }
@@ -335,18 +338,6 @@ footer .logo-box .logo {
 
   footer .logo-box .logo {
     height: 150px;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  footer .links {
-    justify-content: left;
-    flex-wrap: wrap;
-    column-gap: 2rem;
-  }
-
-  footer .links a {
-
   }
 }
 
