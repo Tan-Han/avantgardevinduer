@@ -301,16 +301,34 @@ footer .logo-box .logo {
     align-items: start;
   }
 
-
-
   footer .logo-box {
     width: 50%;
+    height: 125px;
   }
-
 }
 
+@media screen and (max-width: 700px) {
+  footer .logo-box {
+    height: 100px;
+  }
+}
 
+@media screen and (max-width: 650px) {
+  footer {
+    flex-direction: column;
+  }
 
+  footer .info {
+    width: 100%;
+    align-items: center;
+  }
+
+  footer .logo-box {
+    width: 100%;
+    justify-content: center;
+    height: 150px;
+  }
+}
 
 /* PRODUCT LIST PAGES (VINDUER OG DØRE) */
 
