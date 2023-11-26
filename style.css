@@ -355,7 +355,8 @@ footer .logo-box .logo {
     align-items: center;
   }
 
-  footer .links a, footer .links p {
+  footer .links a,
+  footer .links p {
     font-size: 12px;
   }
 
