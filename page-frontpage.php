@@ -59,7 +59,7 @@
 
   hr {
     color: var(--white);
-    width: 70%;
+    width: 75%;
     border-top: 3px solid;
     opacity: 100%;
   }
