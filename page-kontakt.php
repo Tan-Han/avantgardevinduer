@@ -289,33 +289,7 @@
   }
 
   @media screen and (max-width: 665px) {
-    .telephone,
-  .address,
-  .mail {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 1rem 0;
-    font-size: 18px;
-  }
-
-  .info {
-    padding: 1rem;
-    text-align: right;
-  }
-
-  .icon {
-    border-left: #333333 solid 2px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 1rem 1rem;
-  }
-
-  .icon span {
-    font-size: 40px;
-  }
-  }
+  
 
 </style>
 
