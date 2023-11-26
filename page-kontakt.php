@@ -13,7 +13,7 @@
       <div class="info">
         <p class="contact-info-headline">Telefon</p>
         <p>
-          <a href="<?php the_field("telephone") ?>">
+          <a href="tel:<?php the_field("telephone") ?>">
             <?php the_field("telephone") ?>
         </p></a>
       </div>
@@ -37,7 +37,7 @@
     <div class="mail">
       <div class="info">
         <p class="contact-info-headline">E-mail</p>
-        <a href="<?php the_field("mail") ?>">
+        <a href="mailto:<?php the_field("mail") ?>">
           <p>
             <?php the_field("mail") ?>
           </p>
@@ -217,6 +217,10 @@
     .contact-info {
       padding-right: 5rem;
     }
+  }
+
+  @media screen and (max-width: 1150px) {
+    
   }
 </style>
 
