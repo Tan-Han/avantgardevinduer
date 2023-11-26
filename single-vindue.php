@@ -72,13 +72,15 @@
                 setup_postdata($post); ?>
                 <h2><?php the_title() ?></h2>
 
-                <div class="flex pb-5">
+                <div class="flex flex-wrap pb-5">
                     <?php $farver = get_field("farver") ?>
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                            <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
-                            <span><?php the_title() ?></span>
+                            <div class="flex flex-col">
+                                <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
+                                <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
+                                <span><?php the_title() ?></span>
+                            </div>
                         
                     <?php endforeach ?>
                 </div>
@@ -209,7 +211,14 @@
 
     .flex {
         display: flex;
+    }
+
+    .flex-wrap {
         flex-wrap: wrap;
+    }
+
+    .flex-col {
+        flex-direction: column;
     }
 
 
