@@ -63,7 +63,7 @@
 
 <div class="container ten-percent pb-5">
     <div class="row">
-        <div class="col">
+        <div class="col gap">
             <!-- loop med farver -->
             <?php $farvegrupper = get_field("farvegrupper") ?>
             <?php foreach( $farvegrupper as $post ): 
@@ -204,6 +204,10 @@
 
     .hr-small {
         width: 100px;
+    }
+
+    .gap {
+        gap: 18px;
     }
 
 
