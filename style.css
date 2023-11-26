@@ -51,6 +51,7 @@ Author: TRS Hansen, L. N. Nielsen
 
 h1, h2, h3, h4, h5 {
   margin: 0;
+  line-height: normal;
 }
 
 h1 {
@@ -101,7 +102,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   background-color: var(--primary-color);
   color: var(--white);
   position: relative;
@@ -172,6 +173,10 @@ li.nav-link a {
 } */
 
 @media screen and (max-width: 900px) {
+nav {
+  padding: 1rem 1rem;
+}
+
   nav .bars {
     display: block;
   }
