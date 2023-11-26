@@ -292,8 +292,11 @@ footer .logo-box .logo {
   footer .links {
     flex-direction: row;
     width: 100%;
-    justify-content: space-between;
     padding-bottom: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+
   }
 
   footer .info {
@@ -306,7 +309,7 @@ footer .logo-box .logo {
   }
 
   footer .logo-box .logo {
-    
+
     height: 125px;
   }
 }
@@ -325,7 +328,7 @@ footer .logo-box .logo {
   footer .info {
     width: 100%;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   footer .logo-box {
