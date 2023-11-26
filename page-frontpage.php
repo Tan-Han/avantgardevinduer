@@ -135,7 +135,7 @@
     }
 
     .frontpage-content .text-box h2 {
-      font-size: 40px;
+      font-size: 35px;
     }
   }
 
