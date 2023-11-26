@@ -72,7 +72,7 @@
                 setup_postdata($post); ?>
                 <h2><?php the_title() ?></h2>
 
-                <div class="flex flex-wrap pb-5">
+                <div class="flex flex-wrap pb-5 gap">
                     <?php $farver = get_field("farver") ?>
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
@@ -216,7 +216,6 @@
 
     .flex {
         display: flex;
-        column-gap: 20px;
     }
 
     .flex-wrap {
@@ -225,6 +224,10 @@
 
     .flex-col {
         flex-direction: column;
+    }
+
+    .gap {
+        gap: 24px;
     }
 
 
