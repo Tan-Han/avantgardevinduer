@@ -290,18 +290,16 @@ footer .logo-box .logo {
     justify-content: space-between;
   }
 
-  footer .info,
-  footer .logo-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #f5f5f5;
-    flex: 1; /* Equal width for both .info and .logo-box */
+  footer .info {
+    width: 100%;
+    padding: 1rem 0;
   }
 
   footer .logo-box {
-    justify-content: flex-end; /* Align logo to the right within its container */
+    justify-content: center;
+    width: 100%;
   }
+
 }
 
 
