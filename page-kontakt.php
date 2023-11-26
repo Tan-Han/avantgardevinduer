@@ -311,7 +311,7 @@
   @media screen and (max-width: 410px) {
     .contact-info {
       padding: 0 20% 2rem 20%;
-      gap: none;
+      gap: 0;
     }
 
     .contact-form-info p {
