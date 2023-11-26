@@ -113,19 +113,25 @@
 
   @media screen and (max-width: 1480px) {
 
+h3 {
+  font-size: 50px;
+}
+
+}  
+
+  @media screen and (max-width: 1480px) {
+
     .hero {
       height: 600px;
     }
 
     h1 {
       font-size: 65px;
-      padding: .5rem 0;
     }
 
     h3 {
       font-size: 40px;
-      padding: .5rem 0;
-    }
+       }
 
     .frontpage-content .text-box h2 {
       font-size: 35px;
