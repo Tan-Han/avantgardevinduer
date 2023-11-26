@@ -178,12 +178,10 @@
 
     h1 {
       font-size: 50px;
-      padding: .5rem 0;
     }
 
     h3 {
       font-size: 35px;
-      padding: .5rem 0;
     }
 
     .frontpage-mini-nav p {
@@ -228,12 +226,10 @@
   @media screen and (max-width: 860px) {
     h1 {
         font-size: 45px;
-        padding: .5rem 0;
       }
   
       h3 {
         font-size: 30px;
-        padding: .5rem 0;
       }
   }
 
@@ -251,6 +247,18 @@
     height: 250px;
   }
 }
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 45px;
+        padding: .25rem 0;
+      }
+  
+      h3 {
+        font-size: 30px;
+        padding: .25rem 0;
+      }
+  }
 </style>
 
 
