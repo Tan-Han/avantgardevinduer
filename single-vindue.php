@@ -3,7 +3,7 @@
 <!-- hero -->
 <div class="container ten-percent pt-5 pb-5">
     <div class="row">
-        <div class="col">
+        <div class="col-sm-6">
             <!-- titel -->
             <div class="pt-5 pb-2">
                 <h2><?php the_field("produkt_navn")?></h2>
@@ -42,7 +42,7 @@
         </div>
 
         <!-- img -->
-        <div class="col">
+        <div class="col-sm-6">
             <div>
                 <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
             </div> 
@@ -63,7 +63,7 @@
 
 <div class="container ten-percent pb-5">
     <div class="row">
-        <div class="col">
+        <div class="col-sm-6">
             <!-- loop med farver -->
             <?php $farvegrupper = get_field("farvegrupper") ?>
             <?php foreach( $farvegrupper as $post ): 
@@ -101,7 +101,7 @@
     <div class="container ten-percent">
         <div class="row fordel">
             <!-- billede -->
-            <div class="col">
+            <div class="col-sm-6">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_1") ?></h3>
                 <div>
@@ -111,7 +111,7 @@
             </div>
 
             <!-- information -->
-            <div class="col">
+            <div class="col-sm-6">
                 <img src="<?php the_field("fordel_billede_1") ?>" alt="">
             </div>
         </div>
@@ -121,12 +121,12 @@
     <div class="container ten-percent pb-5">
         <div class="row fordel">
             <!-- billede -->
-            <div class="col">
+            <div class="col-sm-6">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="">
             </div>
 
             <!-- information -->
-            <div class="col">
+            <div class="col-sm-6">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_2") ?></h3>
                 <div>
@@ -159,12 +159,12 @@
     <!-- fordel 4 -->
     <div class="container ten-percent pb-5">
         <div class="row fordel">
-            <div class="col">
+            <div class="col-sm-6">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_4") ?></h3>
                 <p><?php the_field("fordel_beskrivelse_4") ?></p>
             </div>  
-            <div class="col">
+            <div class="col-sm-6">
                 <img src="<?php the_field("fordel_billede_4") ?>" alt="">
             </div>
         </div>
@@ -173,10 +173,10 @@
     <!-- fordel 5 -->
     <div class="container ten-percent pb-5">
         <div class="row fordel">
-            <div class="col">
+            <div class="col-sm-6">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
             </div>
-            <div class="col">
+            <div class="col-sm-6">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_5") ?></h3>
                 <p><?php the_field("fordel_beskrivelse_5") ?></p>
