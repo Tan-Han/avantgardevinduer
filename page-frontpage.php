@@ -225,7 +225,7 @@
     }
 
     hr {
-      width: 90%;
+      width: 85%;
     }
 
     .frontpage-content {
@@ -270,6 +270,24 @@
     }
   }
 
+  @media screen and (max-width: 760px) {
+    h1 {
+      font-size: 42px;
+    }
+
+    h3 {
+      font-size: 27px;
+    }
+  }
+
+  @media screen and (max-width: 680px) {
+
+    hr {
+      width: 95%;
+    }
+
+  }
+  
   @media screen and (max-width: 660px) {
 
     .frontpage-content .text-box h2 {
@@ -285,7 +303,11 @@
     }
   }
 
-  @media screen and (max-width: 650px) {}
+  @media screen and (max-width: 600px) {
+    hr {
+      width: 100%;
+    }
+  }
 </style>
 
 
