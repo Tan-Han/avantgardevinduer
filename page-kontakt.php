@@ -289,6 +289,14 @@
   }
 
   @media screen and (max-width: 665px) {
+    .contact-info {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      column-gap: 0;
+      padding-right: 0;
+    }
+  }
   
 
 </style>
