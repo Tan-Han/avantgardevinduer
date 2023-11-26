@@ -127,7 +127,7 @@
 
     <!-- fordel 2 -->
     <div class="container ten-percent pb-5">
-        <div class="row fordel">
+        <div class="row fordel col-reverse">
             <!-- billede -->
             <div class="col">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="">
@@ -232,11 +232,11 @@
 
 
     /* responsive design */
-    /* @media screen (max-width: 950px) {
-        .fordel {
-            flex-direction: row;
+    @media screen (max-width: 950px) {
+        .col-reverse {
+            flex-direction: column-reverse;
         }
-    } */
+    }
 
 
 </style>
