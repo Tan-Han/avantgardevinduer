@@ -303,12 +303,16 @@ footer .logo-box .logo {
 
   footer .logo-box {
     width: 50%;
+  }
+
+  footer .logo-box .logo {
+    
     height: 125px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  footer .logo-box {
+  footer .logo-box .logo {
     height: 100px;
   }
 }
@@ -321,12 +325,15 @@ footer .logo-box .logo {
   footer .info {
     width: 100%;
     align-items: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   footer .logo-box {
     width: 100%;
     justify-content: center;
+  }
+
+  footer .logo-box .logo {
     height: 150px;
   }
 }
