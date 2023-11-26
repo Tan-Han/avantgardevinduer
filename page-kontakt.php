@@ -236,6 +236,7 @@
     .info {
       text-align: center;
       width: 100%;
+      padding: 1rem 0;
     }
 
     .icon {
@@ -243,6 +244,34 @@
       border-bottom: #333 solid 2px;
       justify-content: center;
       width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .content-contact {
+      flex-direction: column;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .telephone,
+    .address,
+    .mail {
+      width: 33%;
+      font-size: 14px;
+    }
+
+    .info,
+    .icon {
+      padding: .5rem 1rem;
+    }
+
+    .icon span {
+      font-size: 35px;
     }
   }
 </style>
