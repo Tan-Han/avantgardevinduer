@@ -214,10 +214,10 @@
         width: 100px;
     }
 
-    /* .gap-4 {
+    .gap-4 {
         display: flex;
-        gap: 18px;
-    } */
+        gap: 0px;
+    }
 
     .flex {
         display: flex;
