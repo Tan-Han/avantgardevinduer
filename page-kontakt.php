@@ -238,6 +238,7 @@
     }
 
     .icon {
+      border-left: none;
       border-bottom: #333 solid 2px;
       justify-content: center;
       width: 100%;
