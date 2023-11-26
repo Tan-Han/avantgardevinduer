@@ -106,8 +106,8 @@
     </div>
 
     <!-- fordel 1 -->
-    <div class="container ten-percent">
-        <div class="row fordel">
+    <div class="container ten-percent responsive-col">
+        <div class="row fordel responsive-col">
             <!-- billede -->
             <div class="col">
                 <hr class="hr-small">
@@ -232,7 +232,12 @@
 
 
     /* responsive design */
-    @media screen (max-width: 950px) {
+    @media screen (max-width: 1000px) {
+        .responsive-col {
+            display: flex;
+            flex-direction: row;
+        }
+
         .col-reverse {
             flex-direction: column-reverse;
         }
