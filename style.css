@@ -321,6 +321,7 @@ footer .logo-box .logo {
   footer .info {
     width: 100%;
     align-items: center;
+    padding-bottom: 2rem;
   }
 
   footer .logo-box {
