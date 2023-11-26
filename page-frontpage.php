@@ -164,7 +164,7 @@
     .frontpage-content .text-box p {
       font-size: 14px;
     }
-    
+
     .frontpage-content .image-box img {
       height: 250px;
     }
@@ -221,18 +221,21 @@
   .frontpage-content .image-box img {
     width: 80%;
     height: 300px;
-    object-fit: cover;
   }
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 660px) {
 
   .frontpage-content .text-box h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .frontpage-content .text-box p {
     font-size: 14px;
+  }
+
+  .frontpage-content .image-box img {
+    height: 250px;
   }
 }
 </style>
