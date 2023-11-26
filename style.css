@@ -265,6 +265,32 @@ footer .logo-box .logo {
   width: auto;
 }
 
+@media screen and (max-width: 1300px) {
+  footer .logo-box .logo {
+    height: 125px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  footer .logo-box .logo {
+    height: 110px;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .links {
+    flex: 100%;
+  }
+
+  .info,
+  .logo-box {
+    flex: 50%;
+  }
+}
+}
+
 /* PRODUCT LIST PAGES (VINDUER OG DØRE) */
 
 .headline-productlist {
