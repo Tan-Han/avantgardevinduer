@@ -283,27 +283,28 @@ footer .logo-box .logo {
   footer {
     flex-direction: column;
   }
-  
+
   footer .links {
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
   }
-  
-  footer .info,
-  footer .logo-box {
-    width: 100%;
-  }
-  
+
   footer .info {
-    order: 2; /* Change the order to 2 for smaller screens */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    width: 50%; /* Adjusted width to 50% */
   }
 
   footer .logo-box {
-    order: 1; /* Change the order to 1 for smaller screens */
-    justify-content: flex-end; /* Align the logo to the right */
+    justify-content: center;
+    width: 50%; /* Adjusted width to 50% */
   }
 }
+
 
 
 /* PRODUCT LIST PAGES (VINDUER OG DØRE) */
