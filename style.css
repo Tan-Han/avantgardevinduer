@@ -167,7 +167,7 @@ li.nav-link a {
   color: var(--tertiary-color);
 } */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   nav .bars {
     display: block;
   }

@@ -190,6 +190,37 @@
 
   }
 
+  @media screen and (max-width: 900px) {
+    .frontpage-content {
+    flex-direction: column;
+  }
+
+  .frontpage-content .text-box {
+    width: 100%;
+    padding: 3rem 10%;
+  }
+
+  .frontpage-content .text-box h2 {
+    font-size: 50px;
+  }
+
+  .frontpage-content .text-box p {
+    font-size: 20px;
+  }
+
+  .frontpage-content .image-box {
+    width: 100%;
+    padding: 3rem 10%;
+  }
+
+  .frontpage-content .image-box img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  }
+
 </style>
 
 
