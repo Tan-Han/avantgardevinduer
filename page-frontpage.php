@@ -154,6 +154,20 @@
     }
 
   }
+
+  @media screen and (max-width: 1150px) {
+
+    .frontpage-content .text-box h2 {
+      font-size: 25px;
+    }
+
+    .frontpage-content .text-box p {
+      font-size: 14px;
+    }
+    .frontpage-content .image-box img {
+      height: 250px;
+    }
+  }
 </style>
 
 
