@@ -120,7 +120,9 @@
 
             <!-- information -->
             <div class="col">
-                <img src="<?php the_field("fordel_billede_1") ?>" alt="">
+                <div>
+                    <img src="<?php the_field("fordel_billede_1") ?>" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -245,12 +247,6 @@
 
         .row-reverse {
             flex-direction: row-reverse;
-        }
-    }
-
-    @media screen (min-width: 768px) {
-        .container, .container-md, .container-sm {
-            max-width: auto !important;
         }
     }
 
