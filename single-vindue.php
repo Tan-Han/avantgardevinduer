@@ -120,16 +120,14 @@
 
             <!-- information -->
             <div class="col">
-                <div class="p-1">
-                    <img src="<?php the_field("fordel_billede_1") ?>" alt="">
-                </div>
+                <img src="<?php the_field("fordel_billede_1") ?>" alt="">
             </div>
         </div>
     </div>
 
     <!-- fordel 2 -->
-    <div class="container ten-percent pb-5 responsive-col col-reverse row-reverse">
-        <div class="row fordel col-reverse row-reverse">
+    <div class="container ten-percent pb-5 responsive-col">
+        <div class="row fordel col-reverse">
             <!-- billede -->
             <div class="col">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="">
@@ -182,7 +180,7 @@
 
     <!-- fordel 5 -->
     <div class="container ten-percent pb-5 responsive-col">
-        <div class="row fordel">
+        <div class="row fordel col-reverse">
             <div class="col">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
             </div>
@@ -243,10 +241,6 @@
 
         .col-reverse {
             flex-direction: column-reverse;
-        }
-
-        .row-reverse {
-            flex-direction: row-reverse;
         }
     }
 
