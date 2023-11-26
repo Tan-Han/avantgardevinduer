@@ -126,7 +126,7 @@
     </div>
 
     <!-- fordel 2 -->
-    <div class="container ten-percent pb-5 responsive-col">
+    <div class="container ten-percent pb-5">
         <div class="row fordel col-reverse">
             <!-- billede -->
             <div class="col">
@@ -179,7 +179,7 @@
     </div>
 
     <!-- fordel 5 -->
-    <div class="container ten-percent pb-5 responsive-col">
+    <div class="container ten-percent pb-5">
         <div class="row fordel col-reverse">
             <div class="col">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
@@ -236,11 +236,12 @@
     @media screen (max-width: 1000px) {
         .responsive-col {
             display: flex;
-            flex-direction: row !important; 
+            flex-direction: row; 
         }
 
         .col-reverse {
-            flex-direction: column-reverse !important;
+            display: flex;
+            flex-direction: column-reverse;
         }
     }
 
