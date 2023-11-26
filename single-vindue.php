@@ -107,7 +107,7 @@
 
     <!-- fordel 1 -->
     <div class="container ten-percent responsive-col">
-        <div class="row fordel responsive-col">
+        <div class="row fordel">
             <!-- billede -->
             <div class="col">
                 <hr class="hr-small">
