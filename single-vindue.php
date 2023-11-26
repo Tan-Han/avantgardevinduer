@@ -63,7 +63,7 @@
 
 <div class="container ten-percent pb-5">
     <div class="row">
-        <div class="col gap">
+        <div class="col">
             <!-- loop med farver -->
             <?php $farvegrupper = get_field("farvegrupper") ?>
             <?php foreach( $farvegrupper as $post ): 
@@ -72,15 +72,16 @@
                 setup_postdata($post); ?>
                 <h2><?php the_title() ?></h2>
 
-                <?php $farver = get_field("farver") ?>
-                <?php foreach($farver as $post):
-                    setup_postdata($post) ?>
-                        <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                        <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
-                        <span><?php the_title() ?></span>
-                    
-                <?php endforeach ?>
-
+                <div class="flex">
+                    <?php $farver = get_field("farver") ?>
+                    <?php foreach($farver as $post):
+                        setup_postdata($post) ?>
+                            <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
+                            <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
+                            <span><?php the_title() ?></span>
+                        
+                    <?php endforeach ?>
+                </div>
             <?php endforeach; ?>
  
             <?php wp_reset_postdata(); ?>
@@ -206,9 +207,8 @@
         width: 100px;
     }
 
-    .gap {
+    .flex {
         display: flex;
-        gap: 18px;
     }
 
 
