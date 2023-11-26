@@ -107,9 +107,9 @@
 
     <!-- fordel 1 -->
     <div class="container ten-percent responsive-col">
-        <div class="row fordel">
+        <div class="flex fordel">
             <!-- billede -->
-            <div class="col">
+            <div class="flex-col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_1") ?></h3>
                 <div>
@@ -119,7 +119,7 @@
             </div>
 
             <!-- information -->
-            <div class="col">
+            <div class="flex-col">
                 <img src="<?php the_field("fordel_billede_1") ?>" alt="">
             </div>
         </div>
