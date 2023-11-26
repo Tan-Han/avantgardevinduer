@@ -126,7 +126,7 @@
     </div>
 
     <!-- fordel 2 -->
-    <div class="container ten-percent pb-5">
+    <div class="container ten-percent pb-5 col-reverse">
         <div class="row fordel col-reverse">
             <!-- billede -->
             <div class="col">
@@ -179,7 +179,7 @@
     </div>
 
     <!-- fordel 5 -->
-    <div class="container ten-percent pb-5">
+    <div class="container ten-percent pb-5 col-reverse">
         <div class="row fordel col-reverse">
             <div class="col">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
