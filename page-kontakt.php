@@ -296,9 +296,28 @@
       padding: 0 30% 2rem 30%;
     }
 
+    .contact-form-info {
+      flex-direction: column;
+    }
   }
-  
 
+  @media screen and (max-width: 520px) {
+    .contact-info {
+      padding: 0 25% 2rem 25%;
+    }
+
+  }
+
+  @media screen and (max-width: 410px) {
+    .contact-info {
+      padding: 0 20% 2rem 20%;
+      gap: none;
+    }
+
+    .contact-form-info p {
+      width: 100%;
+    }
+  }
 </style>
 
 <?php get_footer() ?>
