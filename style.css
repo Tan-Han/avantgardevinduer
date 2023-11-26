@@ -280,15 +280,30 @@ footer .logo-box .logo {
 }
 
 @media screen and (max-width: 900px) {
-  .links {
-    flex: 100%;
+  footer {
+    flex-direction: row;
+  }
+  
+  footer .links {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  footer .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+    width: 50%;
   }
 
-  .info,
-  .logo-box {
-    flex: 50%;
+  footer .logo-box {
+    justify-content: center;
+    width: 50%;
   }
-}
+
 }
 
 /* PRODUCT LIST PAGES (VINDUER OG DØRE) */
