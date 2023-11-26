@@ -249,7 +249,7 @@
     }
 
     @media screen (min-width: 768px) {
-        .container {
+        .container, .container-md, .container-sm {
             max-width: auto !important;
         }
     }
