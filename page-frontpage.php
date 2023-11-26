@@ -198,7 +198,7 @@
     }
   }
 
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1050px) {
     .hero {
       height: 450px;
     }
