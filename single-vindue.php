@@ -70,13 +70,13 @@
 
                 // Setup this post for WP functions (variable must be named $post).
                 setup_postdata($post); ?>
-                <h2><?php the_title() ?></h2>
+                <h2 class="pb-2"><?php the_title() ?></h2>
 
-                <div class="flex flex-wrap pb-5">
+                <div class="flex flex-wrap pb-5 gap">
                     <?php $farver = get_field("farver") ?>
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div class="gap-4 flex flex-col">
+                            <div class="flex flex-col">
                                 <?php if (get_field("hex_color")) : ?>
                                     <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
 
@@ -214,14 +214,8 @@
         width: 100px;
     }
 
-    .gap-4 {
-        display: flex;
-        gap: 18px;
-    }
-
     .flex {
         display: flex;
-        gap: 18px;
     }
 
     .flex-wrap {
@@ -230,6 +224,10 @@
 
     .flex-col {
         flex-direction: column;
+    }
+
+    .gap {
+        gap: 24px;
     }
 
 
