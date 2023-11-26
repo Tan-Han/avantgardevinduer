@@ -257,12 +257,12 @@
       justify-content: space-between;
       width: 100%;
       column-gap: 3rem;
+      padding-right: 0;
     }
 
     .telephone,
     .address,
     .mail {
-      width: 33%;
       font-size: 12px;
     }
 
