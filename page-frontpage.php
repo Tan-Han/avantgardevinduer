@@ -222,9 +222,18 @@
     height: 300px;
     object-fit: cover;
   }
-
   }
 
+  @media screen and (max-width: 500px) {
+
+  .frontpage-content .text-box h2 {
+    font-size: 35px;
+  }
+
+  .frontpage-content .text-box p {
+    font-size: 14px;
+  }
+}
 </style>
 
 
