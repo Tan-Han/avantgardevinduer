@@ -73,7 +73,7 @@
                 <h2 class="pb-2"><?php the_title() ?></h2>
 
                 <div class="flex flex-wrap pb-5 gap">
-                    <?php $farver = get_field("farver") ?>
+                    <?php $farver = get_field("farver") ?> 
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
                             <div class="flex flex-col">
