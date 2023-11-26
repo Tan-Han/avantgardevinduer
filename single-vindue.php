@@ -51,7 +51,7 @@
 </div>
 
 <!-- farver -->
-<div class="container ten-percent mb-5">
+<div class="container ten-percent pb-5">
     <div class="row">
         <div class="col">
         <hr class="hr-small">
