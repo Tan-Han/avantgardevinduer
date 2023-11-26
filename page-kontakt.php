@@ -298,6 +298,11 @@
 
     .contact-form-info {
       flex-direction: column;
+      gap: 0;
+    }
+
+    .contact-form-info p {
+      width: 100%;
     }
   }
 
@@ -311,12 +316,8 @@
   @media screen and (max-width: 410px) {
     .contact-info {
       padding: 0 20% 2rem 20%;
-      gap: 0;
     }
 
-    .contact-form-info p {
-      width: 100%;
-    }
   }
 </style>
 
