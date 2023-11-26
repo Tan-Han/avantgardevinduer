@@ -240,7 +240,7 @@
         }
 
         .col-reverse {
-            flex-direction: column-reverse;
+            flex-direction: row-reverse;
         }
     }
 
