@@ -111,8 +111,9 @@
   /* MEDIA QUERIES */
 
   @media screen and (max-width: 1480px) {
+
     .hero {
-      height: 500px;
+      height: 600px;
     }
 
     h1 {
@@ -140,6 +141,9 @@
 
   @media screen and (max-width: 1300px) {
 
+    .hero {
+      height: 500px;
+    }
 
     .frontpage-content .text-box p {
       font-size: 16px;
