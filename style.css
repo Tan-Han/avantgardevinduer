@@ -216,6 +216,7 @@ footer a {
   font-family: "century-gothic", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 footer a:hover {
@@ -352,6 +353,10 @@ footer .logo-box .logo {
     flex-wrap: nowrap;
     column-gap: 0;
     align-items: center;
+  }
+
+  footer .logo-box .logo {
+    height: 125px;
   }
 }
 
