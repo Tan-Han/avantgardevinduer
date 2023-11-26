@@ -256,7 +256,7 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
-      column-gap: 3rem;
+      column-gap: 2rem;
       padding-right: 0;
     }
 
@@ -268,7 +268,7 @@
 
     .info,
     .icon {
-      padding: .5rem 1rem;
+      padding: .5rem 0;
     }
 
     .icon span {
