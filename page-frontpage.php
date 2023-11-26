@@ -3,17 +3,23 @@
 <div class="hero">
   <h1> Avantgardevinduer </h1>
   <hr>
-  <h3><?php the_field("slogan") ?></h3>
+  <h3>
+    <?php the_field("slogan") ?>
+  </h3>
 </div>
 
 <div class="frontpage-mini-nav">
-  <p><?php the_field("frontpage_highlight") ?></p>
+  <p>
+    <?php the_field("frontpage_highlight") ?>
+  </p>
 </div>
 
 <div class="frontpage-content">
   <div class="text-box">
     <h2 class="company-name">Avantgardevinduer & Døre</h2>
-    <p class="company-description"><?php the_field("frontpage_description") ?></p>
+    <p class="company-description">
+      <?php the_field("frontpage_description") ?>
+    </p>
   </div>
   <div class="image-box">
     <img src="<?php the_field("frontpage_description_image") ?>" alt="">
@@ -102,7 +108,9 @@
     object-fit: cover;
   }
 
-  @media screen and (max-width: 1300px) {
+  /* MEDIA QUERIES */
+
+  @media screen and (max-width: 1480px) {
     .hero {
       height: 500px;
     }
@@ -118,21 +126,29 @@
     }
 
     .frontpage-mini-nav p {
-    font-size: 20px;
+      font-size: 20px;
     }
 
     .frontpage-content .text-box h2 {
-    font-size: 30px;
+      font-size: 30px;
+    }
+
+    .frontpage-content .text-box h2 {
+      font-size: 40px;
+    }
   }
 
-  .frontpage-content .text-box p {
-    font-size: 16px;
-  }
+  @media screen and (max-width: 1300px) {
 
-  .frontpage-content .image-box img {
-    height: 300px;
-  }
-    
+
+    .frontpage-content .text-box p {
+      font-size: 16px;
+    }
+
+    .frontpage-content .image-box img {
+      height: 300px;
+    }
+
   }
 </style>
 
