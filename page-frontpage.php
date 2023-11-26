@@ -183,6 +183,11 @@
       font-size: 35px;
       padding: .5rem 0;
     }
+
+    .frontpage-mini-nav p {
+      font-size: 18px;
+    } 
+
   }
 
 </style>
