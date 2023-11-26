@@ -164,6 +164,7 @@
     .frontpage-content .text-box p {
       font-size: 14px;
     }
+    
     .frontpage-content .image-box img {
       height: 250px;
     }
@@ -201,11 +202,11 @@
   }
 
   .frontpage-content .text-box h2 {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .frontpage-content .text-box p {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .frontpage-content .image-box {
