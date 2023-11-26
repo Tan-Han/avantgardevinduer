@@ -11,8 +11,8 @@
             </div>
 
             <!-- specifikationer -->
-            <div class="row">
-                <div class="col pb-5">
+            <div class="row pb-5">
+                <div class="col">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_1")?></h5>
