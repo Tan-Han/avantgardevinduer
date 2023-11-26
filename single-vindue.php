@@ -209,6 +209,7 @@
 
     .flex {
         display: flex;
+        flex-wrap: wrap;
     }
 
 
