@@ -47,6 +47,7 @@
     color: var(--white);
     font-size: 85px;
     text-shadow: #333 3px 3px 3px;
+    margin: 0;
   }
 
   h3 {
@@ -278,6 +279,10 @@
     h3 {
       font-size: 27px;
     }
+
+    hr {
+      margin: .5rem 0;
+    }
   }
 
   @media screen and (max-width: 680px) {
@@ -287,7 +292,7 @@
     }
 
   }
-  
+
   @media screen and (max-width: 660px) {
 
     .frontpage-content .text-box h2 {
@@ -304,9 +309,76 @@
   }
 
   @media screen and (max-width: 600px) {
+    h3 {
+      font-size: 22px;
+    }
+   
     hr {
       width: 100%;
     }
+  }
+
+  @media screen and (max-width: 550px) {
+h1 {
+  font-size: 38px;
+}
+
+    h3 {
+      font-size: 25px;
+    }
+
+    .frontpage-mini-nav p {
+      font-size: 16px;
+    }
+
+    .frontpage-content .image-box img {
+      height: 250px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 460px) {
+h1 {
+  font-size: 35;
+}
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .frontpage-mini-nav p {
+      font-size: 14px;
+    }
+
+    .frontpage-content .text-box h2 {
+      font-size: 25px;
+      font-weight: 700;
+    }
+
+    .frontpage-content .image-box img {
+      height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+
+    h1 {
+      font-size: 32px;
+    }
+    .frontpage-content .text-box h2 {
+      font-size: 23px;
+    }
+
+    .frontpage-content .text-box p {
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .frontpage-mini-nav p {
+      font-size: 12px;
+    }
+    
   }
 </style>
 
