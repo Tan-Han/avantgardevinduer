@@ -351,6 +351,7 @@ footer .logo-box .logo {
     flex-direction: column;
     flex-wrap: nowrap;
     column-gap: 0;
+    align-items: center;
   }
 }
 
