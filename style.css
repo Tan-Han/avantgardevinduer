@@ -49,7 +49,11 @@ Author: TRS Hansen, L. N. Nielsen
 
 /* FONTS */
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   line-height: normal;
 }
@@ -173,9 +177,9 @@ li.nav-link a {
 } */
 
 @media screen and (max-width: 900px) {
-nav {
-  padding: 1rem 1rem;
-}
+  nav {
+    padding: 1rem 1rem;
+  }
 
   nav .bars {
     display: block;
@@ -289,14 +293,15 @@ footer .logo-box .logo {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    padding-bottom: 2rem;
   }
 
   footer .info {
     width: 50%;
-    padding: 1rem 0;
     align-items: start;
   }
-  }
+
+
 
   footer .logo-box {
     width: 50%;
