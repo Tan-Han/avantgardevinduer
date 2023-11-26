@@ -12,10 +12,11 @@
     <div class="telephone">
       <div class="info">
         <p class="contact-info-headline">Telefon</p>
-        <p>
-          <a href="tel:<?php the_field("telephone") ?>">
+        <a href="tel:<?php the_field("telephone") ?>">
+          <p>
             <?php the_field("telephone") ?>
-        </p></a>
+          </p>
+        </a>
       </div>
       <div class="icon">
         <span class="material-symbols-outlined">smartphone</span>
@@ -24,11 +25,11 @@
     <div class="address">
       <div class="info">
         <p class="contact-info-headline">Adresse</p>
-        <p>
-          <a href="<?php the_field("address-link") ?>">
+        <a href="<?php the_field("address-link") ?>">
+          <p>
             <?php the_field("address") ?>
-          </a>
-        </p>
+          </p>
+        </a>
       </div>
       <div class="icon">
         <span class="material-symbols-outlined">pin_drop</span>
