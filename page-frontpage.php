@@ -168,6 +168,23 @@
       height: 250px;
     }
   }
+
+  @media screen and (max-width: 950px) {
+    .hero {
+      height: 450px;
+    }
+
+    h1 {
+      font-size: 50px;
+      padding: .5rem 0;
+    }
+
+    h3 {
+      font-size: 35px;
+      padding: .5rem 0;
+    }
+  }
+
 </style>
 
 
