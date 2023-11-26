@@ -283,22 +283,28 @@ footer .logo-box .logo {
   footer {
     flex-direction: column;
   }
-
+  
   footer .links {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
   }
-
+  
   footer .info,
   footer .logo-box {
     width: 100%;
   }
+  
+  footer .info {
+    order: 2; /* Change the order to 2 for smaller screens */
+  }
 
   footer .logo-box {
+    order: 1; /* Change the order to 1 for smaller screens */
     justify-content: flex-end; /* Align the logo to the right */
   }
 }
+
 
 /* PRODUCT LIST PAGES (VINDUER OG DØRE) */
 
