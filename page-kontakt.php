@@ -256,13 +256,14 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
+      column-gap: 3rem;
     }
 
     .telephone,
     .address,
     .mail {
       width: 33%;
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .info,
