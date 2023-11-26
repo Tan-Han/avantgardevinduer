@@ -264,7 +264,7 @@
     .address,
     .mail {
       font-size: 12px;
-      flex: 1;      
+      flex: 1;
     }
 
     .info,
@@ -274,6 +274,10 @@
 
     .icon span {
       font-size: 35px;
+    }
+
+    .contact-form {
+      width: 100%;
     }
   }
 </style>
