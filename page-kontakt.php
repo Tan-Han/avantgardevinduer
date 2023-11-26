@@ -264,6 +264,7 @@
     .address,
     .mail {
       font-size: 12px;
+      flex: 1;      
     }
 
     .info,
