@@ -214,14 +214,9 @@
         width: 100px;
     }
 
-    .gap-4 {
-        display: flex;
-        gap: 18px;
-    }
-
     .flex {
         display: flex;
-        row-gap: 18px;
+        gap: 18px;
     }
 
     .flex-wrap {
