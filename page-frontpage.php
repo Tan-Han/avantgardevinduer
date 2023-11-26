@@ -201,11 +201,11 @@
   }
 
   .frontpage-content .text-box h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .frontpage-content .text-box p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .frontpage-content .image-box {
