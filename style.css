@@ -54,8 +54,8 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0;
-  line-height: normal;
+  margin: 0!important;
+  line-height: normal!important;
 }
 
 h1 {
