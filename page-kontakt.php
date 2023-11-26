@@ -199,7 +199,8 @@
     padding: 0;
   }
 
-  .wpcf7 form.sent .wpcf7-response-output, .wpcf7 form.invalid .wpcf7-response-output {
+  .wpcf7 form.sent .wpcf7-response-output,
+  .wpcf7 form.invalid .wpcf7-response-output {
     border: none;
     text-align: right;
   }
@@ -220,7 +221,27 @@
   }
 
   @media screen and (max-width: 1150px) {
-    
+
+    .telephone,
+    .address,
+    .mail {
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 5%;
+      font-size: 16px;
+      flex-direction: column-reverse;
+    }
+
+    .info {
+      text-align: center;
+      width: 100%;
+    }
+
+    .icon {
+      border-bottom: #333 solid 2px;
+      justify-content: center;
+      width: 100%;
+    }
   }
 </style>
 
