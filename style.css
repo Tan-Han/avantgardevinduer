@@ -295,8 +295,7 @@ footer .logo-box .logo {
     padding-bottom: 2rem;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 2rem;
-
+    column-gap: 5rem;
   }
 
   footer .info {
@@ -338,6 +337,20 @@ footer .logo-box .logo {
 
   footer .logo-box .logo {
     height: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  footer .links {
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer .links {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    column-gap: 0;
   }
 }
 
