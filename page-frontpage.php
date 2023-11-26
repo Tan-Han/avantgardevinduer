@@ -176,6 +176,15 @@
 
   @media screen and (max-width: 1150px) {
 
+    h1,
+    h3 {
+      padding: .25rem 0;
+    }
+
+    hr {
+      width: 80%;
+    }
+
     .frontpage-content .text-box h2 {
       font-size: 25px;
     }
@@ -267,15 +276,7 @@
   }
 
   @media screen and (max-width: 650px) {
-    h1 {
-      font-size: 45px;
-      padding: .25rem 0;
-    }
 
-    h3 {
-      font-size: 30px;
-      padding: .25rem 0;
-    }
   }
 </style>
 
