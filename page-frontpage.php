@@ -138,6 +138,10 @@
       height: 500px;
     }
 
+    hr{
+      width: 80%;
+    }
+
     .frontpage-mini-nav p {
       font-size: 20px;
     }
