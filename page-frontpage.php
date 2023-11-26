@@ -218,6 +218,16 @@
   }
 
   @media screen and (max-width: 900px) {
+
+    h1,
+    h3 {
+      padding: 0 0;
+    }
+
+    hr {
+      width: 90%;
+    }
+
     .frontpage-content {
       flex-direction: column;
     }
@@ -275,9 +285,7 @@
     }
   }
 
-  @media screen and (max-width: 650px) {
-
-  }
+  @media screen and (max-width: 650px) {}
 </style>
 
 
