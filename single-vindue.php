@@ -221,7 +221,7 @@
 
     .flex {
         display: flex;
-        gap: 18px;
+        row-gap: 18px;
     }
 
     .flex-wrap {
