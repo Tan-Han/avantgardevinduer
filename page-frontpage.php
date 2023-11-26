@@ -126,14 +126,6 @@
       padding: .5rem 0;
     }
 
-    .frontpage-mini-nav p {
-      font-size: 20px;
-    }
-
-    .frontpage-content .text-box h2 {
-      font-size: 30px;
-    }
-
     .frontpage-content .text-box h2 {
       font-size: 35px;
     }
@@ -143,6 +135,14 @@
 
     .hero {
       height: 500px;
+    }
+
+    .frontpage-mini-nav p {
+      font-size: 20px;
+    }
+
+    .frontpage-content .text-box h2 {
+      font-size: 30px;
     }
 
     .frontpage-content .text-box p {
