@@ -236,7 +236,22 @@
     @media screen (max-width: 1000px) {
         .responsive-col {
             display: flex;
-            flex-direction: row;
+            flex-direction: row !important; 
+        }
+
+        .col-reverse {
+            flex-direction: column-reverse;
+        }
+
+        .row-reverse {
+            flex-direction: row-reverse;
+        }
+    }
+
+    @media screen (min-width: 1000px) {
+        .responsive-col {
+            display: flex;
+            flex-direction: row !important; 
         }
 
         .col-reverse {
