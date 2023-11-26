@@ -39,6 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 0 10%;
   }
 
   h1 {
@@ -222,6 +223,18 @@
     width: 80%;
     height: 300px;
   }
+  }
+
+  @media screen and (max-width: 860px) {
+    h1 {
+        font-size: 45px;
+        padding: .5rem 0;
+      }
+  
+      h3 {
+        font-size: 30px;
+        padding: .5rem 0;
+      }
   }
 
   @media screen and (max-width: 660px) {
