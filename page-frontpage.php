@@ -210,11 +210,15 @@
 
   .frontpage-content .image-box {
     width: 100%;
-    padding: 3rem 10%;
+    padding: 0rem 10% 3rem 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
   }
 
   .frontpage-content .image-box img {
-    width: 100%;
+    width:350%;
     height: 400px;
     object-fit: cover;
   }
