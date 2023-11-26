@@ -59,7 +59,7 @@
 
   hr {
     color: var(--white);
-    width: 75%;
+    width: 100%;
     border-top: 3px solid;
     opacity: 100%;
   }
@@ -136,10 +136,6 @@
 
     .hero {
       height: 500px;
-    }
-
-    hr{
-      width: 80%;
     }
 
     .frontpage-mini-nav p {
