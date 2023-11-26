@@ -76,7 +76,7 @@
                     <?php $farver = get_field("farver") ?>
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div class="flex flex-col gap-4">
+                            <div class="gap-4 flex flex-col">
                                 <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
                                 <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
                                 <span><?php the_title() ?></span>
@@ -209,6 +209,11 @@
         width: 100px;
     }
 
+    .gap-4 {
+        display: flex;
+        gap: 18px;
+    }
+
     .flex {
         display: flex;
     }
@@ -219,10 +224,6 @@
 
     .flex-col {
         flex-direction: column;
-    }
-
-    .gap-4 {
-        gap: 18px;
     }
 
 
