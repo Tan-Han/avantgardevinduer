@@ -256,7 +256,7 @@
       display: flex;
       justify-content: space-between;
       width: 100%;
-      column-gap: 2rem;
+      column-gap: 15%;
       padding-right: 0;
     }
 
@@ -265,6 +265,7 @@
     .mail {
       font-size: 12px;
       flex: 1;
+      padding: 0;
     }
 
     .info,
@@ -280,6 +281,42 @@
       width: 100%;
     }
   }
+
+  @media screen and (max-width: 760px) {
+    .contact-info {
+      column-gap: 10%;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    .telephone,
+  .address,
+  .mail {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 18px;
+  }
+
+  .info {
+    padding: 1rem;
+    text-align: right;
+  }
+
+  .icon {
+    border-left: #333333 solid 2px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1rem 1rem;
+  }
+
+  .icon span {
+    font-size: 40px;
+  }
+  }
+
 </style>
 
 <?php get_footer() ?>
