@@ -12,7 +12,7 @@
 
             <!-- specifikationer -->
             <div class="row">
-                <div class="col">
+                <div class="col pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_1")?></h5>
@@ -25,7 +25,7 @@
                     </div>
                     
                 </div>
-                <div class="col">
+                <div class="col pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_3")?></h5>
@@ -51,7 +51,7 @@
 </div>
 
 <!-- farver -->
-<div class="container ten-percent pb-2">
+<div class="container ten-percent pb-5">
     <div class="row">
         <div class="col">
         <hr class="hr-small">
@@ -61,7 +61,7 @@
     </div>
 </div>
 
-<div class="container ten-percent pb-5">
+<div class="container ten-percent">
     <div class="row">
         <div class="col">
             <!-- loop med farver -->
@@ -72,15 +72,23 @@
                 setup_postdata($post); ?>
                 <h2><?php the_title() ?></h2>
 
-                <?php $farver = get_field("farver") ?>
-                <?php foreach($farver as $post):
-                    setup_postdata($post) ?>
-                        <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
-                        <div><img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;"></div>
-                        <span><?php the_title() ?></span>
-                    
-                <?php endforeach ?>
+                <div class="flex flex-wrap pb-5">
+                    <?php $farver = get_field("farver") ?>
+                    <?php foreach($farver as $post):
+                        setup_postdata($post) ?>
+                            <div class="gap-4 flex flex-col">
+                                <?php if (get_field("hex_color")) : ?>
+                                    <div style="background-color: <?php the_field("hex_color") ?>; width: 50px; height: 50px;"></div>
 
+                                    <?php elseif (get_field("img_color")) : ?>
+                                        <img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 50px; height: 50px;">
+                                <?php endif; ?>
+
+                                <span><?php the_title() ?></span>
+                            </div>
+                        
+                    <?php endforeach ?>
+                </div>
             <?php endforeach; ?>
  
             <?php wp_reset_postdata(); ?>
@@ -204,6 +212,24 @@
 
     .hr-small {
         width: 100px;
+    }
+
+    .gap-4 {
+        display: flex;
+        gap: 18px;
+    }
+
+    .flex {
+        display: flex;
+        gap: 18px;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .flex-col {
+        flex-direction: column;
     }
 
 
