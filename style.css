@@ -325,7 +325,7 @@ footer .logo-box .logo {
   footer .info {
     width: 100%;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
 
   footer .logo-box {
@@ -335,6 +335,18 @@ footer .logo-box .logo {
 
   footer .logo-box .logo {
     height: 150px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  footer .links {
+    justify-content: left;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+  }
+
+  footer .links a {
+
   }
 }
 
