@@ -218,8 +218,8 @@
   }
 
   .frontpage-content .image-box img {
-    width:350%;
-    height: 400px;
+    width: 80%;
+    height: 350px;
     object-fit: cover;
   }
 
