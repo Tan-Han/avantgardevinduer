@@ -219,7 +219,7 @@
 
   .frontpage-content .image-box img {
     width: 80%;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
   }
 
