@@ -120,7 +120,7 @@
 
             <!-- information -->
             <div class="col">
-                <div>
+                <div class="p-1">
                     <img src="<?php the_field("fordel_billede_1") ?>" alt="">
                 </div>
             </div>
