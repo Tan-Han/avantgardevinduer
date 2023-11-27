@@ -119,7 +119,7 @@
             </div>
 
             <!-- information -->
-            <div class="flex-col w-half ten-percent img-size-adjust align-center">
+            <div class="flex-col w-half ten-percent img-size-adjust align-center img-skak">
                 <img src="<?php the_field("fordel_billede_1") ?>" alt="" width="100%">
             </div>
         </div>
@@ -129,7 +129,7 @@
     <div class="ten-percent pb-5">
         <div class="flex fordel col-reverse gap-18">
             <!-- billede -->
-            <div class="flex-col w-half ten-percent align-center img-size-adjust">
+            <div class="flex-col w-half ten-percent align-center img-size-adjust img-skak">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="" width="100%">
             </div>
 
@@ -284,6 +284,10 @@
 
         .img-size-adjust {
             width: 50%;
+        }
+
+        .img-skak {
+            padding: 0;
         }
     }
 
