@@ -106,7 +106,7 @@
     </div>
 
     <!-- fordel 1 -->
-    <div class="container ten-percent responsive-col pb-5">
+    <div class="ten-percent responsive-col pb-5">
         <div class="flex fordel">
             <!-- billede -->
             <div class="flex-col">
@@ -130,7 +130,7 @@
         <div class="row fordel col-reverse">
             <!-- billede -->
             <div class="col">
-                <img src="<?php the_field("fordel_billede_2") ?>" alt="" height="500px">
+                <img src="<?php the_field("fordel_billede_2") ?>" alt="" height="400px">
             </div>
 
             <!-- information -->
