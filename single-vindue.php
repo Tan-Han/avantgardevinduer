@@ -269,6 +269,11 @@
         .w-half {
             width: 100%;
         }
+
+        .align-center {
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
     }
 
 </style>
