@@ -243,7 +243,7 @@
     }
 
     .h-half {
-        height: 50%;
+        max-height: 500px;
     }
 
     .gap-18 {
