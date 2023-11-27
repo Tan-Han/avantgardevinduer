@@ -70,7 +70,7 @@
 
                 // Setup this post for WP functions (variable must be named $post).
                 setup_postdata($post); ?>
-                <h2 class="pb-2"><?php the_title() ?></h2>
+                <h4 class="pb-2"><?php the_title() ?></h4>
 
                 <div class="flex flex-wrap pb-5 gap">
                     <?php $farver = get_field("farver") ?> 
