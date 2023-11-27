@@ -25,7 +25,7 @@
                     </div>
                     
                 </div>
-                <div class="flex-col w-half pb-5">
+                <div class="flex-col w-half pb-5 parameter">
                     <div>
                         <hr class="hr-small">
                         <h5 class="pb-2"><?php the_field("parameter_titel_3")?></h5>
