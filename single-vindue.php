@@ -209,7 +209,7 @@
     </div>
 </div>
 
-<style>
+<style> 
     .ten-percent {
         padding: 0 10%;
     }
