@@ -102,7 +102,7 @@
 <!-- fordele -->
 <div class="secondary-bg pb-5">
     <div>
-        <h2 class="text-center pt-5"><?php the_field("fordele_ved_produktet_titel") ?></h2>
+        <h2 class="text-center pt-5 pb-2"><?php the_field("fordele_ved_produktet_titel") ?></h2>
     </div>
 
     <!-- fordel 1 -->
