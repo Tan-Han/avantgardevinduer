@@ -200,7 +200,7 @@
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
-                <img src="<?php the_field("fordel_billede_6") ?>" alt="">
+                <img src="<?php the_field("fordel_billede_6") ?>" alt="" class="fordel-6">
             </div>
         </div>
     </div>
@@ -229,6 +229,10 @@
 
     .gap {
         gap: 24px;
+    }
+
+    .fordel-6 {
+        height: 70%;
     }
 
 
