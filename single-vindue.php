@@ -109,7 +109,7 @@
     <div class="ten-percent responsive-col pb-5">
         <div class="flex fordel">
             <!-- billede -->
-            <div class="flex-col">
+            <div class="flex-col w-half">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_1") ?></h3>
                 <div>
@@ -119,22 +119,22 @@
             </div>
 
             <!-- information -->
-            <div class="flex-col">
+            <div class="flex-col w-half">
                 <img src="<?php the_field("fordel_billede_1") ?>" alt="" height="400px">
             </div>
         </div>
     </div>
 
     <!-- fordel 2 -->
-    <div class="container ten-percent pb-5 col-reverse">
-        <div class="row fordel col-reverse">
+    <div class="ten-percent pb-5 col-reverse">
+        <div class="flex fordel col-reverse">
             <!-- billede -->
-            <div class="col">
+            <div class="flex-col w-half">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="" height="400px">
             </div>
 
             <!-- information -->
-            <div class="col">
+            <div class="flex-col w-half">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_2") ?></h3>
                 <div class="pb-3">
@@ -152,9 +152,9 @@
     </div>
 
     <!-- fordel 3 -->
-    <div class="container ten-percent pb-5">
-        <div class="row fordel">
-            <div class="col">
+    <div class="ten-percent pb-5">
+        <div class="flex fordel">
+            <div class="flex-col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_3") ?></h3>
                 <h4><?php the_field("fordel_subheadline_3") ?></h4>
@@ -165,27 +165,27 @@
     </div>
 
     <!-- fordel 4 -->
-    <div class="container ten-percent pb-5 responsive-col">
-        <div class="row fordel">
-            <div class="col">
+    <div class="ten-percent pb-5 responsive-col">
+        <div class="flex fordel">
+            <div class="flex-col w-half">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_4") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_4") ?></p>
             </div>  
-            <div class="col">
+            <div class="flex-col w-half">
                 <img src="<?php the_field("fordel_billede_4") ?>" alt="">
             </div>
         </div>
     </div>
 
     <!-- fordel 5 -->
-    <div class="container ten-percent pb-5 col-reverse">
-        <div class="row fordel col-reverse">
-            <div class="col">
+    <div class="ten-percent pb-5 col-reverse">
+        <div class="flex fordel col-reverse">
+            <div class="flex-col w-half">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
             </div>
 
-            <div class="col">
+            <div class="flex-col w-half">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_5") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_5") ?></p>
@@ -194,9 +194,9 @@
     </div>
 
     <!-- fordel 6 -->
-    <div class="container ten-percent pb-5">
-        <div class="row fordel">
-            <div class="col">
+    <div class="ten-percent pb-5">
+        <div class="flex fordel">
+            <div class="flex-col">
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
@@ -235,6 +235,10 @@
         height: 40%;
     }
 
+    .w-half {
+        width: 50%;
+    }
+
 
     /* responsive design */
     @media screen (max-width: 1000px) {
@@ -246,6 +250,10 @@
         .col-reverse {
             display: flex;
             flex-direction: column-reverse;
+        }
+
+        .w-half {
+            width: 100%;
         }
     }
 
