@@ -28,10 +28,10 @@
 
 <style>
   .hero {
-    background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
+    /* background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     width: 100%;
     height: 685px;
     text-align: center;
