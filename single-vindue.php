@@ -76,7 +76,7 @@
                     <?php $farver = get_field("farver") ?> 
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div class="flex flex-col">
+                            <div class="flex flex-col farver">
                                 <?php if (get_field("hex_color")) : ?>
                                     <div style="background-color: <?php the_field("hex_color") ?>; width: 140px; height: 80px;"></div>
 
@@ -269,6 +269,12 @@
         .align-center {
             align-items: flex-start;
             justify-content: flex-start;
+        }
+    }
+
+    @media screen and (max-width: 470px) {
+        .farver {
+            flex-direction: column;
         }
     }
 
