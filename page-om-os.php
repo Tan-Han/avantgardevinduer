@@ -47,59 +47,6 @@
     opacity: 100%;
   }
 
-  @media screen and (max-width: 1300px) {
-    hr {
-    width: 55%;
-  }
-  }
-
-  @media screen and (max-width: 1000px) {
-    .about-headline-box h1 {
-    font-size: 60px;
-  }
-
-  .about-headline-box h2 {
-    font-size: 22px;
-  }
-
-    hr {
-    width: 70%;
-  }
-  }
-
-  @media screen and (max-width: 700px) {
-    .about-headline-box h1 {
-    font-size: 55px;
-  }
-
-  hr {
-    width: 80%;
-  }
-  }
-
-  @media screen and (max-width: 570px) {
-    .about-headline-box h1 {
-    font-size: 50px;
-  }
-  }
-
-  @media screen and (max-width: 480px) {
-    .about-headline-box h1 {
-    font-size: 45px;
-  }
-
-  .about-headline-box h2 {
-    font-size: 18px;
-  }
-  }
-
-  @media screen and (max-width: 400px) {
-    .about-headline-box h1 {
-    font-size: 38px;
-  }
-  }
-
-
   .about-content {
     padding: 0 10% 3rem 10%;
   }
@@ -159,6 +106,86 @@
 
     .image-box img {
       height: 300px;
+    }
+
+    hr {
+      width: 55%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .about-headline-box h1 {
+      font-size: 60px;
+    }
+
+    .about-headline-box h2 {
+      font-size: 22px;
+    }
+
+    hr {
+      width: 70%;
+    }
+
+    .about-content-inner {
+      flex-direction: column-reverse;
+    }
+
+    .about-content-inner h3 {
+      
+    }
+
+    .about-content-inner p {
+      
+    }
+
+    .text-box {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .image-box {
+      width: 100%;
+      padding-left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-box img {
+      width: 80%;
+      height: 350px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .about-headline-box h1 {
+      font-size: 55px;
+    }
+
+    hr {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .about-headline-box h1 {
+      font-size: 50px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .about-headline-box h1 {
+      font-size: 45px;
+    }
+
+    .about-headline-box h2 {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .about-headline-box h1 {
+      font-size: 38px;
     }
   }
 </style>
