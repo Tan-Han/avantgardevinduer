@@ -120,7 +120,7 @@
 
             <!-- information -->
             <div class="flex-col w-half align-center">
-                <img src="<?php the_field("fordel_billede_1") ?>" alt="" height="400px">
+                <img src="<?php the_field("fordel_billede_1") ?>" alt="" width="100%">
             </div>
         </div>
     </div>
@@ -130,7 +130,7 @@
         <div class="flex fordel col-reverse gap-18">
             <!-- billede -->
             <div class="flex-col w-half align-center">
-                <img src="<?php the_field("fordel_billede_2") ?>" alt="" height="400px">
+                <img src="<?php the_field("fordel_billede_2") ?>" alt="" width="100%">
             </div>
 
             <!-- information -->
@@ -159,7 +159,7 @@
                 <h3 class="pb-2"><?php the_field("fordel_3") ?></h3>
                 <h4 class="pb-1"><?php the_field("fordel_subheadline_3") ?></h4>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
-                <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="600px;" class="fordel-3">
+                <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="100%" class="fordel-3">
             </div> 
         </div>
     </div>
@@ -173,7 +173,7 @@
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_4") ?></p>
             </div>  
             <div class="flex-col w-half">
-                <img src="<?php the_field("fordel_billede_4") ?>" alt="">
+                <img src="<?php the_field("fordel_billede_4") ?>" alt="" width="100%">
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@
     <div class="ten-percent pb-5">
         <div class="flex fordel col-reverse gap-18">
             <div class="flex-col w-half">
-                <img src="<?php the_field("fordel_billede_5") ?>" alt="">
+                <img src="<?php the_field("fordel_billede_5") ?>" alt="" width="100%">
             </div>
 
             <div class="flex-col w-half">
@@ -200,7 +200,7 @@
                 <hr class="hr-small">
                 <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
-                <img src="<?php the_field("fordel_billede_6") ?>" alt="" height="400px">
+                <img src="<?php the_field("fordel_billede_6") ?>" alt="" width="100%">
             </div>
         </div>
     </div>
