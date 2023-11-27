@@ -194,7 +194,7 @@
     </div>
 
     <!-- fordel 6 -->
-    <div class="ten-percent pb-5">
+    <div class="ten-percent pb-5"> 
         <div class="flex fordel">
             <div class="flex-col">
                 <hr class="hr-small">
@@ -251,7 +251,7 @@
 
 
     /* responsive design */
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 900px) {
         .responsive-col {
             display: flex;
             flex-direction: column !important; 
