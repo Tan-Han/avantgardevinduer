@@ -397,6 +397,7 @@ hr {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(4, 1fr);
+  row-gap: 3rem;
 }
 
 .content-productlist .card {
@@ -463,6 +464,14 @@ hr {
   width: 40%;
   border-top: 3px solid #333333!important;
   opacity: 100%!important;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1560px) {
+  .content-productlist {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (max-width: 1300px) {
