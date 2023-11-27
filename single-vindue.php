@@ -72,11 +72,11 @@
                 setup_postdata($post); ?>
                 <h3 class="pb-2"><?php the_title() ?></h3>
 
-                <div class="flex flex-wrap pb-5 gap">
+                <div class="flex flex-wrap pb-5 gap farver">
                     <?php $farver = get_field("farver") ?> 
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div class="flex flex-col farver">
+                            <div class="flex flex-col">
                                 <?php if (get_field("hex_color")) : ?>
                                     <div style="background-color: <?php the_field("hex_color") ?>; width: 140px; height: 80px;"></div>
 
