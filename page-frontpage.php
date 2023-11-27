@@ -1,5 +1,8 @@
 <?php get_header() ?>
 
+<?php echo do_shortcode('[sp_wpcarousel id="191"]'); ?>
+
+
 <div class="hero">
   <h1> Avantgardevinduer </h1>
   <hr>
