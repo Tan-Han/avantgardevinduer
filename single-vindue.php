@@ -106,7 +106,7 @@
     </div>
 
     <!-- fordel 1 -->
-    <div class="container ten-percent responsive-col">
+    <div class="container ten-percent responsive-col pb-5">
         <div class="flex fordel">
             <!-- billede -->
             <div class="flex-col">
