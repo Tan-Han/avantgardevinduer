@@ -1,39 +1,39 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container ten-percent pt-5 pb-5">
-    <div class="row">
-        <div class="col">
+<div class="ten-percent pt-5 pb-5">
+    <div class="flex gap-18">
+        <div class="flex-col w-half">
             <!-- titel -->
-            <div class="pt-5 pb-2">
-                <h2><?php the_field("produkt_navn")?></h2>
+            <div class="pb-2">
+                <h2 class="pb-2"><?php the_field("produkt_navn")?></h2>
                 <p><?php the_field("kort_beskrivelse")?></p>
             </div>
-
+ 
             <!-- specifikationer -->
-            <div class="row">
-                <div class="col pb-5">
+            <div class="flex">
+                <div class="flex-col w-half pb-5">
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_1")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_1")?></h5>
                         <p><?php the_field("parameter_tekst_1")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_2")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_2")?></h5>
                         <p><?php the_field("parameter_tekst_2")?></p>
                     </div>
                     
                 </div>
-                <div class="col pb-5">
+                <div class="flex-col w-half pb-5">
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_3")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_3")?></h5>
                         <p><?php the_field("parameter_tekst_3")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_4")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_4")?></h5>
                         <p><?php the_field("parameter_tekst_4")?></p>
                     </div>
                 </div>
@@ -42,18 +42,18 @@
         </div>
 
         <!-- img -->
-        <div class="col">
+        <div class="flex-col w-half">
             <div>
-                <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
+                <img src="<?php the_field("produkt_billede")?>" alt="" width="100%">
             </div>
         </div>
     </div>
 </div>
 
 <!-- farver -->
-<div class="container ten-percent pb-5">
-    <div class="row">
-        <div class="col">
+<div class="ten-percent pb-5">
+    <div class="flex">
+        <div class="flex-col">
         <hr class="hr-small">
         <h3><?php the_field("farve_titel")?></h3>
         <p><?php the_field("farve_beskrivelse")?></p>
@@ -61,9 +61,9 @@
     </div>
 </div>
 
-<div class="container ten-percent">
-    <div class="row">
-        <div class="col">
+<div class="ten-percent">
+    <div class="flex">
+        <div class="flex-col">
             <!-- loop med farver -->
             <?php $farvegrupper = get_field("farvegrupper") ?>
             <?php foreach( $farvegrupper as $post ): 
@@ -72,7 +72,7 @@
                 setup_postdata($post); ?>
                 <h3 class="pb-2"><?php the_title() ?></h3>
 
-                <div class="flex flex-wrap pb-5 gap">
+                <div class="flex flex-wrap pb-5 gap farver">
                     <?php $farver = get_field("farver") ?> 
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
@@ -100,9 +100,9 @@
 </div>
 
 <!-- fordele -->
-<div class="secondary-bg pb-5">
+<div class="secondary-bg">
     <div>
-        <h2 class="text-center pt-5 pb-3"><?php the_field("fordele_ved_produktet_titel") ?></h2>
+        <h2 class="text-center pt-5 pb-3 ten-percent"><?php the_field("fordele_ved_produktet_titel") ?></h2>
     </div>
 
     <!-- fordel 1 -->
@@ -200,7 +200,7 @@
                 <hr class="hr-small">
                 <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
-                <img src="<?php the_field("fordel_billede_6") ?>" alt="" class="fordel-6">
+                <img src="<?php the_field("fordel_billede_6") ?>" alt="" height="400px">
             </div>
         </div>
     </div>
@@ -231,10 +231,6 @@
         gap: 24px;
     }
 
-    .fordel-6 {
-        height: 40%;
-    }
-
     .w-half {
         width: 50%;
     }
@@ -249,12 +245,16 @@
         justify-content: center;
     }
 
+    .responsive-col{
+        display: flex;
+    }
+
 
     /* responsive design */
-    @media screen (max-width: 1000px) {
+    @media screen and (max-width: 1000px) {
         .responsive-col {
             display: flex;
-            flex-direction: row; 
+            flex-direction: column !important; 
         }
 
         .col-reverse {
@@ -265,8 +265,18 @@
         .w-half {
             width: 100%;
         }
+
+        .align-center {
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
     }
 
+    @media screen and (max-width: 470px) {
+        .farver {
+            flex-direction: column;
+        }
+    }
 
 </style>
 
