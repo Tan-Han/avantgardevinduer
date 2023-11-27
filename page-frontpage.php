@@ -1,6 +1,9 @@
 <?php get_header() ?>
 
-<?php echo do_shortcode('[sp_wpcarousel id="191"]'); ?>
+<div class="galleri">
+  <?php echo do_shortcode('[sp_wpcarousel id="191"]'); ?>
+</div>
+
 
 
 <div class="hero">
@@ -30,6 +33,10 @@
 </div>
 
 <style>
+  .galleri {
+    height: 685px;
+  }
+
   .hero {
     background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
     background-size: cover;
