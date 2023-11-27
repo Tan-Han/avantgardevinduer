@@ -138,13 +138,13 @@
                 <hr class="hr-small">
                 <h3><?php the_field("fordel_2") ?></h3>
                 <div class="pb-3">
-                    <h4><?php the_field("fordel_2_subheadine_1") ?></h4>
-                    <p><?php the_field("fordel_2_beskrivelse_1") ?></p>
+                    <h4 class="pb-1"><?php the_field("fordel_2_subheadine_1") ?></h4>
+                    <p class="pb-3"><?php the_field("fordel_2_beskrivelse_1") ?></p>
 
-                    <h4><?php the_field("fordel_2_subheadine_2") ?></h4>
-                    <p><?php the_field("fordel_2_beskrivelse_2") ?></p>
+                    <h4 class="pb-1"><?php the_field("fordel_2_subheadine_2") ?></h4>
+                    <p class="pb-3"><?php the_field("fordel_2_beskrivelse_2") ?></p>
 
-                    <h4><?php the_field("fordel_2_subheadine_3") ?></h4>
+                    <h4 class="pb-1"><?php the_field("fordel_2_subheadine_3") ?></h4>
                     <p><?php the_field("fordel_2_beskrivelse_3") ?></p>
                 </div>
             </div>
