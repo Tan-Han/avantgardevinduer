@@ -33,10 +33,6 @@
 </div>
 
 <style>
-  .galleri {
-    height: 685px;
-  }
-
   .hero {
     background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
     background-size: cover;
