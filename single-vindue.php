@@ -2,8 +2,8 @@
 
 <!-- hero -->
 <div class="ten-percent pt-5 pb-5">
-    <div class="flex gap-18">
-        <div class="flex-col w-half responsive-col">
+    <div class="flex gap-18 responsive-col">
+        <div class="flex-col w-half">
             <!-- titel -->
             <div class="pb-2">
                 <h2 class="pb-2"><?php the_field("produkt_navn")?></h2>
