@@ -12,7 +12,7 @@
  
             <!-- specifikationer -->
             <div class="flex">
-                <div class="flex-col w-half pb-5">
+                <div class="flex-col w-half pb-5 parameter">
                     <div>
                         <hr class="hr-small">
                         <h5 class="pb-2"><?php the_field("parameter_titel_1")?></h5>
@@ -272,8 +272,13 @@
         }
     }
 
-    @media screen and (max-width: 470px) {
+    @media screen and (max-width: 500px) {
         .farver {
+            flex-direction: column;
+        }
+
+        .parameter {
+            display: flex;
             flex-direction: column;
         }
     }
