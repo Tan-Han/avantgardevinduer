@@ -1,8 +1,8 @@
 <?php get_header() ?>
 
-<div class="headline-galleri">
+<div class="headline-productlist">
     <h1>Galleri - Projekter</h1>
-    <h2>Her kan du læse mere om de vinduer vi tilbyder</h2>
+    <h2>Her kan du se billeder af projekter vi har udført</h2>
 
     <hr>
 </div>
