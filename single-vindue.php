@@ -159,7 +159,7 @@
                 <h3><?php the_field("fordel_3") ?></h3>
                 <h4><?php the_field("fordel_subheadline_3") ?></h4>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
-                <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="300px;" class="fordel-3">
+                <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="500px;" class="fordel-3">
             </div> 
         </div>
     </div>
@@ -230,10 +230,6 @@
     .gap {
         gap: 24px;
     }
-
-    /* .fordel-3 {
-        width: 65%;
-    } */
 
     .fordel-6 {
         height: 40%;
