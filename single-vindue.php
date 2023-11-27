@@ -201,7 +201,7 @@
                 <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
 
-                <div class="w-half img-size-adjust">
+                <div class="w-3 img-size-adjust">
                     <img src="<?php the_field("fordel_billede_6") ?>" alt="" width="100%">
                 </div>
             </div>
@@ -236,6 +236,10 @@
 
     .w-half {
         width: 50%;
+    }
+
+    .w-3 {
+        width: 33%;
     }
 
     .gap-18 {
