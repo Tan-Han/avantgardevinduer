@@ -159,7 +159,7 @@
                 <h3 class="pb-2"><?php the_field("fordel_3") ?></h3>
                 <h4 class="pb-1"><?php the_field("fordel_subheadline_3") ?></h4>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
-                <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="100%" class="fordel-3">
+                <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="100%">
             </div> 
         </div>
     </div>
@@ -201,7 +201,7 @@
                 <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
 
-                <div class="img-size-adjust">
+                <div class="w-half img-size-adjust">
                     <img src="<?php the_field("fordel_billede_6") ?>" alt="" width="100%">
                 </div>
             </div>
