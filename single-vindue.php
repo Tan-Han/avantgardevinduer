@@ -251,7 +251,7 @@
 
 
     /* responsive design */
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 1000px) {
         .responsive-col {
             display: flex;
             flex-direction: column !important; 
