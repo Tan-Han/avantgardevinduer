@@ -130,7 +130,7 @@
         <div class="row fordel col-reverse">
             <!-- billede -->
             <div class="col">
-                <img src="<?php the_field("fordel_billede_2") ?>" alt="">
+                <img src="<?php the_field("fordel_billede_2") ?>" alt="" height="500px">
             </div>
 
             <!-- information -->
