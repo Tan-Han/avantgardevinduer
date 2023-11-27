@@ -61,6 +61,7 @@
     </div>
 </div>
 
+<!-- farvegrupper -->
 <div class="ten-percent">
     <div class="flex">
         <div class="flex-col">
@@ -68,7 +69,6 @@
             <?php $farvegrupper = get_field("farvegrupper") ?>
             <?php foreach( $farvegrupper as $post ): 
 
-                // Setup this post for WP functions (variable must be named $post).
                 setup_postdata($post); ?>
                 <h3 class="pb-2"><?php the_title() ?></h3>
 
@@ -77,6 +77,7 @@
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
                             <div class="flex flex-col">
+                                <!-- baggrundsfarve eller billede med farven -->
                                 <?php if (get_field("hex_color")) : ?>
                                     <div style="background-color: <?php the_field("hex_color") ?>; width: 140px; height: 80px;"></div>
 
@@ -84,6 +85,7 @@
                                         <img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 140px; height: 80px;">
                                 <?php endif; ?>
 
+                                <!-- navn på farve -->
                                 <span><?php the_title() ?></span>
                             </div>
                         
@@ -93,8 +95,6 @@
  
             <?php wp_reset_postdata(); ?>
 
-            <!-- <img src="<?php the_field("billede_af_farve") ?>" alt="">
-            <p><?php the_field("farve_navn") ?></p> -->
         </div>
     </div>
 </div>
