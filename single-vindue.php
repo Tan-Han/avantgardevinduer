@@ -44,7 +44,7 @@
         <!-- img -->
         <div class="flex-col w-half">
             <div>
-                <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
+                <img src="<?php the_field("produkt_billede")?>" alt="" width="100%">
             </div>
         </div>
     </div>
