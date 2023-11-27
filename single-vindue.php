@@ -119,7 +119,7 @@
             </div>
 
             <!-- information -->
-            <div class="flex-col w-half align-center">
+            <div class="flex-col w-half img-size-adjust align-center">
                 <img src="<?php the_field("fordel_billede_1") ?>" alt="" width="100%">
             </div>
         </div>
@@ -129,7 +129,7 @@
     <div class="ten-percent pb-5">
         <div class="flex fordel col-reverse gap-18">
             <!-- billede -->
-            <div class="flex-col w-half align-center">
+            <div class="flex-col w-half align-center img-size-adjust">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="" width="100%">
             </div>
 
@@ -200,7 +200,10 @@
                 <hr class="hr-small">
                 <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
-                <img src="<?php the_field("fordel_billede_6") ?>" alt="" width="100%">
+
+                <div class="img-size-adjust">
+                    <img src="<?php the_field("fordel_billede_6") ?>" alt="" width="100%">
+                </div>
             </div>
         </div>
     </div>
@@ -269,6 +272,10 @@
         .align-center {
             align-items: flex-start;
             justify-content: flex-start;
+        }
+
+        .img-size-adjust {
+            width: 50%;
         }
     }
 
