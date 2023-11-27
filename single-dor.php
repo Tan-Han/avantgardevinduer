@@ -289,6 +289,10 @@
         .img-skak {
             padding: 0;
         }
+
+        .parameter {
+            padding-bottom: 0 !important;
+        }
     }
 
     @media screen and (max-width: 500px) {
@@ -299,7 +303,6 @@
         .parameter {
             display: flex;
             flex-direction: column;
-            padding-bottom: 0 !important;
         }
     }
 
