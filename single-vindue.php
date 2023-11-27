@@ -111,9 +111,9 @@
             <!-- billede -->
             <div class="flex-col w-half">
                 <hr class="hr-small">
-                <h3><?php the_field("fordel_1") ?></h3>
+                <h3 class="pb-2"><?php the_field("fordel_1") ?></h3>
                 <div>
-                    <h4><?php the_field("fordel_subheadline_1") ?></h4>
+                    <h4 class="pb-1"><?php the_field("fordel_subheadline_1") ?></h4>
                     <p class="pb-3"><?php the_field("fordel_beskrivelse_1") ?></p>
                 </div>
             </div>
@@ -136,7 +136,7 @@
             <!-- information -->
             <div class="flex-col w-half">
                 <hr class="hr-small">
-                <h3><?php the_field("fordel_2") ?></h3>
+                <h3 class="pb-2"><?php the_field("fordel_2") ?></h3>
                 <div class="pb-3">
                     <h4 class="pb-1"><?php the_field("fordel_2_subheadine_1") ?></h4>
                     <p class="pb-3"><?php the_field("fordel_2_beskrivelse_1") ?></p>
@@ -156,8 +156,8 @@
         <div class="flex fordel">
             <div class="flex-col">
                 <hr class="hr-small">
-                <h3><?php the_field("fordel_3") ?></h3>
-                <h4><?php the_field("fordel_subheadline_3") ?></h4>
+                <h3 class="pb-2"><?php the_field("fordel_3") ?></h3>
+                <h4 class="pb-1"><?php the_field("fordel_subheadline_3") ?></h4>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
                 <img src="<?php the_field("fordel_billede_3") ?>" alt="" width="600px;" class="fordel-3">
             </div> 
@@ -169,7 +169,7 @@
         <div class="flex fordel gap-18">
             <div class="flex-col w-half">
                 <hr class="hr-small">
-                <h3><?php the_field("fordel_4") ?></h3>
+                <h3 class="pb-1"><?php the_field("fordel_4") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_4") ?></p>
             </div>  
             <div class="flex-col w-half">
@@ -187,7 +187,7 @@
 
             <div class="flex-col w-half">
                 <hr class="hr-small">
-                <h3><?php the_field("fordel_5") ?></h3>
+                <h3 class="pb-1"><?php the_field("fordel_5") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_5") ?></p>
             </div>
         </div>
@@ -198,7 +198,7 @@
         <div class="flex fordel">
             <div class="flex-col">
                 <hr class="hr-small">
-                <h3><?php the_field("fordel_6") ?></h3>
+                <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
                 <img src="<?php the_field("fordel_billede_6") ?>" alt="" class="fordel-6">
             </div>
