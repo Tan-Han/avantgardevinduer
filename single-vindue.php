@@ -106,8 +106,8 @@
     </div>
 
     <!-- fordel 1 -->
-    <div class="ten-percent responsive-col pb-5">
-        <div class="flex fordel gap-18">
+    <div class="ten-percent pb-5">
+        <div class="flex fordel gap-18 responsive-col">
             <!-- billede -->
             <div class="flex-col w-half">
                 <hr class="hr-small">
@@ -126,7 +126,7 @@
     </div>
 
     <!-- fordel 2 -->
-    <div class="ten-percent pb-5 col-reverse">
+    <div class="ten-percent pb-5">
         <div class="flex fordel col-reverse gap-18">
             <!-- billede -->
             <div class="flex-col w-half align-center">
@@ -165,8 +165,8 @@
     </div>
 
     <!-- fordel 4 -->
-    <div class="ten-percent pb-5 responsive-col">
-        <div class="flex fordel gap-18">
+    <div class="ten-percent pb-5">
+        <div class="flex fordel gap-18 responsive-col">
             <div class="flex-col w-half">
                 <hr class="hr-small">
                 <h3 class="pb-1"><?php the_field("fordel_4") ?></h3>
@@ -179,7 +179,7 @@
     </div>
 
     <!-- fordel 5 -->
-    <div class="ten-percent pb-5 col-reverse">
+    <div class="ten-percent pb-5">
         <div class="flex fordel col-reverse gap-18">
             <div class="flex-col w-half">
                 <img src="<?php the_field("fordel_billede_5") ?>" alt="">
