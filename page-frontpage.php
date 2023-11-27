@@ -8,16 +8,15 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-
-  <?php $hero = get_field("hero") ?>
-    <?php foreach( $hero as $post ): 
-        setup_postdata($post); ?>
-        <div class="carousel-item active">
-          <img src="<?php the_field("hero_image") ?>" class="d-block w-100" alt="">
-        </div>
-    <?php endforeach; ?>
-
-    <?php wp_reset_postdata(); ?>
+    <div class="carousel-item active">
+      <img src="<?php get_field("hero_1") ?>" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?php get_field("hero_2") ?>" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="<?php get_field("hero_3") ?>" class="d-block w-100" alt="...">
+    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
