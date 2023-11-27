@@ -3,7 +3,7 @@
 <!-- hero -->
 <div class="ten-percent pt-5 pb-5">
     <div class="flex">
-        <div class="flex-col">
+        <div class="flex-col w-half">
             <!-- titel -->
             <div class="pt-5 pb-2">
                 <h2><?php the_field("produkt_navn")?></h2>
@@ -12,7 +12,7 @@
 
             <!-- specifikationer -->
             <div class="flex">
-                <div class="flex-col pb-5">
+                <div class="flex-col w-half pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_1")?></h5>
@@ -25,7 +25,7 @@
                     </div>
                     
                 </div>
-                <div class="flex-col pb-5">
+                <div class="flex-col w-half pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_3")?></h5>
@@ -42,7 +42,7 @@
         </div>
 
         <!-- img -->
-        <div class="flex-col">
+        <div class="flex-col w-half">
             <div>
                 <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
             </div>
