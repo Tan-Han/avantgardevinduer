@@ -78,7 +78,7 @@
                         setup_postdata($post) ?>
                             <div class="flex flex-col">
                                 <?php if (get_field("hex_color")) : ?>
-                                    <div style="background-color: <?php the_field("hex_color") ?>; width: 90px; height: 70px;"></div>
+                                    <div style="background-color: <?php the_field("hex_color") ?>; width: 160px; height: 80px;"></div>
 
                                     <?php elseif (get_field("img_color")) : ?>
                                         <img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 90px; height: 70px;">
