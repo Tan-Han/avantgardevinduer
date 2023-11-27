@@ -119,7 +119,7 @@
             </div>
 
             <!-- information -->
-            <div class="flex-col w-half">
+            <div class="flex-col w-half align-center">
                 <img src="<?php the_field("fordel_billede_1") ?>" alt="" height="400px">
             </div>
         </div>
@@ -241,6 +241,10 @@
 
     .gap-18 {
         gap: 18px;
+    }
+
+    .align-center {
+        align-items: center;
     }
 
 
