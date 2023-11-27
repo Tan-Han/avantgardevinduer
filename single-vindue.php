@@ -251,10 +251,10 @@
 
 
     /* responsive design */
-    @media screen (max-width: 1000px) {
+    @media screen and (max-width: 1000px) {
         .responsive-col {
             display: flex;
-            flex-direction: row; 
+            flex-direction: column; 
         }
 
         .col-reverse {
@@ -266,7 +266,6 @@
             width: 100%;
         }
     }
-
 
 </style>
 
