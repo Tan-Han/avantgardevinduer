@@ -258,7 +258,7 @@
     @media screen and (max-width: 900px) {
         .responsive-col {
             display: flex;
-            flex-direction: row; 
+            flex-direction: column; 
         }
 
         .col-reverse {
