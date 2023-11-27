@@ -2,11 +2,11 @@
 
 <!-- hero -->
 <div class="ten-percent pt-5 pb-5">
-    <div class="flex">
+    <div class="flex gap-18">
         <div class="flex-col w-half">
             <!-- titel -->
             <div class="pt-5 pb-2">
-                <h2><?php the_field("produkt_navn")?></h2>
+                <h2 class="pb-2"><?php the_field("produkt_navn")?></h2>
                 <p><?php the_field("kort_beskrivelse")?></p>
             </div>
 
@@ -15,12 +15,12 @@
                 <div class="flex-col w-half pb-5">
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_1")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_1")?></h5>
                         <p><?php the_field("parameter_tekst_1")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_2")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_2")?></h5>
                         <p><?php the_field("parameter_tekst_2")?></p>
                     </div>
                     
@@ -28,12 +28,12 @@
                 <div class="flex-col w-half pb-5">
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_3")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_3")?></h5>
                         <p><?php the_field("parameter_tekst_3")?></p>
                     </div>
                     <div>
                         <hr class="hr-small">
-                        <h5><?php the_field("parameter_titel_4")?></h5>
+                        <h5 class="pb-2"><?php the_field("parameter_titel_4")?></h5>
                         <p><?php the_field("parameter_tekst_4")?></p>
                     </div>
                 </div>
