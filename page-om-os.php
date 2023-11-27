@@ -119,7 +119,7 @@
   }
 
   @media screen and (max-width: 1000px) {
-    .about-headline-box h2 {
+    .about-headline h2 {
       font-size: 22px;
     }
 
@@ -160,36 +160,40 @@
   }
 
   @media screen and (max-width: 850px) {
-    .about-headline-box h1 {
+    .about-headline h1 {
       font-size: 45px;
     }
   }
 
   @media screen and (max-width: 700px) {
-    .about-headline-box h2 {
+    .about-headline h2 {
       font-size: 22px;
     }
 
     hr {
       width: 100%;
     }
+
+    .image-box img {
+      width: 100%;
+    }
   }
 
   @media screen and (max-width: 580px) {
-    .about-headline-box h1 {
+    .about-headline h1 {
       font-size: 40px;
     }
   }
 
   @media screen and (max-width: 480px) {
 
-    .about-headline-box h2 {
+    .about-headline h2 {
       font-size: 18px;
     }
   }
 
   @media screen and (max-width: 400px) {
-    .about-headline-box h1 {
+    .about-headline h1 {
       font-size: 38px;
     }
   }
