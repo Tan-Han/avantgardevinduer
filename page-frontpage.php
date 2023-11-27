@@ -6,7 +6,7 @@
   <h3>
     <?php the_field("slogan") ?>
   </h3>
-</div>
+
 
 
 <!-- hero slider  -->
@@ -36,7 +36,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+</div>
 
 <div class="frontpage-mini-nav">
   <p>
