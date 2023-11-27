@@ -5,7 +5,7 @@
     <div class="flex gap-18">
         <div class="flex-col w-half">
             <!-- titel -->
-            <div class="pt-5 pb-2">
+            <div class="pb-2">
                 <h2 class="pb-2"><?php the_field("produkt_navn")?></h2>
                 <p><?php the_field("kort_beskrivelse")?></p>
             </div>
