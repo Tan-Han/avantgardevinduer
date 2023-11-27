@@ -120,7 +120,7 @@
 
             <!-- information -->
             <div class="flex-col w-half align-center">
-                <img src="<?php the_field("fordel_billede_1") ?>" alt="" height="400px">
+                <img src="<?php the_field("fordel_billede_1") ?>" alt="" height="400px" class="align-center">
             </div>
         </div>
     </div>
@@ -245,6 +245,7 @@
 
     .align-center {
         align-items: center;
+        justify-content: center;
     }
 
 
