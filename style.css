@@ -437,3 +437,30 @@ hr {
   overflow: hidden;
   font-size: 16px;
 }
+
+
+/* GALLERI  */
+.headline-galleri {
+  text-align: center;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headline-galleri h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.headline-galleri h2 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+hr {
+  width: 45%;
+  border-top: 3px solid #333333;
+  opacity: 100%;
+}
