@@ -1,9 +1,9 @@
 <?php get_header() ?>
 
 <!-- hero -->
-<div class="container ten-percent pt-5 pb-5">
-    <div class="row">
-        <div class="col">
+<div class="ten-percent pt-5 pb-5">
+    <div class="flex">
+        <div class="flex-col">
             <!-- titel -->
             <div class="pt-5 pb-2">
                 <h2><?php the_field("produkt_navn")?></h2>
@@ -11,8 +11,8 @@
             </div>
 
             <!-- specifikationer -->
-            <div class="row">
-                <div class="col pb-5">
+            <div class="flex">
+                <div class="flex-col pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_1")?></h5>
@@ -25,7 +25,7 @@
                     </div>
                     
                 </div>
-                <div class="col pb-5">
+                <div class="flex-col pb-5">
                     <div>
                         <hr class="hr-small">
                         <h5><?php the_field("parameter_titel_3")?></h5>
@@ -42,7 +42,7 @@
         </div>
 
         <!-- img -->
-        <div class="col">
+        <div class="flex-col">
             <div>
                 <img src="<?php the_field("produkt_billede")?>" alt="" style="height: 400px;">
             </div>
@@ -51,9 +51,9 @@
 </div>
 
 <!-- farver -->
-<div class="container ten-percent pb-5">
-    <div class="row">
-        <div class="col">
+<div class="ten-percent pb-5">
+    <div class="flex">
+        <div class="flex-col">
         <hr class="hr-small">
         <h3><?php the_field("farve_titel")?></h3>
         <p><?php the_field("farve_beskrivelse")?></p>
@@ -61,9 +61,9 @@
     </div>
 </div>
 
-<div class="container ten-percent">
-    <div class="row">
-        <div class="col">
+<div class="ten-percent">
+    <div class="flex">
+        <div class="flex-col">
             <!-- loop med farver -->
             <?php $farvegrupper = get_field("farvegrupper") ?>
             <?php foreach( $farvegrupper as $post ): 
