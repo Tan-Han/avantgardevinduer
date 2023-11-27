@@ -100,7 +100,7 @@
 </div>
 
 <!-- fordele -->
-<div class="secondary-bg pb-5">
+<div class="secondary-bg">
     <div>
         <h2 class="text-center pt-5 pb-3"><?php the_field("fordele_ved_produktet_titel") ?></h2>
     </div>
@@ -200,7 +200,7 @@
                 <hr class="hr-small">
                 <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
                 <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
-                <img src="<?php the_field("fordel_billede_6") ?>" alt="" class="fordel-6">
+                <img src="<?php the_field("fordel_billede_6") ?>" alt="" height="400px">
             </div>
         </div>
     </div>
@@ -229,10 +229,6 @@
 
     .gap {
         gap: 24px;
-    }
-
-    .fordel-6 {
-        height: 40%;
     }
 
     .w-half {
