@@ -1,7 +1,7 @@
 <?php get_header() ?>
 
 <div class="headline-galleri">
-    <h1>Galleri - Projekter</h1>
+    <h1>Galleri</h1>
     <h2>Her kan du se billeder af projekter vi har udført</h2>
 
     <hr>
