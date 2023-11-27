@@ -1,5 +1,14 @@
 <?php get_header() ?>
 
+<div class="hero">
+  <h1> Avantgardevinduer </h1>
+  <hr>
+  <h3>
+    <?php the_field("slogan") ?>
+  </h3>
+</div>
+
+
 <!-- hero slider  -->
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -28,14 +37,6 @@
   </button>
 </div>
 
-
-<div class="hero">
-  <h1> Avantgardevinduer </h1>
-  <hr>
-  <h3>
-    <?php the_field("slogan") ?>
-  </h3>
-</div>
 
 <div class="frontpage-mini-nav">
   <p>
