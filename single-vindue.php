@@ -249,9 +249,13 @@
         justify-content: center;
     }
 
+    .responsive-col{
+        display: flex;
+    }
+
 
     /* responsive design */
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 900px) {
         .responsive-col {
             display: flex;
             flex-direction: row; 
