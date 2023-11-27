@@ -232,7 +232,7 @@
     }
 
     .fordel-6 {
-        height: 40%;
+        height: 35%;
     }
 
 
