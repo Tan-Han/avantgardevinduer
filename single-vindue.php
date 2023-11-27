@@ -232,7 +232,7 @@
     }
 
     .fordel-3 {
-        width: 50%;
+        width: 70%;
     }
 
     .fordel-6 {
