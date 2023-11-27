@@ -129,7 +129,7 @@
     <div class="ten-percent pb-5 col-reverse">
         <div class="flex fordel col-reverse gap-18">
             <!-- billede -->
-            <div class="flex-col w-half">
+            <div class="flex-col w-half align-center">
                 <img src="<?php the_field("fordel_billede_2") ?>" alt="" height="400px">
             </div>
 
