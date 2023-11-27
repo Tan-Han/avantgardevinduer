@@ -120,7 +120,7 @@
 
             <!-- information -->
             <div class="flex-col">
-                <img src="<?php the_field("fordel_billede_1") ?>" alt="">
+                <img src="<?php the_field("fordel_billede_1") ?>" alt="" height="450px">
             </div>
         </div>
     </div>
