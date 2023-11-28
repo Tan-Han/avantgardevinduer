@@ -45,6 +45,7 @@
             <!-- img -->
             <div class="flex-col w-half">
                 <div>
+                    <?php $image = get_field("produkt_billede") ?>
                     <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
                 </div>
             </div>
