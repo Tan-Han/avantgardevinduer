@@ -90,26 +90,9 @@
                                     <p><?php the_title() ?></p>
                                 </div>
 
-                            </div>
-                    <?php endforeach ?>
+                            </div>            
 
-                    <!-- ekstra tekst -->
-                    <div>
-                        <?php $ekstra_tekst = get_field("ekstra_tekst") ?> 
-                        <?php foreach($ekstra_tekst as $post):
-                        setup_postdata($post) ?>
-                        <div>
-                            <?php if (get_field("ekstra_tekst")) : ?>
-                                <?php $ekstra_tekst = get_field("ekstra_tekst") ?> 
-                                <?php foreach($ekstra_tekst as $post):
-                                    setup_postdata($post) ?>
-                                    <div>
-                                        <p><?php the_field("ekstra_tekst") ?></p>
-                                    </div>
-                                <?php endforeach ?>
-                            <?php endif; ?>
-                        </div>
-                    </div>
+                    <?php endforeach ?>
                 </div>
             <?php endforeach; ?>
  
