@@ -86,14 +86,28 @@
                                 <?php endif; ?>
 
                                 <!-- navn på farve -->
-                                <span><?php the_title() ?></span>
-                            </div>
+                                <div class="flex flex-wrap" width="140px">
+                                    <p><?php the_title() ?></p>
+                                </div>
+                            </div> 
 
-                            <div class="pt-2">
-                                <p><?php the_field("ekstra_info") ?></p>
-                            </div>
-                        
-                    <?php endforeach ?>
+                            <?php 
+                                $ekstra_info = get_field("ekstra_info");
+                                
+                                if ($ekstra_info) :
+                                    foreach ($ekstra_info as $post) :
+                                        setup_postdata($post); 
+                            ?>
+                                    <div class="pt-2">
+                                        <p><?php the_field("ekstra_info"); ?></p>
+                                    </div> 
+                            <?php 
+                                    endforeach; 
+                                    wp_reset_postdata(); 
+                                endif; 
+                            ?>
+
+
                 </div>
             <?php endforeach; ?>
  
