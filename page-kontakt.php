@@ -1,59 +1,63 @@
 <?php get_header() ?>
 
-<div class="contact-headline-box">
-  <h1>Kontakt os</h1>
-  <h2>Og få et godt tilbud</h2>
+<main>
+  <div class="contact-headline-box">
+    <h1>Kontakt os</h1>
+    <h2>Og få et godt tilbud</h2>
 
-  <hr>
-</div>
-
-<div class="content-contact">
-  <div class="contact-info">
-    <div class="telephone">
-      <div class="info">
-        <p class="contact-info-headline">Telefon</p>
-        <a href="tel:<?php the_field("telephone") ?>">
-          <p>
-            <?php the_field("telephone") ?>
-          </p>
-        </a>
-      </div>
-      <div class="icon">
-        <span class="material-symbols-outlined">smartphone</span>
-      </div>
-    </div>
-    <div class="address">
-      <div class="info">
-        <p class="contact-info-headline">Adresse</p>
-        <a href="<?php the_field("address-link") ?>">
-          <p>
-            <?php the_field("address") ?>
-          </p>
-        </a>
-      </div>
-      <div class="icon">
-        <span class="material-symbols-outlined">pin_drop</span>
-      </div>
-    </div>
-    <div class="mail">
-      <div class="info">
-        <p class="contact-info-headline">E-mail</p>
-        <a href="mailto:<?php the_field("mail") ?>">
-          <p>
-            <?php the_field("mail") ?>
-          </p>
-        </a>
-      </div>
-      <div class="icon">
-        <span class="material-symbols-outlined">mail</span>
-      </div>
-    </div>
+    <hr>
   </div>
 
-  <div class="contact-form">
-    <?php echo do_shortcode('[contact-form-7 id="feb7891" title="Kontaktformular"]'); ?>
-  </div>
-</div>
+  <article class="content-contact">
+    <section class="contact-info">
+      <div class="telephone">
+        <div class="info">
+          <p class="contact-info-headline">Telefon</p>
+          <a href="tel:<?php the_field("telephone") ?>">
+            <p>
+              <?php the_field("telephone") ?>
+            </p>
+          </a>
+        </div>
+        <div class="icon">
+          <span class="material-symbols-outlined">smartphone</span>
+        </div>
+      </div>
+      <div class="address">
+        <div class="info">
+          <p class="contact-info-headline">Adresse</p>
+          <a href="<?php the_field("address-link") ?>">
+            <p>
+              <?php the_field("address") ?>
+            </p>
+          </a>
+        </div>
+        <div class="icon">
+          <span class="material-symbols-outlined">pin_drop</span>
+        </div>
+      </div>
+      <div class="mail">
+        <div class="info">
+          <p class="contact-info-headline">E-mail</p>
+          <a href="mailto:<?php the_field("mail") ?>">
+            <p>
+              <?php the_field("mail") ?>
+            </p>
+          </a>
+        </div>
+        <div class="icon">
+          <span class="material-symbols-outlined">mail</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <?php echo do_shortcode('[contact-form-7 id="feb7891" title="Kontaktformular"]'); ?>
+    </section>
+  </article>
+
+</main>
+
 
 <style>
   .contact-headline-box {
@@ -83,54 +87,54 @@
 
   @media screen and (max-width: 1300px) {
     hr {
-    width: 55%;
-  }
+      width: 55%;
+    }
   }
 
   @media screen and (max-width: 1000px) {
     .contact-headline-box h1 {
-    font-size: 60px;
-  }
+      font-size: 60px;
+    }
 
-  .contact-headline-box h2 {
-    font-size: 22px;
-  }
+    .contact-headline-box h2 {
+      font-size: 22px;
+    }
 
     hr {
-    width: 70%;
-  }
+      width: 70%;
+    }
   }
 
   @media screen and (max-width: 700px) {
     .contact-headline-box h1 {
-    font-size: 55px;
-  }
+      font-size: 55px;
+    }
 
-  hr {
-    width: 80%;
-  }
+    hr {
+      width: 80%;
+    }
   }
 
   @media screen and (max-width: 570px) {
     .contact-headline-box h1 {
-    font-size: 50px;
-  }
+      font-size: 50px;
+    }
   }
 
   @media screen and (max-width: 480px) {
     .contact-headline-box h1 {
-    font-size: 45px;
-  }
+      font-size: 45px;
+    }
 
-  .contact-headline-box h2 {
-    font-size: 18px;
-  }
+    .contact-headline-box h2 {
+      font-size: 18px;
+    }
   }
 
   @media screen and (max-width: 400px) {
     .contact-headline-box h1 {
-    font-size: 38px;
-  }
+      font-size: 38px;
+    }
   }
 
   .content-contact {
