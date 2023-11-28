@@ -1,11 +1,14 @@
 <?php get_header() ?>
 
 <div class="hero">
-  <h1> Avantgardevinduer </h1>
-  <hr>
-  <h3>
-    <?php the_field("slogan") ?>
-  </h3>
+  <div class="hero-tekst">
+    <h1> Avantgardevinduer </h1>
+    <hr>
+    <h3>
+      <?php the_field("slogan") ?>
+    </h3>
+  </div>
+  
 
 
 
@@ -17,17 +20,20 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
+
+    <!-- billeder  -->
     <div class="carousel-item active">
-      <div class="hero_1"></div>
-      
-      <!-- <img src="<?php echo get_field("hero_1") ?>" class="d-block w-100" alt="..."> -->
+      <img src="<?php echo get_field("hero_1") ?>" class="d-block w-100" alt="...">
     </div>
+
     <div class="carousel-item">
-      <!-- <img src="<?php echo get_field("hero_2") ?>" class="d-block w-100" alt="..."> -->
+      <img src="<?php echo get_field("hero_2") ?>" class="d-block w-100" alt="...">
     </div>
+
     <div class="carousel-item">
-      <!-- <img src="<?php echo get_field("hero_3") ?>" class="d-block w-100" alt="..."> -->
+      <img src="<?php echo get_field("hero_3") ?>" class="d-block w-100" alt="...">
     </div>
+
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,7 +80,7 @@
     overflow: hidden;
   }
 
-  h1 {
+  /* h1 {
     padding: 1rem 0;
     color: var(--white);
     font-size: 85px;
@@ -88,7 +94,7 @@
     font-size: 60px;
     font-weight: 400;
     text-shadow: #333 3px 3px 3px;
-  }
+  } */
 
   hr {
     color: var(--white);
@@ -97,12 +103,11 @@
     opacity: 100%;
   }
 
-  .hero_1 {
-    background-image: <?php the_field("hero_1") ?>;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
+  .hero-tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .frontpage-mini-nav {
