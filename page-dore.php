@@ -13,7 +13,8 @@
         $productLoop->the_post() ?>
 
         <div class="card" style="width: 18rem;">
-            <img src="<?php the_field("produkt_billede") ?>" class="card-img-top" alt="...">
+        <?php $image = get_field("produkt_billede") ?>
+            <img src="<?php echo $image["sizes"]["thumbnail"] ?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <a href="<?php the_permalink() ?>">
                     <h3>
