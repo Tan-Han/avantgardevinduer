@@ -11,7 +11,7 @@
             </div>
  
             <!-- specifikationer -->
-            <div class="flex parameter">
+            <div class="flex parameter gap-18">
                 <div class="flex-col w-half pb-5 parameter">
                     <div>
                         <hr class="hr-small">
@@ -289,6 +289,10 @@
         .img-skak {
             padding: 0;
         }
+
+        .parameter {
+            padding-bottom: 0 !important;
+        }
     }
 
     @media screen and (max-width: 500px) {
@@ -299,7 +303,6 @@
         .parameter {
             display: flex;
             flex-direction: column;
-            padding-bottom: 0 !important;
         }
     }
 
