@@ -1,34 +1,38 @@
 <?php get_header() ?>
 
-<div class="headline-productlist">
-    <h1>Døre</h1>
-    <h2>Her kan du læse mere om de døre vi tilbyder</h2>
+<main>
+    <div class="headline-productlist">
+        <h1>Døre</h1>
+        <h2>Her kan du læse mere om de døre vi tilbyder</h2>
 
-    <hr>
-</div>
+        <hr>
+    </div>
 
-<div class="content-productlist">
-    <?php $productLoop = new WP_Query(array("post_type" => "dor", "posts_per_page" => -1)) ?>
-    <?php while ($productLoop->have_posts()):
-        $productLoop->the_post() ?>
+    <article class="content-productlist">
+        <?php $productLoop = new WP_Query(array("post_type" => "dor", "posts_per_page" => -1)) ?>
+        <?php while ($productLoop->have_posts()):
+            $productLoop->the_post() ?>
 
-        <div class="card" style="width: 18rem;">
-        <?php $image = get_field("produkt_billede") ?>
-            <img src="<?php echo $image["sizes"]["medium"] ?>" class="card-img-top" alt="<?php echo $image["alt"] ?>">
-            <div class="card-body">
-                <a href="<?php the_permalink() ?>">
-                    <h3>
-                        <?php the_title() ?>
-                    </h3>
-                </a>
-                <p class="card-text">
-                    <?php the_field("kort_beskrivelse") ?>
-                </p>
+            <div class="card" style="width: 18rem;">
+                <?php $image = get_field("produkt_billede") ?>
+                <img src="<?php echo $image["sizes"]["medium"] ?>" class="card-img-top" alt="<?php echo $image["alt"] ?>">
+                <div class="card-body">
+                    <a href="<?php the_permalink() ?>">
+                        <h3>
+                            <?php the_title() ?>
+                        </h3>
+                    </a>
+                    <p class="card-text">
+                        <?php the_field("kort_beskrivelse") ?>
+                    </p>
+                </div>
             </div>
-        </div>
 
-    <?php endwhile ?>
+        <?php endwhile ?>
 
-</div>
+    </article>
+
+</main>
+
 
 <?php get_footer() ?>

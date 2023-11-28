@@ -1,8 +1,8 @@
 <?php get_header() ?>
 <main>
   <div class="about-headline">
-    <h1>Om Avantgardevinduer</h1>
-    <h2>Læs mere om firmaet og manden bag</h2>
+    <h1>Vores historie</h1>
+    <h2>Læs mere om Avantgardevinduer og manden bag</h2>
 
     <hr>
   </div>
