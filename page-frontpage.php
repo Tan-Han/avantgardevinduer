@@ -95,6 +95,12 @@
     opacity: 100%;
   }
 
+  .carousel-control-next-icon {
+    display: flex;
+    flex-direction: center;
+    align-self: center;
+  }
+
   .frontpage-mini-nav {
     width: 100%;
     background-color: var(--tertiary-color);
