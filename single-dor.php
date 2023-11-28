@@ -76,7 +76,7 @@
                     <?php $farver = get_field("farver") ?> 
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div class="flex flex-col flex-wrap">
+                            <div class="flex flex-col">
                                 <!-- baggrundsfarve eller billede med farven -->
                                 <?php if (get_field("hex_color")) : ?>
                                     <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
@@ -86,7 +86,7 @@
                                 <?php endif; ?>
 
                                 <!-- navn på farve -->
-                                <div>
+                                <div class="farve-storrelse flex-wrap">
                                     <p><?php the_title() ?></p>
                                 </div>
                             </div>
