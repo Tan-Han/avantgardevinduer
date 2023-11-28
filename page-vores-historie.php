@@ -1,26 +1,29 @@
 <?php get_header() ?>
+<main>
+  <div class="about-headline">
+    <h1>Om Avantgardevinduer</h1>
+    <h2>Læs mere om firmaet og manden bag</h2>
 
-<div class="about-headline">
-  <h1>Om Avantgardevinduer</h1>
-  <h2>Læs mere om firmaet og manden bag</h2>
-
-  <hr>
-</div>
-
-<div class="about-content">
-  <div class="about-content-inner">
-    <div class="text-box">
-      <h3>Firmaets historie</h3>
-      <p>
-        <?php the_field("company") ?>
-      </p>
-    </div>
-    <div class="image-box">
-      <?php $image = get_field("image_company") ?>
-      <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>">
-    </div>
+    <hr>
   </div>
-</div>
+
+  <article class="about-content">
+    <div class="about-content-inner">
+      <div class="text-box">
+        <h3>Firmaets historie</h3>
+        <section>
+          <p>
+            <?php the_field("company") ?>
+          </p>
+        </section>
+      </div>
+      <div class="image-box">
+        <?php $image = get_field("image_company") ?>
+        <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>">
+      </div>
+    </div>
+  </article>
+</main>
 
 <style>
   .about-headline {
