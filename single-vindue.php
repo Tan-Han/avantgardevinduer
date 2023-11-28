@@ -84,8 +84,8 @@
                                         <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
 
                                         <?php elseif (get_field("img_color")) : ?>
-                                            <?php $image = get_field("img_color") ?>
-                                            <img src="<?php echo $image["sizes"]["thumbnail"] ?>" alt="<?php echo $image["alt"] ?>" class="farve-storrelse">
+                                            <?php $imageFarve = get_field("img_color") ?>
+                                            <img src="<?php echo $imageFarve["sizes"]["thumbnail"] ?>" alt="<?php echo $imageFarve["alt"] ?>" class="farve-storrelse">
                                     <?php endif; ?>
 
                                     <!-- navn på farve -->
@@ -141,8 +141,8 @@
 
                 <!-- information -->
                 <div class="flex-col w-half ten-percent img-size-adjust align-center img-skak">
-                    <?php $image = get_field("fordel_billede_1") ?>
-                    <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                    <?php $image1 = get_field("fordel_billede_1") ?>
+                    <img src="<?php echo $image1["sizes"]["large"] ?>" alt="<?php echo $image1["alt"] ?>" width="100%">
                 </div>
             </div>
         </div>
@@ -152,8 +152,8 @@
             <div class="flex fordel col-reverse gap-18">
                 <!-- billede -->
                 <div class="flex-col w-half ten-percent align-center img-size-adjust img-skak">
-                    <?php $image = get_field("fordel_billede_2") ?>
-                    <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                    <?php $image2 = get_field("fordel_billede_2") ?>
+                    <img src="<?php echo $image2["sizes"]["large"] ?>" alt="<?php echo $image2["alt"] ?>" width="100%">
                 </div>
 
                 <!-- information -->
@@ -183,8 +183,8 @@
                     <h4 class="pb-1"><?php the_field("fordel_subheadline_3") ?></h4>
                     <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
 
-                    <?php $image = get_field("fordel_billede_3") ?>
-                    <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                    <?php $image3 = get_field("fordel_billede_3") ?>
+                    <img src="<?php echo $image3["sizes"]["large"] ?>" alt="<?php echo $image3["alt"] ?>" width="100%">
                 </div> 
             </div>
         </div>
@@ -199,8 +199,8 @@
                 </div>  
 
                 <div class="flex-col w-half">
-                    <?php $image = get_field("fordel_billede_4") ?>
-                    <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                    <?php $image4 = get_field("fordel_billede_4") ?>
+                    <img src="<?php echo $image4["sizes"]["large"] ?>" alt="<?php echo $image4["alt"] ?>" width="100%">
                 </div>
             </div>
         </div>
@@ -209,8 +209,8 @@
         <div class="ten-percent pb-5">
             <div class="flex fordel col-reverse gap-18">
                 <div class="flex-col w-half">
-                    <?php $image = get_field("fordel_billede_5") ?>
-                    <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                    <?php $image5 = get_field("fordel_billede_5") ?>
+                    <img src="<?php echo $image5["sizes"]["large"] ?>" alt="<?php echo $image5["alt"] ?>" width="100%">
                 </div>
 
                 <div class="flex-col w-half">
@@ -230,8 +230,8 @@
                     <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
 
                     <div class="w-3 img-size-adjust">
-                        <?php $image = get_field("fordel_billede_6") ?>
-                        <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                        <?php $image6 = get_field("fordel_billede_6") ?>
+                        <img src="<?php echo $image6["sizes"]["large"] ?>" alt="<?php echo $image6["alt"] ?>" width="100%">
                     </div>
                 </div>
             </div>
