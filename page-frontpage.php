@@ -93,6 +93,7 @@
     width: 80%;
     border-top: 3px solid;
     opacity: 100%;
+    align-self: center;
   }
 
   .hero-tekst {
