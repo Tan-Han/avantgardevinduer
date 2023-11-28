@@ -17,7 +17,7 @@
     </div>
     <div class="image-box">
       <?php $image = get_field("image_company") ?>
-      <img src="<?php echo $image["sizes"]["large"] ?>" alt="">
+      <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>">
     </div>
   </div>
 </div>
