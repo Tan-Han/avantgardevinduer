@@ -151,7 +151,7 @@
             <div class="flex fordel col-reverse gap-18">
                 <!-- billede -->
                 <div class="flex-col w-half ten-percent align-center img-size-adjust img-skak">
-                    <?php $image2 = get_field("fordel_billede_2") ?>
+                    <?php $image2 = get_field("fordel_billede_2") ?> 
                     <img src="<?php echo $image2["sizes"]["large"] ?>" alt="<?php echo $image2["alt"] ?>" width="100%">
                 </div>
 
