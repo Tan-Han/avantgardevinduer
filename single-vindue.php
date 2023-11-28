@@ -84,7 +84,6 @@
                                         <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
 
                                         <?php elseif (get_field("img_color")) : ?>
-                                            <?php $image = get_field("img_color") ?>
                                             <img src="<?php echo $image["sizes"]["thumbnail"] ?>" alt="<?php echo $image["alt"] ?>" class="farve-storrelse">
                                     <?php endif; ?>
 
