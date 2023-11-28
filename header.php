@@ -22,7 +22,7 @@
             <li class="nav-link"><a href="/dore">Døre</a></li>
             <li class="nav-link"><a href="/galleri">Galleri</a></li>
             <li class="nav-link"><a href="/kontakt">Kontakt</a></li>
-            <li class="nav-link"><a href="/om-os">Om os</a></li>
+            <li class="nav-link"><a href="/vores-historie">Om os</a></li>
         </ul>
     </nav>
 

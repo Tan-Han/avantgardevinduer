@@ -1,10 +1,11 @@
 <footer>
   <div class="links">
-    <a href="">Forside</a>
-    <a href="">Døre</a>
-    <a href="">Vinduer</a>
-    <a href="">Galleri</a>
-    <a href="">Kontakt</a>
+    <a href="/">Forside</a>
+    <a href="/dore">Døre</a>
+    <a href="/vinduer">Vinduer</a>
+    <a href="/galleri">Galleri</a>
+    <a href="/kontakt">Kontakt</a>
+    <a href="/vores-historie">Vores historie</a>
   </div>
   <div class="info">
     <p class="bold">Avantgardevinduer</p>
