@@ -12,3 +12,9 @@
   }
 
   add_action( "wp_enqueue_scripts", "mt_register_stylesheets" );
+
+  function ad_remove_gutenberg() {
+    remove_post_type_support( "page", "editor" );
+    remove_post_type_support( "post", "editor" );
+  }
+  add_action("init", "ad_remove_gutenberg");
