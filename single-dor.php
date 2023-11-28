@@ -76,17 +76,17 @@
                     <?php $farver = get_field("farver") ?> 
                     <?php foreach($farver as $post):
                         setup_postdata($post) ?>
-                            <div class="flex flex-col">
+                            <div class="flex flex-col flex-wrap farve-storrelse">
                                 <!-- baggrundsfarve eller billede med farven -->
                                 <?php if (get_field("hex_color")) : ?>
-                                    <div style="background-color: <?php the_field("hex_color") ?>; width: 140px; height: 80px;"></div>
+                                    <div style="background-color: <?php the_field("hex_color") ?>"></div>
 
                                     <?php elseif (get_field("img_color")) : ?>
-                                        <img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 140px; height: 80px;">
+                                        <img src="<?php the_field("img_color") ?>" alt="farve-billede">
                                 <?php endif; ?>
 
                                 <!-- navn på farve -->
-                                <div class="flex flex-wrap" width="140px">
+                                <div>
                                     <p><?php the_title() ?></p>
                                 </div>
                             </div>
@@ -260,6 +260,11 @@
 
     .responsive-col{
         display: flex;
+    }
+
+    .farve-storrelse {
+        width: 140px; 
+        height: 80px;
     }
 
 
