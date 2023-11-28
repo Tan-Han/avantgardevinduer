@@ -86,12 +86,10 @@
                                 <?php endif; ?>
 
                                 <!-- navn på farve -->
-                                <div class="flex flex-wrap" width="140px">
-                                    <p><?php the_title() ?></p>
-                                </div>
-                            </div> 
-
-
+                                <span><?php the_title() ?></span>
+                            </div>
+                        
+                    <?php endforeach ?>
                 </div>
             <?php endforeach; ?>
  
