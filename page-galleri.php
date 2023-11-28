@@ -1,7 +1,10 @@
-<?php get_header() ?>
+<header>
+    <?php get_header() ?>
+</header>
 
 <main>
     <section>
+        <!-- titel -->
         <article class="headline-galleri">
             <h1>Galleri</h1>
             <h2>Her kan du se billeder af projekter vi har udført</h2>
@@ -16,4 +19,6 @@
     </section>
 </main>
 
-<?php get_footer() ?>
+<footer>
+    <?php get_footer() ?>
+</footer>
