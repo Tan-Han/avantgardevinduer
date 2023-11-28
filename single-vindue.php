@@ -207,8 +207,8 @@
         <div class="ten-percent pb-5">
             <div class="flex fordel col-reverse gap-18">
                 <div class="flex-col w-half">
-                    <?php $image4 = get_field("fordel_billede_4") ?>
-                    <img src="<?php echo $image4["sizes"]["large"] ?>" alt="<?php echo $image4["alt"] ?>" width="100%">
+                    <?php $image5 = get_field("fordel_billede_5") ?>
+                    <img src="<?php echo $image5["sizes"]["large"] ?>" alt="<?php echo $image5["alt"] ?>" width="100%">
                 </div>
 
                 <div class="flex-col w-half">
