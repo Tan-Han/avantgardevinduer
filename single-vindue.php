@@ -96,13 +96,13 @@
 
                 <!-- ekstra tekst -->
                 <div>
-                    <?php $ekstra_tekst = get_field("ekstra_tekst") ?> 
-                    <?php foreach($ekstra_tekst as $post):
+                    <?php $ekstratekst = get_field("ekstra_tekst") ?> 
+                    <?php foreach($ekstratekst as $post):
                     setup_postdata($post) ?>
                         <div>
                             <?php if (get_field("ekstra_tekst")) : ?>
-                                <?php $ekstra_tekst = get_field("ekstra_tekst") ?> 
-                                <?php foreach($ekstra_tekst as $post):
+                                <?php $ekstratekst = get_field("ekstra_tekst") ?> 
+                                <?php foreach($ekstratekst as $post):
                                     setup_postdata($post) ?>
                                     <div>
                                         <p><?php the_field("ekstra_tekst") ?></p>
