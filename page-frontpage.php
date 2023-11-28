@@ -80,7 +80,7 @@
     overflow: hidden;
   }
 
-  /* h1 {
+  h1 {
     padding: 1rem 0;
     color: var(--white);
     font-size: 85px;
@@ -94,7 +94,7 @@
     font-size: 60px;
     font-weight: 400;
     text-shadow: #333 3px 3px 3px;
-  } */
+  }
 
   hr {
     color: var(--white);
