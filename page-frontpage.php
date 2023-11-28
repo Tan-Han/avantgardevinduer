@@ -22,15 +22,15 @@
   <div class="carousel-inner">
 
     <!-- billeder  -->
-    <div class="carousel-item active">
+    <div class="carousel-item active" data-bs-interval="1000">
       <img src="<?php echo get_field("hero_1") ?>" class="d-block w-100" alt="...">
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="1000">
       <img src="<?php echo get_field("hero_2") ?>" class="d-block w-100" alt="...">
     </div>
 
-    <div class="carousel-item">
+    <div class="carousel-item" data-bs-interval="1000">
       <img src="<?php echo get_field("hero_3") ?>" class="d-block w-100" alt="...">
     </div>
 
