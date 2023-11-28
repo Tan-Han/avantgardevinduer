@@ -140,8 +140,8 @@
 
                 <!-- information -->
                 <div class="flex-col w-half ten-percent img-size-adjust align-center img-skak">
-                    <?php $image = get_field("fordel_billede_1") ?>
-                    <img src="<?php echo $image["sizes"]["large"] ?>" alt="<?php echo $image["alt"] ?>" width="100%">
+                    <?php $image1 = get_field("fordel_billede_1") ?>
+                    <img src="<?php echo $image1["sizes"]["large"] ?>" alt="<?php echo $image1["alt"] ?>" width="100%">
                 </div>
             </div>
         </div>
