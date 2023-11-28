@@ -84,8 +84,8 @@
                                         <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
 
                                         <?php elseif (get_field("img_color")) : ?>
-                                            <?php $image = get_field("img_color") ?>
-                                            <img src="<?php echo $image["sizes"]["medium"] ?>" alt="<?php echo $image["alt"] ?>" class="farve-storrelse">
+                                            <?php $imageFarver = get_field("img_color") ?>
+                                            <img src="<?php echo $imageFarver["sizes"]["thumbnail"] ?>" alt="<?php echo $imageFarver["alt"] ?>" class="farve-storrelse">
                                     <?php endif; ?> 
 
                                     <!-- navn på farve -->
