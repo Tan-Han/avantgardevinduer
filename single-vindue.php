@@ -86,7 +86,7 @@
                                 <?php endif; ?>
 
                                 <!-- navn på farve -->
-                                <span class="flex flex-wrap"><?php the_title() ?></span>
+                                <span class="flex flex-wrap" width="140px"><?php the_title() ?></span>
                             </div>
 
                             <div class="pt-2">
