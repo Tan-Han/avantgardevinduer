@@ -95,10 +95,10 @@
     opacity: 100%;
   }
 
-  .carousel-control-next-icon {
+  .carousel-control-next {
     display: flex;
     flex-direction: center;
-    align-self: center;
+    align-items: center;
   }
 
   .frontpage-mini-nav {
