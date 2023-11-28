@@ -1,11 +1,14 @@
 <?php get_header() ?>
 
 <div class="hero">
-  <h1> Avantgardevinduer </h1>
-  <hr>
-  <h3>
-    <?php the_field("slogan") ?>
-  </h3>
+  <div class="hero-tekst">
+    <h1> Avantgardevinduer </h1>
+    <hr>
+    <h3>
+      <?php the_field("slogan") ?>
+    </h3>
+  </div>
+  
 
 
 
@@ -17,24 +20,21 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+
+    <!-- billeder  -->
+    <div class="carousel-item active" data-bs-interval="3000">
       <img src="<?php echo get_field("hero_1") ?>" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
+
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="<?php echo get_field("hero_2") ?>" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
+
+    <div class="carousel-item" data-bs-interval="3000">
       <img src="<?php echo get_field("hero_3") ?>" class="d-block w-100" alt="...">
     </div>
+
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
 </div>
 
@@ -69,7 +69,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 10%;
     overflow: hidden;
   }
 
@@ -94,6 +93,18 @@
     width: 80%;
     border-top: 3px solid;
     opacity: 100%;
+    align-self: center;
+  }
+
+  .hero-tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .frontpage-mini-nav {

@@ -6,7 +6,7 @@
         <div class="flex-col w-half">
             <!-- titel -->
             <div class="pb-2">
-                <h2 class="pb-2"><?php the_field("produkt_navn")?></h2>
+                <h1 class="pb-2"><?php the_field("produkt_navn")?></h1>
                 <p><?php the_field("kort_beskrivelse")?></p>
             </div>
  
@@ -79,14 +79,16 @@
                             <div class="flex flex-col">
                                 <!-- baggrundsfarve eller billede med farven -->
                                 <?php if (get_field("hex_color")) : ?>
-                                    <div style="background-color: <?php the_field("hex_color") ?>; width: 140px; height: 80px;"></div>
+                                    <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
 
                                     <?php elseif (get_field("img_color")) : ?>
-                                        <img src="<?php the_field("img_color") ?>" alt="farve-billede" style="width: 140px; height: 80px;">
+                                        <img src="<?php the_field("img_color") ?>" alt="farve-billede" class="farve-storrelse">
                                 <?php endif; ?>
 
                                 <!-- navn på farve -->
-                                <span><?php the_title() ?></span>
+                                <div class="farve-storrelse flex-wrap">
+                                    <p><?php the_title() ?></p>
+                                </div>
                             </div>
                         
                     <?php endforeach ?>
@@ -258,6 +260,11 @@
 
     .responsive-col{
         display: flex;
+    }
+
+    .farve-storrelse {
+        width: 140px; 
+        height: 80px;
     }
 
 
