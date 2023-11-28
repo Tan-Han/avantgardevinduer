@@ -6,7 +6,7 @@
         <div class="flex-col w-half">
             <!-- titel -->
             <div class="pb-2">
-                <h2 class="pb-2"><?php the_field("produkt_navn")?></h2>
+                <h1 class="pb-2"><?php the_field("produkt_navn")?></h1>
                 <p><?php the_field("kort_beskrivelse")?></p>
             </div>
  
