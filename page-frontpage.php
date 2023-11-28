@@ -72,6 +72,12 @@
     overflow: hidden;
   }
 
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   h1 {
     padding: 1rem 0;
     color: var(--white);
