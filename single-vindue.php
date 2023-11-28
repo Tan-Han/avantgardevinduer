@@ -91,9 +91,7 @@
                                 </div>
                             </div> 
 
-                            <div class="pt-2">
-                                <p><?php the_field("ekstra_info") ?></p>
-                            </div> 
+                            
                         
 
                 </div>
