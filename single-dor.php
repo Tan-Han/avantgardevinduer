@@ -91,22 +91,6 @@
                                 </div>
                             </div> 
 
-                            <?php 
-                                $ekstra_info = get_field("ekstra_info");
-                                
-                                if ($ekstra_info) :
-                                    foreach ($ekstra_info as $post) :
-                                        setup_postdata($post); 
-                            ?>
-                                    <div class="pt-2">
-                                        <p><?php the_field("ekstra_info"); ?></p>
-                                    </div> 
-                            <?php 
-                                    endforeach; 
-                                    wp_reset_postdata(); 
-                                endif; 
-                            ?>
-
 
                 </div>
             <?php endforeach; ?>
