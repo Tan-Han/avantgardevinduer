@@ -97,15 +97,14 @@
                         <!-- ekstra tekst -->
                         <div class="ekstra-tekst">
                             <?php $ekstra_tekst = get_field("ekstra_tekst"); ?>
-                            <?php if (get_field("ekstra_tekst")) : ?>
-                                <?php foreach($ekstra_tekst as $post):  
-                                    setup_postdata($post) ?>  
-                                    <div>
+                            <?php foreach($ekstra_tekst as $post):  
+                                setup_postdata($post) ?>
+                                <div>
+                                    <?php if (get_field("ekstra_tekst")) : ?>
                                         <p><?php the_field("ekstra_tekst"); ?></p>
-                                    </div>
-                                <?php endforeach; ?>
-                                <?php wp_reset_postdata(); ?>
-                            <?php endif; ?>
+                                    <?php endif; ?>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
 
                     </div>
