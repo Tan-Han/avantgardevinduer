@@ -14,7 +14,7 @@
 
         <div class="card" style="width: 18rem;">
             <?php $image = get_field("produkt_billede") ?>
-            <img src="<?php echo $image["sizes"]["medium"] ?>" class="card-img-top" alt="...">
+            <img src="<?php echo $image["sizes"]["small"] ?>" class="card-img-top" alt="...">
             <div class="card-body">
                 <a href="<?php the_permalink() ?>">
                     <h3>
