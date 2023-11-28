@@ -97,7 +97,7 @@
                         <?php endforeach ?>
 
                         <!-- ekstra tekst -->
-                        <div class="ekstra-tekst">
+                        <!-- <div class="ekstra-tekst">
                             <?php $ekstra_tekst = get_field("ekstra_tekst"); ?>
                             <?php if ($ekstra_tekst) : ?>
                                 <?php foreach ($ekstra_tekst as $post) : 
@@ -108,7 +108,7 @@
                                 <?php endforeach; ?>
                                 <?php wp_reset_postdata(); ?>
                             <?php endif; ?>
-                        </div>
+                        </div> -->
 
                     </div>
 
