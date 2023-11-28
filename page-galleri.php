@@ -1,18 +1,24 @@
-<?php get_header() ?>
+<header>
+    <?php get_header() ?>
+</header>
 
 <main>
-    <div class="headline-galleri">
-        <h1>Galleri</h1>
-        <h2>Her kan du se billeder af projekter vi har udført</h2>
+    <section>
+        <!-- titel -->
+        <article class="headline-galleri">
+            <h1>Galleri</h1>
+            <h2>Her kan du se billeder af projekter vi har udført</h2>
 
-        <hr>
-    </div>
+            <hr>
+        </article>
 
-    <!-- galleri slider -->
-    <div class="p-5 pt-3">
-        <?php echo do_shortcode('[sp_wpcarousel id="149"]'); ?>
-    </div>
-
+        <!-- galleri slider -->
+        <article class="p-5 pt-3">
+            <?php echo do_shortcode('[sp_wpcarousel id="149"]'); ?>
+        </article>
+    </section>
 </main>
 
-<?php get_footer() ?>
+<footer>
+    <?php get_footer() ?>
+</footer>

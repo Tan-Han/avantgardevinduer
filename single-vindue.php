@@ -1,8 +1,10 @@
-<?php get_header() ?>
+<header>
+    <?php get_header() ?>
+</header>
 
 <main>
-    <!-- hero -->
-    <div class="ten-percent pt-5 pb-5">
+    <!-- produkt info sektion -->
+    <section class="ten-percent pt-5 pb-5">
         <div class="flex gap-18 responsive-col">
             <div class="flex-col w-half">
                 <!-- titel -->
@@ -70,89 +72,81 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- farver -->
-    <div class="ten-percent pb-5">
-        <div class="flex">
-            <div class="flex-col">
+    <!-- farve sektion -->
+    <section>
+        <!-- farver -->
+        <article class="ten-percent pb-5">
+            <div class="flex">
+                <div class="flex-col">
                 <hr class="hr-small">
-                <h3>
-                    <?php the_field("farve_titel") ?>
-                </h3>
-                <p>
-                    <?php the_field("farve_beskrivelse") ?>
-                </p>
+                <h3><?php the_field("farve_titel")?></h3>
+                <p><?php the_field("farve_beskrivelse")?></p>
+                </div>
             </div>
-        </div>
-    </div>
+        </article>
 
-    <!-- farvegrupper -->
-    <div class="ten-percent">
-        <div class="flex">
-            <div class="flex-col">
-                <!-- loop med farver -->
-                <?php $farvegrupper = get_field("farvegrupper") ?>
-                <?php foreach ($farvegrupper as $post):
+        <!-- farvegrupper -->
+        <article class="ten-percent">
+            <div class="flex">
+                <div class="flex-col">
+                    <!-- loop med farver -->
+                    <?php $farvegrupper = get_field("farvegrupper") ?>
+                    <?php foreach( $farvegrupper as $post ): 
 
-                    setup_postdata($post); ?>
-                    <h3 class="pb-2">
-                        <?php the_title() ?>
-                    </h3>
+                        setup_postdata($post); ?>
+                        <h3 class="pb-2"><?php the_title() ?></h3>
 
-                    <div class="flex flex-wrap pb-5 gap farver">
-                        <?php $farver = get_field("farver") ?>
-                        <?php foreach ($farver as $post):
-                            setup_postdata($post) ?>
-                            <div class="flex flex-col">
-                                <!-- baggrundsfarve eller billede med farven -->
-                                <?php if (get_field("hex_color")): ?>
-                                    <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
+                        <div class="flex flex-wrap pb-5 gap farver">
+                            <?php $farver = get_field("farver") ?> 
+                            <?php foreach($farver as $post):
+                                setup_postdata($post) ?>
+                                    <div class="flex flex-col">
+                                        <!-- baggrundsfarve eller billede med farven -->
+                                        <?php if (get_field("hex_color")) : ?>
+                                            <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
 
-                                <?php elseif (get_field("img_color")): ?>
-                                    <?php $imageFarver = get_field("img_color") ?>
-                                    <img src="<?php echo $imageFarver["sizes"]["thumbnail"] ?>"
-                                        alt="<?php echo $imageFarver["alt"] ?>" class="farve-storrelse">
+                                            <?php elseif (get_field("img_color")) : ?>
+                                                <?php $imageFarver = get_field("img_color") ?>
+                                                <img src="<?php echo $imageFarver["sizes"]["thumbnail"] ?>" alt="<?php echo $imageFarver["alt"] ?>" class="farve-storrelse">
+                                        <?php endif; ?> 
+
+                                        <!-- navn på farve -->
+                                        <div class="farve-storrelse flex-wrap">
+                                            <p><?php the_title() ?></p>
+                                        </div>
+                                    </div>
+
+                            <?php endforeach ?>
+
+                            <!-- ekstra tekst -->
+                            <div class="ekstra-tekst">
+                                <?php $ekstra_tekst = get_field("ekstra_tekst"); ?>
+                                <?php if ($ekstra_tekst) : ?>
+                                    <?php foreach ($ekstra_tekst as $post) : 
+                                        setup_postdata($post); ?>
+                                        <div>
+                                            <p><?php the_field("ekstra_tekst"); ?></p>
+                                        </div>
+                                    <?php endforeach; ?>
+                                    <?php wp_reset_postdata(); ?>
                                 <?php endif; ?>
-
-                                <!-- navn på farve -->
-                                <div class="farve-storrelse flex-wrap">
-                                    <p>
-                                        <?php the_title() ?>
-                                    </p>
-                                </div>
                             </div>
 
-                        <?php endforeach ?>
-
-                        <!-- ekstra tekst -->
-                        <div class="ekstra-tekst">
-                            <?php $ekstra_tekst = get_field("ekstra_tekst"); ?>
-                            <?php foreach ($ekstra_tekst as $post):
-                                setup_postdata($post); ?>
-                                <?php if ($ekstra_tekst): ?>
-                                    <div>
-                                        <p>
-                                            <?php the_field("ekstra_tekst"); ?>
-                                        </p>
-                                    </div>
-                                <?php endif; ?>
-                                <?php wp_reset_postdata(); ?>
-                            <?php endforeach; ?>
                         </div>
 
-                    </div>
+                    <?php endforeach; ?>
+        
+                    <?php wp_reset_postdata(); ?>
 
-                <?php endforeach; ?>
-
-                <?php wp_reset_postdata(); ?>
-
+                </div>
             </div>
-        </div>
-    </div>
+        </article>
+    </section>
 
-    <!-- fordele -->
-    <div class="secondary-bg">
+    <!-- fordele sektion -->
+    <section class="secondary-bg">
         <div>
             <h2 class="text-center pt-5 pb-3 ten-percent">
                 <?php the_field("fordele_ved_produktet_titel") ?>
@@ -160,7 +154,7 @@
         </div>
 
         <!-- fordel 1 -->
-        <div class="ten-percent pb-5">
+        <article class="ten-percent pb-5">
             <div class="flex fordel gap-18 responsive-col">
                 <!-- billede -->
                 <div class="flex-col w-half">
@@ -184,10 +178,10 @@
                     <img src="<?php echo $image1["sizes"]["large"] ?>" alt="<?php echo $image1["alt"] ?>" width="100%">
                 </div>
             </div>
-        </div>
+        </article>
 
         <!-- fordel 2 -->
-        <div class="ten-percent pb-5">
+        <article class="ten-percent pb-5">
             <div class="flex fordel col-reverse gap-18">
                 <!-- billede -->
                 <div class="flex-col w-half ten-percent align-center img-size-adjust img-skak">
@@ -225,10 +219,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
 
         <!-- fordel 3 -->
-        <div class="ten-percent pb-5">
+        <article class="ten-percent pb-5">
             <div class="flex fordel">
                 <div class="flex-col">
                     <hr class="hr-small">
@@ -246,10 +240,10 @@
                     <img src="<?php echo $image3["sizes"]["large"] ?>" alt="<?php echo $image3["alt"] ?>" width="100%">
                 </div>
             </div>
-        </div>
+        </article>
 
         <!-- fordel 4 -->
-        <div class="ten-percent pb-5">
+        <article class="ten-percent pb-5">
             <div class="flex fordel gap-18 responsive-col">
                 <div class="flex-col w-half">
                     <hr class="hr-small">
@@ -265,10 +259,10 @@
                     <img src="<?php echo $image4["sizes"]["large"] ?>" alt="<?php echo $image4["alt"] ?>" width="100%">
                 </div>
             </div>
-        </div>
+        </article>
 
         <!-- fordel 5 -->
-        <div class="ten-percent pb-5">
+        <article class="ten-percent pb-5">
             <div class="flex fordel col-reverse gap-18">
                 <div class="flex-col w-half">
                     <?php $image5 = get_field("fordel_billede_5") ?>
@@ -285,10 +279,10 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </article>
 
         <!-- fordel 6 -->
-        <div class="ten-percent pb-5">
+        <article class="ten-percent pb-5"> 
             <div class="flex fordel">
                 <div class="flex-col">
                     <hr class="hr-small">
@@ -306,8 +300,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </article>
+    </section>
 </main>
 
 
@@ -415,5 +409,6 @@
 </style>
 
 
-
-<?php get_footer() ?>
+<footer>
+    <?php get_footer() ?>
+</footer>
