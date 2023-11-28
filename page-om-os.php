@@ -16,7 +16,12 @@
       </p>
     </div>
     <div class="image-box">
-      <img src="<?php the_field("image_company") ?>" alt="">
+      <?php $image = get_field("image_company") ?>
+      <img src="<?php echo $image("medium") ?>" alt="">
+    </div>
+    <div class="image-box">
+      <?php $image = get_field("image_company_two") ?>
+      <img src="<?php echo $image("medium") ?>" alt="">
     </div>
   </div>
 </div>
@@ -163,6 +168,14 @@
     .about-headline h1 {
       font-size: 45px;
     }
+
+    .about-content-inner h3 {
+      font-size: 30px;
+    }
+
+    .about-content-inner p {
+      font-size: 16px;
+    }
   }
 
   @media screen and (max-width: 700px) {
@@ -183,6 +196,18 @@
     .about-headline h1 {
       font-size: 40px;
     }
+
+    .about-content-inner h3 {
+      font-size: 35px;
+    }
+
+    .about-content-inner p {
+      font-size: 15px;
+    }
+
+    .image-box img {
+      height: 300px;
+    }
   }
 
   @media screen and (max-width: 480px) {
@@ -190,11 +215,27 @@
     .about-headline h2 {
       font-size: 18px;
     }
+
+    .image-box img {
+      height: 250px;
+    }
   }
 
   @media screen and (max-width: 400px) {
     .about-headline h1 {
       font-size: 38px;
+    }
+
+    .about-content-inner h3 {
+      font-size: 25px;
+    }
+
+    .about-content-inner p {
+      font-size: 14px;
+    }
+
+    .image-box img {
+      height: 200px;
     }
   }
 </style>
