@@ -91,14 +91,15 @@
                                 </div>
                             </div>
 
-                            <?php $ekstra_tekst = get_field("ekstra_tekst") ?> 
-                            <?php foreach($ekstra_tekst as $post):
-                                setup_postdata($post) ?>
-
-                                <div>
-                                    <p><?php the_field("ekstra_tekst") ?></p>
-                                </div>
-                            <?php endforeach ?>
+                            <?php if (get_field("ekstra_tekst")) : ?>
+                                <?php $ekstra_tekst = get_field("ekstra_tekst") ?> 
+                                <?php foreach($ekstra_tekst as $post):
+                                    setup_postdata($post) ?>
+                                    <div>
+                                        <p><?php the_field("ekstra_tekst") ?></p>
+                                    </div>
+                                <?php endforeach ?>
+                            <?php endif; ?>
 
                     <?php endforeach ?>
                 </div>
