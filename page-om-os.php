@@ -17,11 +17,11 @@
     </div>
     <div class="image-box">
       <?php $image = get_field("image_company") ?>
-      <img src="<?php echo $image("medium") ?>" alt="">
+      <img src="<?php echo $image["sizes"]["medium"] ?>" alt="">
     </div>
     <div class="image-box">
       <?php $image = get_field("image_company_two") ?>
-      <img src="<?php echo $image("medium") ?>" alt="">
+      <img src="<?php echo $image["sizes"]["medium"] ?>" alt="">
     </div>
   </div>
 </div>
