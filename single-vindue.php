@@ -89,7 +89,7 @@
                                 <div class="flex flex-wrap" width="140px">
                                     <p><?php the_title() ?></p>
                                 </div>
-                            </div>
+                            </div> 
 
                             <div class="pt-2">
                                 <p><?php the_field("ekstra_info") ?></p>
