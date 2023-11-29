@@ -2,6 +2,11 @@
 
 <main>
   <div class="hero">
+    <div class="hero-logo">
+    <?php $heroImage = get_field("logo_hero") ?>
+    <img src="<?php echo $heroImage["sizes"]["medium"] ?>" alt="">
+
+    </div>
     <div class="hero-tekst">
       <h1> Avantgardevinduer </h1>
       <hr class="hr-frontpage">
@@ -32,23 +37,29 @@
 
 
 <!-- Linking to hero image -->
-<?php $heroImage = get_field("hero_image") ?>
+
 
 <style>
   .hero {
     /* Inserting hero image as background */
-    background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>);
-    background-size: cover;
+    /* background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>); */
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     width: 100%;
     height: 685px;
-    text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+  }
+
+  .hero-logo {
+    width: 50%;
+  }
+
+  .hero-tekst {
+    width: 50%;
+    text-align: left;
   }
 
   h1 {
