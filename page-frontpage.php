@@ -4,7 +4,7 @@
   <div class="hero">
     <div class="hero-tekst">
       <h1> Avantgardevinduer </h1>
-      <hr class="hr-fro">
+      <hr class="hr-frontpage">
       <h3>
         <?php the_field("slogan") ?>
       </h3>
@@ -32,11 +32,12 @@
 
 
 <!-- Linking to hero image -->
-<?php $heroImage = get_field("hero_image") ?> 
+<?php $heroImage = get_field("hero_image") ?>
 
 <style>
   .hero {
-    background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>); /* Inserting hero image as background */
+    background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>);
+    /* Inserting hero image as background */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,6 +65,14 @@
     font-size: 60px;
     font-weight: 400;
     text-shadow: #333 3px 3px 3px;
+  }
+
+  .hr-frontpage {
+    color: var(--white);
+    width: 80%;
+    border-top: 3px solid;
+    opacity: 100%;
+    align-self: center;
   }
 
   .hero-tekst {

@@ -392,14 +392,6 @@ hr {
   opacity: 100%;
 }
 
-.hr-frontpage {
-  color: var(--white);
-  width: 80%;
-  border-top: 3px solid;
-  opacity: 100%;
-  align-self: center;
-}
-
 .intro-text {
   text-align: center;
 }
