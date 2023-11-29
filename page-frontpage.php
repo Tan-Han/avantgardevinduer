@@ -29,11 +29,11 @@
     </div>
   </article>
 </main>
-<?php $heroImage = get_field("hero_image") ?>
+<?php $heroImage = get_field("hero_image") ?> 
 
 <style>
   .hero {
-    background-image: url(<?php echo $heroImage; ?>);
+    background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
