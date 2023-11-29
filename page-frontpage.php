@@ -68,7 +68,7 @@
   }
 
   .hr-frontpage {
-    color: var(--white);
+    border-top: 3px solid var(--white);
     width: 80%;
     border-top: 3px solid;
     opacity: 100%;
