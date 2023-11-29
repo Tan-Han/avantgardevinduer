@@ -18,7 +18,7 @@
 </main>
 
 <style>
-    html body.customize-support main section article.p-5.pt-3 div.wpcp-carousel-wrapper.wpcp-wrapper-149.wpcp-loaded div.wpcp-carousel-content-wrapper div#sp-wp-carousel-free-id-149.wpcp-carousel-section.sp-wpcp-149.nav-vertical-center.wpcp-image-carousel.wpcp-preloader.wpcp-standard.swiper-initialized.swiper-horizontal.swiper-pointer-events div#swiper-wrapper-11884921b84610dad.swiper-wrapper div.swiper-slide div.wpcp-single-item a.wcp-light-box figure img {
+    .wpcp-carousel-section .wpcp-single-item img {
         height: 550px;
         width: 100%;
         object-fit: cover;
