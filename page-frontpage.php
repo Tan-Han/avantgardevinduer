@@ -1,67 +1,42 @@
 <?php get_header() ?>
 
-<div class="hero">
-  <div class="hero-tekst">
-    <h1> Avantgardevinduer </h1>
-    <hr>
-    <h3>
-      <?php the_field("slogan") ?>
-    </h3>
-  </div>
-  
-
-
-
-<!-- hero slider  -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-
-    <!-- billeder  -->
-    <div class="carousel-item active" data-bs-interval="3000">
-      <img src="<?php echo get_field("hero_1") ?>" class="d-block w-100" alt="...">
+<main>
+  <div class="hero">
+    <div class="hero-tekst">
+      <h1> Avantgardevinduer </h1>
+      <hr>
+      <h3>
+        <?php the_field("slogan") ?>
+      </h3>
     </div>
-
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="<?php echo get_field("hero_2") ?>" class="d-block w-100" alt="...">
-    </div>
-
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="<?php echo get_field("hero_3") ?>" class="d-block w-100" alt="...">
-    </div>
-
   </div>
-</div>
-</div>
 
-<div class="frontpage-mini-nav">
-  <p>
-    <?php the_field("frontpage_highlight") ?>
-  </p>
-</div>
-
-<div class="frontpage-content">
-  <div class="text-box">
-    <h2 class="company-name">Avantgardevinduer & Døre</h2>
-    <p class="company-description">
-      <?php the_field("frontpage_description") ?>
+  <section class="frontpage-mini-nav">
+    <p>
+      <?php the_field("frontpage_highlight") ?>
     </p>
-  </div>
-  <div class="image-box">
-    <img src="<?php the_field("frontpage_description_image") ?>" alt="">
-  </div>
-</div>
+  </section>
+
+  <article class="frontpage-content">
+    <section class="text-box">
+      <h2 class="company-name">Avantgardevinduer & Døre</h2>
+      <p class="company-description">
+        <?php the_field("frontpage_description") ?>
+      </p>
+    </section>
+    <div class="image-box">
+      <img src="<?php the_field("frontpage_description_image") ?>" alt="">
+    </div>
+  </article>
+</main>
+
 
 <style>
   .hero {
-    /* background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
+    background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     width: 100%;
     height: 685px;
     text-align: center;
@@ -70,12 +45,6 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-  }
-
-  .carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
 
   h1 {
@@ -360,16 +329,16 @@
     h3 {
       font-size: 22px;
     }
-   
+
     hr {
       width: 100%;
     }
   }
 
   @media screen and (max-width: 550px) {
-h1 {
-  font-size: 38px;
-}
+    h1 {
+      font-size: 38px;
+    }
 
     h3 {
       font-size: 25px;
@@ -386,9 +355,9 @@ h1 {
   }
 
   @media screen and (max-width: 460px) {
-h1 {
-  font-size: 35;
-}
+    h1 {
+      font-size: 35;
+    }
 
     h3 {
       font-size: 20px;
@@ -413,6 +382,7 @@ h1 {
     h1 {
       font-size: 32px;
     }
+
     .frontpage-content .text-box h2 {
       font-size: 23px;
     }
@@ -426,7 +396,7 @@ h1 {
     .frontpage-mini-nav p {
       font-size: 12px;
     }
-    
+
   }
 </style>
 
