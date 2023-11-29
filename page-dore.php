@@ -6,6 +6,8 @@
         <h2>Her kan du læse mere om de døre vi tilbyder</h2>
 
         <hr>
+
+        <p><?php the_field("info_text") ?> <a href="/kontakt" class="produkt-kontakt">Kontakt os</a> gerne for mere information. </p>
     </div>
 
     <article class="content-productlist">

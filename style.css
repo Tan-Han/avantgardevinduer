@@ -392,6 +392,14 @@ hr {
   opacity: 100%;
 }
 
+.produkt-kontakt {
+  text-decoration: underline;
+}
+
+.produkt-kontakt:hover {
+  color: var(--tertiary-color);
+}
+
 .content-productlist {
   padding: 0 10% 3rem 10%;
   display: grid;
