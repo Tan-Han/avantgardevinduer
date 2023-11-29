@@ -392,6 +392,10 @@ hr {
   opacity: 100%;
 }
 
+.intro-text {
+  text-align: center;
+}
+
 .produkt-kontakt {
   color: #333333;
   text-decoration: underline;
