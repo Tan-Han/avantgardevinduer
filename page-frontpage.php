@@ -46,15 +46,20 @@
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
+    background-color: var(--secondary-color);
     width: 100%;
     height: 685px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 3rem 10%;
   }
 
   .hero-logo {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-tekst {
@@ -80,7 +85,7 @@
 
   .hr-frontpage {
     border-top: 3px solid var(--white) !important;
-    width: 80%;
+    width: 100%;
     border-top: 3px solid;
     opacity: 100%;
     align-self: center;
