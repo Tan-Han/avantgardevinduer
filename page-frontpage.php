@@ -29,11 +29,11 @@
     </div>
   </article>
 </main>
-
+<?php $heroImage = get_field("hero_image") ?>
 
 <style>
   .hero {
-    background-image: url(https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg);
+    background-image: url(<?php echo $heroImage; ?>);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
