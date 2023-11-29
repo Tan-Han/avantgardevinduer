@@ -36,8 +36,8 @@
 
 <style>
   .hero {
-    background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>);
     /* Inserting hero image as background */
+    background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@
   }
 
   .hr-frontpage {
-    border-top: 3px solid var(--white)!important;
+    border-top: 3px solid var(--white) !important;
     width: 80%;
     border-top: 3px solid;
     opacity: 100%;
@@ -76,14 +76,10 @@
   }
 
   .hero-tekst {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 10;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .frontpage-mini-nav {
