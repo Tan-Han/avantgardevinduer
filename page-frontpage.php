@@ -4,7 +4,7 @@
   <div class="hero">
     <div class="hero-tekst">
       <h1> Avantgardevinduer </h1>
-      <hr>
+      <hr class="hr-fro">
       <h3>
         <?php the_field("slogan") ?>
       </h3>
@@ -66,7 +66,7 @@
     text-shadow: #333 3px 3px 3px;
   }
 
-  hr {
+  .hr-frontpage {
     color: var(--white);
     width: 80%;
     border-top: 3px solid;
