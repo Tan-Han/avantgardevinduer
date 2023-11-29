@@ -46,7 +46,7 @@
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
-    background-color: var(--secondary-color);
+    background-color: var(--quaternary-color);
     width: 100%;
     height: 685px;
     display: flex;
@@ -62,9 +62,12 @@
     justify-content: center;
   }
 
+  .hero-logo img {
+    max-height: 400px;
+  }
+
   .hero-tekst {
     width: 60%;
-    text-align: left;
   }
 
   h1 {
@@ -73,14 +76,16 @@
     font-size: 85px;
     text-shadow: #333 3px 3px 3px;
     margin: 0;
+    text-align: left;
   }
 
   h3 {
     color: var(--white);
     padding: 1rem 0;
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 400;
     text-shadow: #333 3px 3px 3px;
+    text-align: left;
   }
 
   .hr-frontpage {
