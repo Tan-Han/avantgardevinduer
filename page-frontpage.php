@@ -3,8 +3,8 @@
 <main>
   <div class="hero">
     <div class="hero-logo">
-    <?php $heroImage = get_field("logo_hero") ?>
-    <img src="<?php echo $heroImage["sizes"]["large"] ?>" alt="">
+      <?php $heroImage = get_field("logo_hero") ?>
+      <img src="<?php echo $heroImage["sizes"]["large"] ?>" alt="">
 
     </div>
     <div class="hero-tekst">
@@ -42,7 +42,9 @@
 <style>
   .hero {
     /* Inserting hero image as background */
-    /* background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>); */
+    /* background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>
+    );
+    */
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
@@ -149,12 +151,6 @@
   }
 
   /* MEDIA QUERIES */
-
-  @media screen and (max-width: 1600px) {
-    h3 {
-      font-size: 55px;
-    }
-  }
 
   @media screen and (max-width: 1480px) {
 
