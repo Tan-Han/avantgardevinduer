@@ -54,8 +54,8 @@ h2,
 h3,
 h4,
 h5 {
-  margin-bottom: 0!important;
-  line-height: 1.5!important;
+  margin-bottom: 0 !important;
+  line-height: 1.5 !important;
 }
 
 h1 {
@@ -463,8 +463,8 @@ hr {
 
 hr {
   width: 40%;
-  border-top: 3px solid #333333!important;
-  opacity: 100%!important;
+  border-top: 3px solid #333333 !important;
+  opacity: 100% !important;
 }
 
 /* MEDIA QUERIES */
@@ -477,22 +477,25 @@ hr {
 
 @media screen and (max-width: 1300px) {
   hr {
-  width: 55%;
-}
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 60px;
-}
 
-.headline-productlist h2, .headline-galleri h2 {
-  font-size: 22px;
-}
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 60px;
+  }
+
+  .headline-productlist h2,
+  .headline-galleri h2 {
+    font-size: 22px;
+  }
 
   hr {
-  width: 70%;
-}
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 970px) {
@@ -502,37 +505,46 @@ hr {
 }
 
 @media screen and (max-width: 700px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 55px;
-}
 
-hr {
-  width: 80%;
-}
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 55px;
+  }
+
+  hr {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 570px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 50px;
 
-  .card {
-    width: 18rem; 
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 50px;
   }
-}
+
+  .content-productlist .card {
+    width: 18rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 45px;
-}
 
-.headline-productlist h2, .headline-galleri h2 {
-  font-size: 18px;
-}
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 45px;
+  }
+
+  .headline-productlist h2,
+  .headline-galleri h2 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .contact-headline-box h1, .headline-galleri h1 {
-  font-size: 38px;
-}
+
+  .contact-headline-box h1,
+  .headline-galleri h1 {
+    font-size: 38px;
+  }
 }
