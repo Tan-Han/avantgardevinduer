@@ -4,7 +4,7 @@
   <div class="hero">
     <div class="hero-logo">
     <?php $heroImage = get_field("logo_hero") ?>
-    <img src="<?php echo $heroImage["sizes"]["medium"] ?>" alt="">
+    <img src="<?php echo $heroImage["sizes"]["large"] ?>" alt="">
 
     </div>
     <div class="hero-tekst">
@@ -56,14 +56,14 @@
   }
 
   .hero-logo {
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
   .hero-tekst {
-    width: 50%;
+    width: 60%;
     text-align: left;
   }
 
