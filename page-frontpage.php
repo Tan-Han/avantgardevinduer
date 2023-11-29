@@ -66,14 +66,6 @@
     text-shadow: #333 3px 3px 3px;
   }
 
-  .hr-frontpage {
-    color: var(--white);
-    width: 80%;
-    border-top: 3px solid;
-    opacity: 100%;
-    align-self: center;
-  }
-
   .hero-tekst {
     position: absolute;
     top: 50%;
