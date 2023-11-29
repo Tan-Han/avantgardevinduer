@@ -1,6 +1,4 @@
-<header>
-    <?php get_header() ?>
-</header>
+<?php get_header() ?>
 
 <main>
     <section>
@@ -19,6 +17,5 @@
     </section>
 </main>
 
-<footer>
-    <?php get_footer() ?>
-</footer>
+
+<?php get_footer() ?>
