@@ -13,7 +13,7 @@
         <?php while ($productLoop->have_posts()):
             $productLoop->the_post() ?>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <?php $image = get_field("produkt_billede") ?>
                 <img src="<?php echo $image["sizes"]["medium"] ?>" class="card-img-top" alt="<?php echo $image["alt"] ?>">
                 <div class="card-body">
