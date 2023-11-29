@@ -78,6 +78,7 @@
     font-size: 85px;
     text-shadow: #333 3px 3px 3px;
     margin: 0;
+    width: 100%;
     text-align: left;
   }
 
