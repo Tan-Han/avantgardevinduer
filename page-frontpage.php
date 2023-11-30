@@ -168,7 +168,11 @@
   @media screen and (max-width: 1300px) {
 
     .hero {
-      height: 500px;
+      height: 475px;
+    }
+
+    .hero-logo img {
+      max-height: 350px;
     }
 
     hr {
@@ -182,6 +186,10 @@
     h1,
     h3 {
       padding: .5rem 0;
+    }
+
+    h3 {
+      font-size: 35px;
     }
 
     .frontpage-content .text-box h2 {
