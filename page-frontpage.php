@@ -248,9 +248,25 @@
 
   @media screen and (max-width: 900px) {
 
+    .hero {
+      height: 400px;
+    }
+
+    .hero-logo img {
+      max-height: 250px;
+    }
+
     h1,
     h3 {
       padding: 0 0;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    h3 {
+      font-size: 25px;
     }
 
     .frontpage-content {
@@ -282,16 +298,6 @@
     .frontpage-content .image-box img {
       width: 80%;
       height: 300px;
-    }
-  }
-
-  @media screen and (max-width: 860px) {
-    h1 {
-      font-size: 45px;
-    }
-
-    h3 {
-      font-size: 30px;
     }
   }
 
