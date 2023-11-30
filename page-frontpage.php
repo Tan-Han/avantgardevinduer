@@ -262,7 +262,7 @@
     }
 
     h1 {
-      font-size: 50px;
+      font-size: 45px;
     }
 
     h3 {
@@ -301,32 +301,46 @@
     }
   }
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 800px) {
+
+    .hero-logo img {
+      max-height: 200px;
+    }
+
     h1 {
-      font-size: 42px;
+      font-size: 40px;
     }
 
     h3 {
-      font-size: 27px;
+      font-size: 22px;
     }
-
-    hr {
-      margin: .5rem 0;
-    }
-  }
-
-  @media screen and (max-width: 680px) {
-
-    hr {
-      width: 95%;
-    }
-
-  }
-
-  @media screen and (max-width: 660px) {
 
     .frontpage-content .text-box h2 {
       font-size: 30px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .hero {
+      gap: 1rem;
+    }
+
+    .hero-logo img {
+      max-height: 175px;
+    }
+
+    h1 {
+      font-size: 38px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    .frontpage-content .text-box h2 {
+      font-size: 28px;
     }
 
     .frontpage-content .text-box p {
@@ -338,19 +352,29 @@
     }
   }
 
-  @media screen and (max-width: 600px) {
-    h3 {
-      font-size: 22px;
-    }
-  }
+  @media screen and (max-width: 500px) {
 
-  @media screen and (max-width: 550px) {
+    .hero {
+      flex-direction: column;
+    }
+
+    .hero-logo img {
+      max-height: 175px;
+      width: 100%;
+    }
+
+    .hero-tekst {
+      width: 100%;
+    }
+
     h1 {
-      font-size: 38px;
+      font-size: 45px;
+      text-align: center;
     }
 
     h3 {
       font-size: 25px;
+      text-align: center;
     }
 
     .frontpage-mini-nav p {
