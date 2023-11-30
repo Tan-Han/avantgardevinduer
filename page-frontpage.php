@@ -387,17 +387,39 @@
     }
   }
 
-  @media screen and (max-width: 460px) {
-    h1 {
-      font-size: 35;
+  @media screen and (max-width: 540px) {
+   
+    .hero-logo img {
+      max-height: 150px;
     }
 
     h3 {
-      font-size: 20px;
+      font-size: 22px;
     }
-
+    
     .frontpage-mini-nav p {
       font-size: 14px;
+    }
+    }
+
+
+  @media screen and (max-width: 480px) {
+
+    .hero-logo img {
+      max-height: 125px;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+
+    
+    .frontpage-mini-nav p {
+      font-size: 12px;
     }
 
     .frontpage-content .text-box h2 {
