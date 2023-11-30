@@ -35,19 +35,8 @@
   </article>
 </main>
 
-
-<!-- Linking to hero image -->
-
-
 <style>
   .hero {
-    /* Inserting hero image as background */
-    /* background-image: url(<?php echo $heroImage["sizes"]["large"]; ?>
-    );
-    */
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
     background-color: var(--quaternary-color);
     width: 100%;
     height: 685px;
@@ -92,7 +81,7 @@
   }
 
   .hr-frontpage {
-    border-top: 3px solid var(--white) !important;
+    border-top: 3px solid var(--primary-color) !important;
     width: 100%;
     border-top: 3px solid;
     opacity: 100%;
@@ -108,7 +97,7 @@
 
   .frontpage-mini-nav {
     width: 100%;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: center;
