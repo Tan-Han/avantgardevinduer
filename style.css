@@ -7,7 +7,7 @@ Author: TRS Hansen, L. N. Nielsen
   --primary-color: #333333;
   --secondary-color: #cccccc;
   --tertiary-color: #708090;
-  --quaternary-color: #003366;
+  --quaternary-color: #6A8CBF;
 
   /* font farver */
   --white: #f5f5f5;
@@ -54,8 +54,8 @@ h2,
 h3,
 h4,
 h5 {
-  margin-bottom: 0!important;
-  line-height: 1.5!important;
+  margin-bottom: 0 !important;
+  line-height: 1.5 !important;
 }
 
 h1 {
@@ -110,6 +110,7 @@ nav {
   background-color: var(--primary-color);
   color: var(--white);
   position: relative;
+  box-shadow: 0 2px 5px 5px #00000088;
 }
 
 /* responsive */
@@ -392,11 +393,24 @@ hr {
   opacity: 100%;
 }
 
+.intro-text {
+  text-align: center;
+}
+
+.produkt-kontakt {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.produkt-kontakt:hover {
+  color: var(--tertiary-color);
+}
+
 .content-productlist {
   padding: 0 10% 3rem 10%;
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   row-gap: 3rem;
 }
 
@@ -404,6 +418,7 @@ hr {
   border-radius: 0;
   box-shadow: 5px 5px 2px 0px #333333cf;
   border: .5px solid #333333cf;
+  width: 22rem;
 }
 
 .content-productlist .card img {
@@ -433,7 +448,7 @@ hr {
 
 .content-productlist .card .card-body .card-text {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
   font-size: 16px;
@@ -462,78 +477,88 @@ hr {
 
 hr {
   width: 40%;
-  border-top: 3px solid #333333!important;
-  opacity: 100%!important;
+  border-top: 3px solid #333333 !important;
+  opacity: 100% !important;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1550px) {
-  .content-productlist {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  hr {
-  width: 55%;
-}
-}
-
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1450px) {
   .content-productlist {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 60px;
+@media screen and (max-width: 1300px) {
+  hr {
+    width: 55%;
+  }
 }
 
-.headline-productlist h2, .headline-galleri h2 {
-  font-size: 22px;
-}
+@media screen and (max-width: 1000px) {
+
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 60px;
+  }
+
+  .headline-productlist h2,
+  .headline-galleri h2 {
+    font-size: 22px;
+  }
 
   hr {
-  width: 70%;
-}
+    width: 70%;
+  }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 970px) {
   .content-productlist {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media screen and (max-width: 700px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 55px;
-}
 
-hr {
-  width: 80%;
-}
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 55px;
+  }
+
+  hr {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 570px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 50px;
-}
+
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 50px;
+  }
+
+  .content-productlist .card {
+    width: 18rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .headline-productlist h1, .headline-galleri h1 {
-  font-size: 45px;
-}
 
-.headline-productlist h2, .headline-galleri h2 {
-  font-size: 18px;
-}
+  .headline-productlist h1,
+  .headline-galleri h1 {
+    font-size: 45px;
+  }
+
+  .headline-productlist h2,
+  .headline-galleri h2 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .contact-headline-box h1, .headline-galleri h1 {
-  font-size: 38px;
-}
+
+  .contact-headline-box h1,
+  .headline-galleri h1 {
+    font-size: 38px;
+  }
 }

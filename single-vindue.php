@@ -1,47 +1,66 @@
-<header>
-    <?php get_header() ?>
-</header>
+<?php get_header() ?>
+
 
 <main>
     <!-- produkt info sektion -->
-    <section class="ten-percent pt-5 pb-5">
+    <article class="ten-percent pt-5 pb-5">
         <div class="flex gap-18 responsive-col">
             <div class="flex-col w-half">
                 <!-- titel -->
                 <div class="pb-2">
-                    <h1 class="pb-2"><?php the_field("produkt_navn")?></h1>
-                    <p><?php the_field("kort_beskrivelse")?></p>
+                    <h1 class="pb-2">
+                        <?php the_field("produkt_navn") ?>
+                    </h1>
+                    <p>
+                        <?php the_field("kort_beskrivelse") ?>
+                    </p>
                 </div>
-    
+
                 <!-- specifikationer -->
                 <div class="flex parameter gap-18">
                     <div class="flex-col w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
-                            <h5 class="pb-2"><?php the_field("parameter_titel_1")?></h5>
-                            <p><?php the_field("parameter_tekst_1")?></p>
+                            <h5 class="pb-2">
+                                <?php the_field("parameter_titel_1") ?>
+                            </h5>
+                            <p>
+                                <?php the_field("parameter_tekst_1") ?>
+                            </p>
                         </div>
                         <div>
                             <hr class="hr-small">
-                            <h5 class="pb-2"><?php the_field("parameter_titel_2")?></h5>
-                            <p><?php the_field("parameter_tekst_2")?></p>
+                            <h5 class="pb-2">
+                                <?php the_field("parameter_titel_2") ?>
+                            </h5>
+                            <p>
+                                <?php the_field("parameter_tekst_2") ?>
+                            </p>
                         </div>
-                        
+
                     </div>
                     <div class="flex-col w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
-                            <h5 class="pb-2"><?php the_field("parameter_titel_3")?></h5>
-                            <p><?php the_field("parameter_tekst_3")?></p>
+                            <h5 class="pb-2">
+                                <?php the_field("parameter_titel_3") ?>
+                            </h5>
+                            <p>
+                                <?php the_field("parameter_tekst_3") ?>
+                            </p>
                         </div>
                         <div>
                             <hr class="hr-small">
-                            <h5 class="pb-2"><?php the_field("parameter_titel_4")?></h5>
-                            <p><?php the_field("parameter_tekst_4")?></p>
+                            <h5 class="pb-2">
+                                <?php the_field("parameter_titel_4") ?>
+                            </h5>
+                            <p>
+                                <?php the_field("parameter_tekst_4") ?>
+                            </p>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
             <!-- img -->
@@ -52,204 +71,200 @@
                 </div>
             </div>
         </div>
-    </section>
+    </article>
 
     <!-- Gealant -->
     <!-- farve sektion -->
-    <?php if (get_field("farve_titel")) : ?>
-        <section>
-            <!-- farver -->
-            <article class="ten-percent pb-5">
-                <div class="flex">
-                    <div class="flex-col">
-                    <hr class="hr-small">
-                    <h3><?php the_field("farve_titel")?></h3>
-                    <p><?php the_field("farve_beskrivelse")?></p>
-                    </div>
+    <section>
+        <!-- farver -->
+        <article class="ten-percent pb-5">
+            <div class="flex">
+                <div class="flex-col">
+                <hr class="hr-small">
+                <h3><?php the_field("farve_titel")?></h3>
+                <p><?php the_field("farve_beskrivelse")?></p>
                 </div>
-            </article>
+            </div>
+        </article>
 
-            <!-- farvegrupper -->
-            <article class="ten-percent">
-                <div class="flex">
-                    <div class="flex-col">
-                        <!-- loop med farver -->
-                        <?php $farvegrupper = get_field("farvegrupper") ?>
-                        <?php foreach( $farvegrupper as $post ): 
+        <!-- farvegrupper -->
+        <article class="ten-percent">
+            <div class="flex">
+                <div class="flex-col">
+                    <!-- loop med farver -->
+                    <?php $farvegrupper = get_field("farvegrupper") ?>
+                    <?php foreach( $farvegrupper as $post ): 
 
-                            setup_postdata($post); ?>
-                            <h3 class="pb-2"><?php the_title() ?></h3>
+                        setup_postdata($post); ?>
+                        <h3 class="pb-2"><?php the_title() ?></h3>
 
-                            <div class="flex flex-wrap pb-5 gap farver">
-                                <?php $farver = get_field("farver") ?> 
-                                <?php foreach($farver as $post):
-                                    setup_postdata($post) ?>
-                                        <div class="flex flex-col">
-                                            <!-- baggrundsfarve eller billede med farven -->
-                                            <?php if (get_field("hex_color")) : ?>
-                                                <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
+                        <div class="flex flex-wrap pb-5 gap farver">
+                            <?php $farver = get_field("farver") ?> 
+                            <?php foreach($farver as $post):
+                                setup_postdata($post) ?>
+                                    <div class="flex flex-col">
+                                        <!-- baggrundsfarve eller billede med farven -->
+                                        <?php if (get_field("hex_color")) : ?>
+                                            <div style="background-color: <?php the_field("hex_color") ?>" class="farve-storrelse"></div>
 
-                                                <?php elseif (get_field("img_color")) : ?>
-                                                    <?php $imageFarver = get_field("img_color") ?>
-                                                    <img src="<?php echo $imageFarver["sizes"]["thumbnail"] ?>" alt="<?php echo $imageFarver["alt"] ?>" class="farve-storrelse">
-                                            <?php endif; ?> 
+                                            <?php elseif (get_field("img_color")) : ?>
+                                                <?php $imageFarver = get_field("img_color") ?>
+                                                <img src="<?php echo $imageFarver["sizes"]["thumbnail"] ?>" alt="<?php echo $imageFarver["alt"] ?>" class="farve-storrelse">
+                                        <?php endif; ?> 
 
-                                            <!-- navn på farve -->
-                                            <div class="farve-storrelse flex-wrap">
-                                                <p><?php the_title() ?></p>
-                                            </div>
+                                        <!-- navn på farve -->
+                                        <div class="farve-storrelse flex-wrap">
+                                            <p><?php the_title() ?></p>
                                         </div>
+                                    </div>
 
                                 <?php endforeach ?>
 
-                                <!-- ekstra tekst -->
-                                <div class="ekstra-tekst">
-                                    <?php $ekstra_tekst = get_field("ekstra_tekst"); ?>
-                                    <?php if ($ekstra_tekst) : ?>
-                                        <?php foreach ($ekstra_tekst as $post) : 
-                                            setup_postdata($post); ?>
-                                            <div>
-                                                <p><?php the_field("ekstra_tekst"); ?></p>
-                                            </div>
-                                        <?php endforeach; ?>
-                                        <?php wp_reset_postdata(); ?>
-                                    <?php endif; ?>
-                                </div>
+                            <!-- ekstra tekst -->
+                            <div class="ekstra-tekst">
+                                <?php $ekstra_tekst = get_field("ekstra_tekst"); ?>
+                                <?php if ($ekstra_tekst) : ?>
+                                    <?php foreach ($ekstra_tekst as $post) : 
+                                        setup_postdata($post); ?>
+                                        <div>
+                                            <p><?php the_field("ekstra_tekst"); ?></p>
+                                        </div>
+                                    <?php endforeach; ?>
+                                    <?php wp_reset_postdata(); ?>
+                                <?php endif; ?>
+                            </div>
 
                             </div>
 
-                        <?php endforeach; ?>
-            
-                        <?php wp_reset_postdata(); ?>
+                    <?php endforeach; ?>
+        
+                    <?php wp_reset_postdata(); ?>
 
-                    </div>
                 </div>
-            </article>
-        </section>
-
-        <!-- fordele sektion -->
-        <section class="secondary-bg">
-            <div>
-                <h2 class="text-center pt-5 pb-3 ten-percent"><?php the_field("fordele_ved_produktet_titel") ?></h2>
             </div>
+        </article>
+    </section>
 
-            <!-- fordel 1 -->
-            <article class="ten-percent pb-5">
-                <div class="flex fordel gap-18 responsive-col">
-                    <!-- billede -->
-                    <div class="flex-col w-half">
-                        <hr class="hr-small">
-                        <h3 class="pb-2"><?php the_field("fordel_1") ?></h3>
-                        <div>
-                            <h4 class="pb-1"><?php the_field("fordel_subheadline_1") ?></h4>
-                            <p class="pb-3"><?php the_field("fordel_beskrivelse_1") ?></p>
-                        </div>
-                    </div>
+    <!-- fordele sektion -->
+    <section class="secondary-bg">
+        <div>
+            <h2 class="text-center pt-5 pb-3 ten-percent"><?php the_field("fordele_ved_produktet_titel") ?></h2>
+        </div>
 
-                    <!-- information -->
-                    <div class="flex-col w-half ten-percent img-size-adjust align-center img-skak">
-                        <?php $image1 = get_field("fordel_billede_1") ?>
-                        <img src="<?php echo $image1["sizes"]["large"] ?>" alt="<?php echo $image1["alt"] ?>" width="100%">
-                    </div>
-                </div>
-            </article>
-
-            <!-- fordel 2 -->
-            <article class="ten-percent pb-5">
-                <div class="flex fordel col-reverse gap-18">
-                    <!-- billede -->
-                    <div class="flex-col w-half ten-percent align-center img-size-adjust img-skak">
-                        <?php $image2 = get_field("fordel_billede_2") ?> 
-                        <img src="<?php echo $image2["sizes"]["large"] ?>" alt="<?php echo $image2["alt"] ?>" width="100%">
-                    </div>
-
-                    <!-- information -->
-                    <div class="flex-col w-half">
-                        <hr class="hr-small">
-                        <h3 class="pb-2"><?php the_field("fordel_2") ?></h3>
-                        <div class="pb-3">
-                            <h4 class="pb-1"><?php the_field("fordel_2_subheadine_1") ?></h4>
-                            <p class="pb-3"><?php the_field("fordel_2_beskrivelse_1") ?></p>
-
-                            <h4 class="pb-1"><?php the_field("fordel_2_subheadine_2") ?></h4>
-                            <p class="pb-3"><?php the_field("fordel_2_beskrivelse_2") ?></p>
-
-                            <h4 class="pb-1"><?php the_field("fordel_2_subheadine_3") ?></h4>
-                            <p><?php the_field("fordel_2_beskrivelse_3") ?></p>
-                        </div>
+        <!-- fordel 1 -->
+        <article class="ten-percent pb-5">
+            <div class="flex fordel gap-18 responsive-col">
+                <!-- billede -->
+                <div class="flex-col w-half">
+                    <hr class="hr-small">
+                    <h3 class="pb-2"><?php the_field("fordel_1") ?></h3>
+                    <div>
+                        <h4 class="pb-1"><?php the_field("fordel_subheadline_1") ?></h4>
+                        <p class="pb-3"><?php the_field("fordel_beskrivelse_1") ?></p>
                     </div>
                 </div>
-            </article>
 
-            <!-- fordel 3 -->
-            <article class="ten-percent pb-5">
-                <div class="flex fordel">
-                    <div class="flex-col">
-                        <hr class="hr-small">
-                        <h3 class="pb-2"><?php the_field("fordel_3") ?></h3>
-                        <h4 class="pb-1"><?php the_field("fordel_subheadline_3") ?></h4>
-                        <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
-
-                        <?php $image3 = get_field("fordel_billede_3") ?>
-                        <img src="<?php echo $image3["sizes"]["large"] ?>" alt="<?php echo $image3["alt"] ?>" width="100%">
-                    </div> 
+                <!-- information -->
+                <div class="flex-col w-half ten-percent img-size-adjust align-center img-skak">
+                    <?php $image1 = get_field("fordel_billede_1") ?>
+                    <img src="<?php echo $image1["sizes"]["large"] ?>" alt="<?php echo $image1["alt"] ?>" width="100%">
                 </div>
-            </article>
+            </div>
+        </article>
 
-            <!-- fordel 4 -->
-            <article class="ten-percent pb-5">
-                <div class="flex fordel gap-18 responsive-col">
-                    <div class="flex-col w-half">
-                        <hr class="hr-small">
-                        <h3 class="pb-1"><?php the_field("fordel_4") ?></h3>
-                        <p class="pb-3"><?php the_field("fordel_beskrivelse_4") ?></p>
-                    </div>  
-                    <div class="flex-col w-half">
-                        <?php $image4 = get_field("fordel_billede_4") ?>
-                        <img src="<?php echo $image4["sizes"]["large"] ?>" alt="<?php echo $image4["alt"] ?>" width="100%">
+        <!-- fordel 2 -->
+        <article class="ten-percent pb-5">
+            <div class="flex fordel col-reverse gap-18">
+                <!-- billede -->
+                <div class="flex-col w-half ten-percent align-center img-size-adjust img-skak">
+                    <?php $image2 = get_field("fordel_billede_2") ?> 
+                    <img src="<?php echo $image2["sizes"]["large"] ?>" alt="<?php echo $image2["alt"] ?>" width="100%">
+                </div>
+
+                <!-- information -->
+                <div class="flex-col w-half">
+                    <hr class="hr-small">
+                    <h3 class="pb-2"><?php the_field("fordel_2") ?></h3>
+                    <div class="pb-3">
+                        <h4 class="pb-1"><?php the_field("fordel_2_subheadine_1") ?></h4>
+                        <p class="pb-3"><?php the_field("fordel_2_beskrivelse_1") ?></p>
+
+                        <h4 class="pb-1"><?php the_field("fordel_2_subheadine_2") ?></h4>
+                        <p class="pb-3"><?php the_field("fordel_2_beskrivelse_2") ?></p>
+
+                        <h4 class="pb-1"><?php the_field("fordel_2_subheadine_3") ?></h4>
+                        <p><?php the_field("fordel_2_beskrivelse_3") ?></p>
                     </div>
                 </div>
-            </article>
+            </div>
+        </article>
 
-            <!-- fordel 5 -->
-            <article class="ten-percent pb-5">
-                <div class="flex fordel col-reverse gap-18">
-                    <div class="flex-col w-half">
-                        <?php $image5 = get_field("fordel_billede_5") ?> 
-                        <img src="<?php echo $image5["sizes"]["large"] ?>" alt="<?php echo $image5["alt"] ?>" width="100%">
-                    </div>
+        <!-- fordel 3 -->
+        <article class="ten-percent pb-5">
+            <div class="flex fordel">
+                <div class="flex-col">
+                    <hr class="hr-small">
+                    <h3 class="pb-2"><?php the_field("fordel_3") ?></h3>
+                    <h4 class="pb-1"><?php the_field("fordel_subheadline_3") ?></h4>
+                    <p class="pb-3"><?php the_field("fordel_beskrivelse_3") ?></p>
 
-                    <div class="flex-col w-half">
-                        <hr class="hr-small">
-                        <h3 class="pb-1"><?php the_field("fordel_5") ?></h3>
-                        <p class="pb-3"><?php the_field("fordel_beskrivelse_5") ?></p>
+                    <?php $image3 = get_field("fordel_billede_3") ?>
+                    <img src="<?php echo $image3["sizes"]["large"] ?>" alt="<?php echo $image3["alt"] ?>" width="100%">
+                </div> 
+            </div>
+        </article>
+
+        <!-- fordel 4 -->
+        <article class="ten-percent pb-5">
+            <div class="flex fordel gap-18 responsive-col">
+                <div class="flex-col w-half">
+                    <hr class="hr-small">
+                    <h3 class="pb-1"><?php the_field("fordel_4") ?></h3>
+                    <p class="pb-3"><?php the_field("fordel_beskrivelse_4") ?></p>
+                </div>  
+                <div class="flex-col w-half">
+                    <?php $image4 = get_field("fordel_billede_4") ?>
+                    <img src="<?php echo $image4["sizes"]["large"] ?>" alt="<?php echo $image4["alt"] ?>" width="100%">
+                </div>
+            </div>
+        </article>
+
+        <!-- fordel 5 -->
+        <article class="ten-percent pb-5">
+            <div class="flex fordel col-reverse gap-18">
+                <div class="flex-col w-half">
+                    <?php $image5 = get_field("fordel_billede_5") ?> 
+                    <img src="<?php echo $image5["sizes"]["large"] ?>" alt="<?php echo $image5["alt"] ?>" width="100%">
+                </div>
+
+                <div class="flex-col w-half">
+                    <hr class="hr-small">
+                    <h3 class="pb-1"><?php the_field("fordel_5") ?></h3>
+                    <p class="pb-3"><?php the_field("fordel_beskrivelse_5") ?></p>
+                </div>
+            </div>
+        </article>
+
+        <!-- fordel 6 -->
+        <article class="ten-percent pb-5"> 
+            <div class="flex fordel">
+                <div class="flex-col">
+                    <hr class="hr-small">
+                    <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
+                    <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
+
+                    <div class="w-3 img-size-adjust">
+                        <?php $image6 = get_field("fordel_billede_6") ?>
+                        <img src="<?php echo $image6["sizes"]["large"] ?>" alt="<?php echo $image6["alt"] ?>" width="100%">
                     </div>
                 </div>
-            </article>
-
-            <!-- fordel 6 -->
-            <article class="ten-percent pb-5"> 
-                <div class="flex fordel">
-                    <div class="flex-col">
-                        <hr class="hr-small">
-                        <h3 class="pb-1"><?php the_field("fordel_6") ?></h3>
-                        <p class="pb-3"><?php the_field("fordel_beskrivelse_6") ?></p>
-
-                        <div class="w-3 img-size-adjust">
-                            <?php $image6 = get_field("fordel_billede_6") ?>
-                            <img src="<?php echo $image6["sizes"]["large"] ?>" alt="<?php echo $image6["alt"] ?>" width="100%">
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section>
-
-    <!-- slutte således at alt gealant bliver kun vist -->
-    <?php endif; ?> 
+            </div>
+        </article>
+    </section>
 </main>
 
 
-<style> 
+<style>
     .ten-percent {
         padding: 0 10%;
     }
@@ -296,12 +311,12 @@
         justify-content: center;
     }
 
-    .responsive-col{
+    .responsive-col {
         display: flex;
     }
 
     .farve-storrelse {
-        width: 140px; 
+        width: 140px;
         height: 80px;
     }
 
@@ -310,7 +325,7 @@
     @media screen and (max-width: 900px) {
         .responsive-col {
             display: flex;
-            flex-direction: column !important; 
+            flex-direction: column !important;
         }
 
         .col-reverse {
@@ -350,7 +365,6 @@
             flex-direction: column;
         }
     }
-
 </style>
 
 

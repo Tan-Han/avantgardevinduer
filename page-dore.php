@@ -6,6 +6,8 @@
         <h2>Her kan du læse mere om de døre vi tilbyder</h2>
 
         <hr>
+
+        <p class="intro-text"><?php the_field("intro_text") ?> <br> <a href="/kontakt" class="produkt-kontakt">Kontakt os</a> gerne for mere information. </p>
     </div>
 
     <article class="content-productlist">
@@ -13,7 +15,7 @@
         <?php while ($productLoop->have_posts()):
             $productLoop->the_post() ?>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <?php $image = get_field("produkt_billede") ?>
                 <img src="<?php echo $image["sizes"]["medium"] ?>" class="card-img-top" alt="<?php echo $image["alt"] ?>">
                 <div class="card-body">

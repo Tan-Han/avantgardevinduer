@@ -1,6 +1,4 @@
-<header>
-    <?php get_header() ?>
-</header>
+<?php get_header() ?>
 
 <main>
     <section>
@@ -19,6 +17,60 @@
     </section>
 </main>
 
-<footer>
-    <?php get_footer() ?>
-</footer>
+<style>
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 550px;
+        width: 100%;
+        object-fit: cover;
+        max-width: none;
+    }
+
+@media screen and (max-width: 1500px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 150px;
+    }
+}
+@media screen and (max-width: 465px) {
+    .wpcp-carousel-section .wpcp-single-item img {
+        height: 250px;
+    }
+}
+</style>
+
+<?php get_footer() ?>

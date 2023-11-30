@@ -21,7 +21,7 @@
         class="fa fa-facebook-square"></i></a>
   </div>
   <div class="logo-box">
-    <img class="logo" src="https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/IMG_3700.jpg" alt="">
+    <img class="logo" src="https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/LOGO.png" alt="Avantgardevinduer logo">
   </div>
 </footer>
 
