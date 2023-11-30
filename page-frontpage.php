@@ -44,10 +44,11 @@
     align-items: center;
     justify-content: center;
     padding: 3rem 10%;
+    gap: 5rem;
   }
 
   .hero-logo {
-    width: 40%;
+    width: 35%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,7 +59,7 @@
   }
 
   .hero-tekst {
-    width: 60%;
+    width: 65%;
   }
 
   h1 {
@@ -92,7 +93,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 
   .frontpage-mini-nav {
