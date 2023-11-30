@@ -101,13 +101,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: .8rem 10%;
   }
 
   .frontpage-mini-nav p {
     color: var(--white);
     font-size: 25px;
     font-weight: 700;
-    padding: .8rem 0;
+    text-align: center;
   }
 
   .frontpage-content {
@@ -118,7 +119,7 @@
 
   .frontpage-content .text-box {
     width: 50%;
-    padding: 3rem 5% 3rem 10%;
+    padding: 3rem 5% 3rem;
   }
 
   .frontpage-content .text-box h2 {
@@ -432,7 +433,7 @@
     }
   }
 
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 400px) {
 
     h1 {
       font-size: 32px;
