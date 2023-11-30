@@ -181,6 +181,12 @@ li.nav-link a {
   color: var(--tertiary-color);
 } */
 
+@media screen and (max-width: 1010px) {
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   nav {
     padding: 1rem 1rem;
