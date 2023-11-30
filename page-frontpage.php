@@ -142,8 +142,7 @@
 
   /* MEDIA QUERIES */
 
-  @media screen and (max-width: 1480px) {
-
+  @media screen and (max-width: 1610px) {
     .hero {
       height: 600px;
     }
@@ -153,11 +152,7 @@
     }
 
     h3 {
-      font-size: 40px;
-    }
-
-    hr {
-      width: 70%;
+      font-size: 45px;
     }
 
     .frontpage-content .text-box h2 {
@@ -173,10 +168,6 @@
 
     .hero-logo img {
       max-height: 350px;
-    }
-
-    hr {
-      width: 75%;
     }
 
     .frontpage-mini-nav p {
@@ -212,10 +203,6 @@
     h1,
     h3 {
       padding: .25rem 0;
-    }
-
-    hr {
-      width: 80%;
     }
 
     .frontpage-content .text-box h2 {
@@ -255,10 +242,6 @@
     h1,
     h3 {
       padding: 0 0;
-    }
-
-    hr {
-      width: 85%;
     }
 
     .frontpage-content {
@@ -343,10 +326,6 @@
   @media screen and (max-width: 600px) {
     h3 {
       font-size: 22px;
-    }
-
-    hr {
-      width: 100%;
     }
   }
 
