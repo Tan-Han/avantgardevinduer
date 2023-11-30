@@ -200,6 +200,10 @@
 
   @media screen and (max-width: 1150px) {
 
+    .hero-logo img {
+      max-height: 300px;
+    }
+
     h1,
     h3 {
       padding: .25rem 0;
@@ -218,17 +222,22 @@
     }
   }
 
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1080px) {
     .hero {
       height: 450px;
+      gap: 2rem;
+    }
+
+    .hero-logo img {
+      max-height: 275px;
     }
 
     h1 {
-      font-size: 50px;
+      font-size: 55px;
     }
 
     h3 {
-      font-size: 35px;
+      font-size: 28px;
     }
 
     .frontpage-mini-nav p {
