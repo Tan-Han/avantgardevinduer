@@ -7,7 +7,7 @@
 
         <hr>
 
-        <p class="intro-text"><?php the_field("intro_text") ?> <br> <a href="/kontakt" class="produkt-kontakt">Kontakt os</a> gerne for mere information. </p>
+        <p class="intro-text"><?php the_field("intro_text") ?> <br> <a href="/kontakt" class="produkt-kontakt" target=”_blank”>Kontakt os</a> gerne for mere information. </p>
     </div>
 
     <article class="content-productlist">
