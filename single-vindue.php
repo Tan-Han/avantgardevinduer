@@ -375,7 +375,7 @@
     }
 </style>
 
-
+ 
 <footer>
     <?php get_footer() ?>
 </footer>
