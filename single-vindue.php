@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="pb-5">
-                    <h4>RealWood - exclusive wood decor foil</h4>
+                    <h4>* RealWood - exclusive wood decor foil</h4>
                     <p>These foils are not made of real wood.</p>
                 </div>
             </article>
