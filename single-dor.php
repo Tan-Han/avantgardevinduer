@@ -17,10 +17,10 @@
                 </div>
 
                 <!-- specifikationer -->
-                <div class="flex parameter gap-18">
-                    <div class="flex-col w-half pb-5 parameter">
-                        <div>
-                            <hr class="hr-small">
+                <div class="parameter">
+                    <div class="flex gap-18 w-half pb-5 parameter">
+                        <div class="w-half">
+                            <hr class="hr-parameter">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_1") ?>
                             </h5>
@@ -28,8 +28,8 @@
                                 <?php the_field("parameter_tekst_1") ?>
                             </p>
                         </div>
-                        <div>
-                            <hr class="hr-small">
+                        <div class="w-half">
+                            <hr class="hr-parameter">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_2") ?>
                             </h5>
@@ -37,11 +37,11 @@
                                 <?php the_field("parameter_tekst_2") ?>
                             </p>
                         </div>
-
                     </div>
-                    <div class="flex-col w-half pb-5 parameter">
-                        <div>
-                            <hr class="hr-small">
+
+                    <div class="flex gap-18 w-half pb-5 parameter">
+                        <div class="w-half">
+                            <hr class="hr-parameter">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_3") ?>
                             </h5>
@@ -49,8 +49,8 @@
                                 <?php the_field("parameter_tekst_3") ?>
                             </p>
                         </div>
-                        <div>
-                            <hr class="hr-small">
+                        <div class="w-half">
+                            <hr class="hr-parameter"> 
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_4") ?>
                             </h5>
@@ -267,6 +267,10 @@
         width: 100px;
     }
 
+    .hr-parameter {
+        width: 90px;
+    }
+
     .flex {
         display: flex;
     }
@@ -276,6 +280,7 @@
     }
 
     .flex-col {
+        display: flex;
         flex-direction: column;
     }
 
@@ -346,22 +351,32 @@
 
         .parameter {
             padding-bottom: 0 !important;
-        }
-    }
-
-    @media screen and (max-width: 500px) {
-        .farver {
-            flex-direction: column;
-        }
-
-        .parameter {
             display: flex;
             flex-direction: column;
         }
     }
+
+    @media screen and (max-width: 400px) {
+        .farve-storrelse {
+            width: 120px;
+            height: 60px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .farve-storrelse {
+            width: 110px;
+            height: 50px;
+        }
+    }
+
+    @media screen and (max-width: 322px) {
+        .farve-storrelse {
+            width: 100px;
+            height: 60px;
+        }
+    }
 </style>
 
- 
-<footer>
-    <?php get_footer() ?>
-</footer>
+
+<?php get_footer() ?>

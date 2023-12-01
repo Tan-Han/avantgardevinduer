@@ -2,7 +2,6 @@
 
 
 <main>
-    hej
     <!-- produkt info sektion -->
     <article class="ten-percent pt-5 pb-5">
         <div class="flex gap-18 responsive-col">
