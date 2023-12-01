@@ -348,11 +348,6 @@
 
         .parameter {
             padding-bottom: 0 !important;
-        }
-    }
-
-    @media screen and (max-width: 500px) {
-        .parameter {
             display: flex;
             flex-direction: column;
         }
