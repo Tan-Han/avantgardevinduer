@@ -351,13 +351,14 @@
     }
 
     @media screen and (max-width: 500px) {
-        .farver {
-            flex-direction: column;
-        }
-
         .parameter {
             display: flex;
             flex-direction: column;
+        }
+
+        .farve-storrelse {
+            width: 50%;
+            height: 40px;
         }
     }
 </style>
