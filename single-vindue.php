@@ -355,11 +355,13 @@
             display: flex;
             flex-direction: column;
         }
+    }
 
-        /* .farve-storrelse {
-            width: 140px;
-            height: 80px;
-        } */
+    @media screen and (max-width: 400px) {
+        .farve-storrelse {
+            width: 120px;
+            height: 60px;
+        }
     }
 </style>
 
