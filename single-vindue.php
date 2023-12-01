@@ -370,6 +370,13 @@
             height: 50px;
         }
     }
+
+    @media screen and (max-width: 322px) {
+        .farve-storrelse {
+            width: 100px;
+            height: 60px;
+        }
+    }
 </style>
 
 
