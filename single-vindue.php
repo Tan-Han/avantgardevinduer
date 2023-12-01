@@ -20,7 +20,7 @@
                 <!-- specifikationer -->
                 <div class="parameter">
                     <div class="flex gap-18 w-half pb-5 parameter">
-                        <div>
+                        <div class="w-half">
                             <hr class="hr-small">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_1") ?>
@@ -29,7 +29,7 @@
                                 <?php the_field("parameter_tekst_1") ?>
                             </p>
                         </div>
-                        <div>
+                        <div class="w-half">
                             <hr class="hr-small">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_2") ?>
@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="flex gap-18 w-half pb-5 parameter">
-                        <div>
+                        <div class="w-half">
                             <hr class="hr-small">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_3") ?>
@@ -50,7 +50,7 @@
                                 <?php the_field("parameter_tekst_3") ?>
                             </p>
                         </div>
-                        <div>
+                        <div class="w-half">
                             <hr class="hr-small"> 
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_4") ?>
