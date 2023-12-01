@@ -269,7 +269,7 @@
     }
 
     .hr-parameter {
-        width: 75px;
+        width: 90px;
     }
 
     .flex {
