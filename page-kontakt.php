@@ -26,7 +26,7 @@
       <div class="address">
         <div class="info">
           <p class="contact-info-headline">Adresse</p>
-          <a href="<?php the_field("address-link") ?>">
+          <a href="<?php the_field("address-link") ?>" target=”_blank”>
             <p>
               <?php the_field("address") ?>
             </p>

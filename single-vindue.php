@@ -361,7 +361,5 @@
     }
 </style>
 
- 
-<footer>
-    <?php get_footer() ?>
-</footer>
+
+<?php get_footer() ?>

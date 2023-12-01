@@ -12,7 +12,7 @@
 
 <body>
     <nav>
-        <a href="/" class="logo-link-navbar"><h2 class="logo">Avantgardevinduer</h2></a>
+        <a href="/" class="logo-link-navbar"><img src="https://avantgardevinduer.trshansen.com/wp-content/uploads/2023/11/Logo2.png" alt="Avantgardevinduer logo"></a>
         <div class="bars">
             <i class="fa fa-bars"></i>
         </div>
