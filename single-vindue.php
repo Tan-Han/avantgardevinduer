@@ -17,7 +17,7 @@
                 </div>
 
                 <!-- specifikationer -->
-                <div class="flex-col parameter gap-18">
+                <div class="flex parameter gap-18">
                     <div class="flex w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
@@ -37,8 +37,8 @@
                                 <?php the_field("parameter_tekst_2") ?>
                             </p>
                         </div>
-
                     </div>
+
                     <div class="flex w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
