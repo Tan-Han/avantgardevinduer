@@ -356,10 +356,10 @@
             flex-direction: column;
         }
 
-        /* .farve-storrelse {
-            width: 50%;
+        .farve-storrelse {
+            width: 70px;
             height: 40px;
-        } */
+        }
     }
 </style>
 
