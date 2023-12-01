@@ -51,7 +51,7 @@
                             </p>
                         </div>
                         <div>
-                            <hr class="hr-small">
+                            <hr class="hr-small"> 
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_4") ?>
                             </h5>
