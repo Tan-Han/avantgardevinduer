@@ -18,7 +18,7 @@
 
                 <!-- specifikationer -->
                 <div class="flex parameter">
-                    <div class="flex gap-18 w-half pb-5 parameter">
+                    <div class="flex-col gap-18 w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
                             <h5 class="pb-2">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
 
-                    <div class="flex gap-18 w-half pb-5 parameter">
+                    <div class="flex-col gap-18 w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
                             <h5 class="pb-2">
@@ -276,6 +276,7 @@
     }
 
     .flex-col {
+        display: flex;
         flex-direction: column;
     }
 
