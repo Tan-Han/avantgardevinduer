@@ -364,7 +364,7 @@
 
         .farve-navn {
             font-size: 14px;
-        }
+        } 
     }
 
     @media screen and (max-width: 350px) {
