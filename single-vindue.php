@@ -17,7 +17,7 @@
                 </div>
 
                 <!-- specifikationer -->
-                <div class="parameter gap-18">
+                <div class="flex parameter gap-18">
                     <div class="flex w-half pb-5 parameter">
                         <div>
                             <hr class="hr-small">
