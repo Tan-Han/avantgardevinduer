@@ -115,7 +115,7 @@
 
                                             <!-- navn på farve -->
                                             <div class="farve-storrelse flex-wrap">
-                                                <p><?php the_title() ?></p>
+                                                <p class="farve-navn"><?php the_title() ?></p>
                                             </div>
                                         </div>
 
@@ -360,6 +360,10 @@
         .farve-storrelse {
             width: 120px;
             height: 60px;
+        }
+
+        .farve-navn {
+            font-size: 14px;
         }
     }
 
