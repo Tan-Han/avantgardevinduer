@@ -21,7 +21,7 @@
                 <div class="parameter">
                     <div class="flex gap-18 w-half pb-5 parameter">
                         <div class="w-half">
-                            <hr class="hr-small">
+                            <hr class="hr-parameter">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_1") ?>
                             </h5>
@@ -30,7 +30,7 @@
                             </p>
                         </div>
                         <div class="w-half">
-                            <hr class="hr-small">
+                            <hr class="hr-parameter">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_2") ?>
                             </h5>
@@ -42,7 +42,7 @@
 
                     <div class="flex gap-18 w-half pb-5 parameter">
                         <div class="w-half">
-                            <hr class="hr-small">
+                            <hr class="hr-parameter">
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_3") ?>
                             </h5>
@@ -51,7 +51,7 @@
                             </p>
                         </div>
                         <div class="w-half">
-                            <hr class="hr-small"> 
+                            <hr class="hr-parameter"> 
                             <h5 class="pb-2">
                                 <?php the_field("parameter_titel_4") ?>
                             </h5>
@@ -266,6 +266,10 @@
 
     .hr-small {
         width: 100px;
+    }
+
+    .hr-parameter {
+        width: 75px;
     }
 
     .flex {
