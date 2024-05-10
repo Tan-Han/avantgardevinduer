@@ -31,7 +31,6 @@
             </div>
 
         <?php endwhile ?>
-
     </article>
 
 </main>
